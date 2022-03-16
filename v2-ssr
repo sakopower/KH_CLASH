@@ -5,535 +5,531 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GLaDOS-N2-02, server: 5.44.249.43, port: 3389, type: trojan, password: ://a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: V4-中转3093|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13093, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: zhonggang-sy01.ddns-oink.xyz}}, udp: true}
-  - {name: V3-中转3599|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13599, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: zhonggang-sy01.ddns-oink.xyz}}, udp: true}
-  - {name: :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: GLaDOS-N2-08, server: 60.249.3.226, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 香港HGC-dip@vpnhat, server: 120.232.82.206, port: 13194, type: vmess, uuid: 4526ea15-5e86-3587-8b1a-f0f5929a1309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: 120.232.82.206}}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 标准|日本01解锁|Z217, server: zfd-cn1.ddnsnode.com, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国 004, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:7702, server: cmrelay01.yiyorelay.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "[03-15]|oslook|美国(US)USA/SanJose_15", server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: GB_21, server: ocld.vproxy.us, port: 34567, type: trojan, password: d3db7e32-3466-49e1-96bb-421222e0b36f, sni: ocld.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: V3-IEPL专线 香港HGC03 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3123, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_55, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fa1.uuv2.co.uk}}, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "JP,+3", server: 13.229.132.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港星河 2, server: 20.24.84.81, port: 503, type: vmess, uuid: fe2a905d-8b44-425d-e75f-a22b4bc8433f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CN_中国_tg频道:@bpjzx2_52, server: 116.129.253.177, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: +香港+|+Azure+Leka+02, server: 20.24.82.76, port: 10001, type: ss, cipher: aes-256-gcm, password: 07ceb0b4-1405-47c5-88af-804edf696bcf, udp: true}
-  - {name: C-JP-01（1.0x）, server: bgp-1.icecloud-node.top, port: 1100, type: vmess, uuid: 3bed713e-e9dc-3821-9565-3905d6816abd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: +060新加坡∞中转, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _TW_台湾_tg频道:@bpjzx2_54, server: 60.249.3.229, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管Netflix, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_tg频道:@bpjzx2_25, server: 104.208.112.171, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 电信中转日本 2, server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _02, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK A 006, server: hkaz6.xmrth-node.xyz, port: 10152, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 英国阿伟科技@TG/油管Netflix, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:3702, server: cmrelay01.yiyorelay.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: _CN_中国_tg频道:@bpjzx2_29, server: 116.129.253.177, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: 香港 ➤ 01, server: hk01.startmy.cc, port: 80, type: vmess, uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 广移中新加坡, server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:6708, server: cmrelay01.yiyorelay.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 美国, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 保加利亚 Bulgaria●, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: default_name, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
-  - {name: "SG,", server: 13.125.239.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 香港星河, server: 20.24.84.81, port: 502, type: vmess, uuid: e08d5470-9501-4946-9bb1-54e4ebb658ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管Netflix, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 中国_405, server: gy.jjxcloud.xyz, port: 62013, type: vmess, uuid: d9a63d08-f47d-37d8-8fe6-756d4e412617, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.jjxcloud.xyz}}, udp: true}
+  - {name: 专线|新加坡03解锁|Z273, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾_TG@nodesharing_3, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 印度阿伟科技@TG/油管Netflix, server: azhk.relay.qchwnd.moe, port: 44607, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: cn2relay01.yiyorelay.xyz:2700, server: cn2relay01.yiyorelay.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: cn2relay01.yiyorelay.xyz:2703, server: cn2relay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 日本阿伟科技@TG/油管Netflix 2, server: azhk.relay.qchwnd.moe, port: 44603, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 标准|新加坡03解锁|Z209, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cn2relay01.yiyorelay.xyz:2705, server: cn2relay01.yiyorelay.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: GLaDOS-N2-00, server: 104.208.112.171, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: 广移中转日本 2, server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_tg频道:@bpjzx2_50, server: 120.232.192.119, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: _新加坡_FMYC-220311_274, server: 13.214.213.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: V3-IEPL专线 新加坡05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3053, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本3|极速|EC2, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 14.v2-ray.cyou}}, udp: true}
+  - {name: cn2relay01.yiyorelay.xyz:2706, server: cn2relay01.yiyorelay.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 日本1|微软200M, server: 6.v2-ray.cyou, port: 15006, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 6.v2-ray.cyou}}, udp: true}
+  - {name: 电信中转日本, server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 江门中转日本, server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 广移中转新加坡, server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC-dip@vpnhat 2, server: 120.232.82.206, port: 13195, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: 120.232.82.206}}, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港 ➤ 04, server: hk04.startmy.cc, port: 80, type: vmess, uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
+  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80), server: hk3.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
+  - {name: V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2, server: gd-d-suying.ddns-oink.xyz, port: 13192, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 日本|极速|三网优化, server: 4.v2-ray.cyou, port: 36104, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 4.v2-ray.cyou}}, udp: true}
+  - {name: _HK_香港_tg频道:@bpjzx2_1, server: 104.208.112.171, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管Netflix 2, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80), server: hk2.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 广移中转日本, server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本1|微软1000M, server: 8.v2-ray.cyou, port: 15008, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 8.v2-ray.cyou}}, udp: true}
+  - {name: 江门中转日本 2, server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80), server: hk5.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
+  - {name: GLaDOS-N2-08 2, server: 60.249.3.226, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_tg频道:@bpjzx2_27, server: 120.232.192.119, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
+  - {name: :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _TW_台湾_tg频道:@bpjzx2_55, server: 60.249.3.226, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: 伊朗_838, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管Netflix, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:3705, server: cmrelay01.yiyorelay.xyz, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 新加坡4|广移中继, server: 85.v2-ray.cyou, port: 15085, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 85.v2-ray.cyou}}, udp: true}
+  - {name: 中国-1.44MB/s, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 117.28.242.156}}, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:3700, server: cmrelay01.yiyorelay.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: GLaDOS-N2-03, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: 广移中转新加坡 2, server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB-185.212.62.19-68, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管, server: hncu.relay.qchwnd.moe, port: 44613, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang.com, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 专线|新加坡01解锁|Z271, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: by@bpjzx2群友专享, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}}, udp: true}
+  - {name: CN_10, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: BGB中转日本, server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:3701, server: cmrelay01.yiyorelay.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: V3-IEPL专线 香港HKBGP01 | 10x, server: iplc01.dns2333.xyz, port: 3083, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:7705, server: cmrelay01.yiyorelay.xyz, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: "HK,", server: 3.0.50.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: BGB中转日本 2, server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:4003, server: cmrelay01.yiyorelay.xyz, port: 4003, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: _US_美国, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: 25澳大利亚∞直连, server: 129.154.50.0, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:4001, server: cmrelay01.yiyorelay.xyz, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: US_62, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
+  - {name: gz1.52168.xyz:1101, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: GLaDOS-N2-00 2, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:7708, server: cmrelay01.yiyorelay.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:4002, server: cmrelay01.yiyorelay.xyz, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: US_56, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 154.31.41.10}}, udp: true}
+  - {name: gz1.52168.xyz:1117, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: _HK_香港_tg频道:@bpjzx2_48, server: 104.208.112.171, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-05, server: 116.129.253.177, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.189.cn}}, udp: true}
+  - {name: V3-IEPL专线 香港FDC01 | 6x, server: iplc01.dns2333.xyz, port: 3173, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2, server: gd-w-suying.ddns-oink.xyz, port: 13473, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: www.189.cn}}, udp: true}
   - {name: US_52, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}, udp: true}
   - {name: 日本阿伟科技@TG/油管Netflix, server: hncu.relay.qchwnd.moe, port: 44603, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: V3-IEPL专线 香港FDC01 | 6x, server: iplc01.dns2333.xyz, port: 3173, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.189.cn}}, udp: true}
-  - {name: GLaDOS-N2-05, server: 116.129.253.177, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_tg频道:@bpjzx2_48, server: 104.208.112.171, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: US_56, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 154.31.41.10}}, udp: true}
-  - {name: gz1.52168.xyz:1117, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:4002, server: cmrelay01.yiyorelay.xyz, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:7708, server: cmrelay01.yiyorelay.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: GLaDOS-N2-00 2, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: gz1.52168.xyz:1101, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: US_62, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ua1.uuv2.co.uk}}, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:4001, server: cmrelay01.yiyorelay.xyz, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 25澳大利亚∞直连, server: 129.154.50.0, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:4003, server: cmrelay01.yiyorelay.xyz, port: 4003, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: _US_美国 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
-  - {name: BGB中转日本 2, server: 12.paopaoyun.xyz, port: 19112, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "HK,", server: 3.0.50.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:7705, server: cmrelay01.yiyorelay.xyz, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: V3-IEPL专线 香港HKBGP01 | 10x, server: iplc01.dns2333.xyz, port: 3083, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:3701, server: cmrelay01.yiyorelay.xyz, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: CN_10, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: BGB中转日本, server: 9.paopaoyun.xyz, port: 19109, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: by@bpjzx2群友专享, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}}, udp: true}
-  - {name: 专线|新加坡01解锁|Z271, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 翻墙党fanqiangdang.com, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大阿伟科技@TG/油管, server: hncu.relay.qchwnd.moe, port: 44613, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: GB-185.212.62.19-68, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
-  - {name: 广移中转新加坡 2, server: 4.paopaoyun.xyz, port: 19104, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-03, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:3700, server: cmrelay01.yiyorelay.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 中国-1.44MB/s, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 117.28.242.156}}, udp: true}
-  - {name: 新加坡4|广移中继, server: 85.v2-ray.cyou, port: 15085, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 85.v2-ray.cyou}}, udp: true}
-  - {name: cmrelay01.yiyorelay.xyz:3705, server: cmrelay01.yiyorelay.xyz, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 美国阿伟科技@TG/油管Netflix, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 伊朗_838, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _TW_台湾_tg频道:@bpjzx2_55, server: 60.249.3.226, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_tg频道:@bpjzx2_27, server: 120.232.192.119, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-08 2, server: 60.249.3.226, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80), server: hk5.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
-  - {name: 江门中转日本 2, server: 19.paopaoyun.xyz, port: 19119, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本1|微软1000M, server: 8.v2-ray.cyou, port: 15008, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 8.v2-ray.cyou}}, udp: true}
-  - {name: 广移中转日本, server: 18.paopaoyun.xyz, port: 19118, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80), server: hk2.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
-  - {name: _HK_香港_tg频道:@bpjzx2_1, server: 104.208.112.171, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管Netflix 2, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本|极速|三网优化, server: 4.v2-ray.cyou, port: 36104, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 4.v2-ray.cyou}}, udp: true}
-  - {name: V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2, server: gd-d-suying.ddns-oink.xyz, port: 13192, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: www.189.cn}}, udp: true}
-  - {name: ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80), server: hk3.mlsao.dynv6.net, port: 80, type: vmess, uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: www.189.cn}}, udp: true}
-  - {name: 香港 ➤ 04, server: hk04.startmy.cc, port: 80, type: vmess, uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港HGC-dip@vpnhat 2, server: 120.232.82.206, port: 13195, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: 120.232.82.206}}, udp: true}
-  - {name: 广移中转新加坡, server: 3.paopaoyun.xyz, port: 19103, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 江门中转日本, server: 20.paopaoyun.xyz, port: 19120, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 电信中转日本, server: 14.paopaoyun.xyz, port: 19114, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本1|微软200M, server: 6.v2-ray.cyou, port: 15006, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 6.v2-ray.cyou}}, udp: true}
-  - {name: cn2relay01.yiyorelay.xyz:2706, server: cn2relay01.yiyorelay.xyz, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 日本3|极速|EC2, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 14.v2-ray.cyou}}, udp: true}
-  - {name: V3-IEPL专线 新加坡05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3053, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _新加坡_FMYC-220311_274, server: 13.214.213.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国_tg频道:@bpjzx2_50, server: 120.232.192.119, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: 广移中转日本 2, server: 13.paopaoyun.xyz, port: 19113, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-00, server: 104.208.112.171, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: cn2relay01.yiyorelay.xyz:2705, server: cn2relay01.yiyorelay.xyz, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 标准|新加坡03解锁|Z209, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管Netflix 2, server: azhk.relay.qchwnd.moe, port: 44603, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: cn2relay01.yiyorelay.xyz:2703, server: cn2relay01.yiyorelay.xyz, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: cn2relay01.yiyorelay.xyz:2700, server: cn2relay01.yiyorelay.xyz, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
-  - {name: 印度阿伟科技@TG/油管Netflix, server: azhk.relay.qchwnd.moe, port: 44607, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 台湾_TG@nodesharing_3, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 专线|新加坡03解锁|Z273, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_405, server: gy.jjxcloud.xyz, port: 62013, type: vmess, uuid: d9a63d08-f47d-37d8-8fe6-756d4e412617, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.jjxcloud.xyz}}, udp: true}
-  - {name: 香港阿伟科技@TG/油管Netflix, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 679631dd-a671-465d-a054-3d07a2381334, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 香港星河, server: 20.24.84.81, port: 502, type: vmess, uuid: e08d5470-9501-4946-9bb1-54e4ebb658ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "SG,", server: 13.125.239.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: default_name, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero1.a-yu.xyz}}, udp: true}
+  - {name: 保加利亚 Bulgaria●, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:6708, server: cmrelay01.yiyorelay.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 广移中新加坡, server: 7.paopaoyun.xyz, port: 19107, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 ➤ 01, server: hk01.startmy.cc, port: 80, type: vmess, uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: a.189.cn}}, udp: true}
+  - {name: _CN_中国_tg频道:@bpjzx2_29, server: 116.129.253.177, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:3702, server: cmrelay01.yiyorelay.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 英国阿伟科技@TG/油管Netflix, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: HK A 006, server: hkaz6.xmrth-node.xyz, port: 10152, type: vmess, uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: _02, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 电信中转日本 2, server: 10.paopaoyun.xyz, port: 19110, type: vmess, uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_tg频道:@bpjzx2_25, server: 104.208.112.171, port: 3389, type: trojan, password: 0437e2b78115adc2, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 韩国阿伟科技@TG/油管Netflix, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}, udp: true}
+  - {name: _TW_台湾_tg频道:@bpjzx2_54, server: 60.249.3.229, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: +060新加坡∞中转, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: +香港+|+Azure+Leka+02, server: 20.24.82.76, port: 10001, type: ss, cipher: aes-256-gcm, password: 07ceb0b4-1405-47c5-88af-804edf696bcf, udp: true}
+  - {name: C-JP-01（1.0x）, server: bgp-1.icecloud-node.top, port: 1100, type: vmess, uuid: 3bed713e-e9dc-3821-9565-3905d6816abd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V04-付费推荐:suo.yt/ssrsub", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_tg频道:@bpjzx2_52, server: 116.129.253.177, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 3, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}, udp: true}
+  - {name: "JP,+3", server: 13.229.132.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 香港星河 2, server: 20.24.84.81, port: 503, type: vmess, uuid: fe2a905d-8b44-425d-e75f-a22b4bc8433f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_55, server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fa1.uuv2.co.uk}}, udp: true}
+  - {name: V3-IEPL专线 香港HGC03 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3123, type: vmess, uuid: 6e705554-afc9-3e23-bd99-7be699ce2fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB_21, server: ocld.vproxy.us, port: 34567, type: trojan, password: d3db7e32-3466-49e1-96bb-421222e0b36f, sni: ocld.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[03-15]|oslook|美国(US)USA/SanJose_15", server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: chuch3go.com}}, udp: true}
+  - {name: cmrelay01.yiyorelay.xyz:7702, server: cmrelay01.yiyorelay.xyz, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: microsoft.com, udp: true}
+  - {name: 英国 004, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
+  - {name: 标准|日本01解锁|Z217, server: zfd-cn1.ddnsnode.com, port: 16119, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港HGC-dip@vpnhat, server: 120.232.82.206, port: 13194, type: vmess, uuid: 4526ea15-5e86-3587-8b1a-f0f5929a1309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: 120.232.82.206}}, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GLaDOS-N2-08, server: 60.249.3.226, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: V3-中转3599|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13599, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: zhonggang-sy01.ddns-oink.xyz}}, udp: true}
+  - {name: :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: V4-中转3093|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13093, type: vmess, uuid: 8820142b-516c-3521-982b-e7fe28d85de3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sy666666, headers: {Host: zhonggang-sy01.ddns-oink.xyz}}, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GLaDOS-N2-02, server: 5.44.249.43, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -552,563 +548,559 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港HGC-dip@vpnhat
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - 香港星河 2
-      - +香港+|+Azure+Leka+02
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _HK_香港_tg频道:@bpjzx2_25
-      - 香港 ➤ 01
-      - 香港星河
-      - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - _HK_香港_tg频道:@bpjzx2_48
-      - V3-IEPL专线 香港HKBGP01 | 10x
+      - 香港阿伟科技@TG/油管Netflix
+      - 台湾_TG@nodesharing_3
+      - 香港HGC-dip@vpnhat 2
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - _HK_香港_tg频道:@bpjzx2_1
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
       - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
       - _TW_台湾_tg频道:@bpjzx2_55
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 香港HGC-dip@vpnhat 2
-      - 台湾_TG@nodesharing_3
-      - 香港阿伟科技@TG/油管Netflix
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - _HK_香港_tg频道:@bpjzx2_48
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
+      - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
+      - 香港星河
+      - 香港 ➤ 01
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +香港+|+Azure+Leka+02
+      - 香港星河 2
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - 香港HGC-dip@vpnhat
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1124,134 +1116,133 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GLaDOS-N2-02
-      - _CA_加拿大
-      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
-      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
-      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
-      - GLaDOS-N2-08
-      - _CA_加拿大 2
-      - 香港HGC-dip@vpnhat
-      - _GB_英国
-      - 标准|日本01解锁|Z217
-      - 英国 004
-      - cmrelay01.yiyorelay.xyz:7702
-      - _CA_加拿大 3
-      - "[03-15]|oslook|美国(US)USA/SanJose_15"
-      - _CA_加拿大 4
-      - GB_21
-      - V3-IEPL专线 香港HGC03 | 8x 原生IP
-      - US_55
-      - _CA_加拿大 5
-      - _CA_加拿大 6
-      - JP,+3
-      - 香港星河 2
+      - 香港阿伟科技@TG/油管Netflix
+      - 中国_405
+      - 专线|新加坡03解锁|Z273
+      - 台湾_TG@nodesharing_3
+      - 印度阿伟科技@TG/油管Netflix
+      - cn2relay01.yiyorelay.xyz:2700
+      - cn2relay01.yiyorelay.xyz:2703
+      - 日本阿伟科技@TG/油管Netflix 2
+      - 标准|新加坡03解锁|Z209
+      - cn2relay01.yiyorelay.xyz:2705
+      - GLaDOS-N2-00
+      - 广移中转日本 2
+      - _CN_中国_tg频道:@bpjzx2_50
+      - _新加坡_FMYC-220311_274
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - 日本3|极速|EC2
+      - cn2relay01.yiyorelay.xyz:2706
+      - 日本1|微软200M
+      - 电信中转日本
+      - 江门中转日本
+      - 广移中转新加坡
+      - 香港HGC-dip@vpnhat 2
+      - 印度阿伟科技@TG/油管
+      - 香港 ➤ 04
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
+      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
+      - 日本|极速|三网优化
+      - _HK_香港_tg频道:@bpjzx2_1
+      - 韩国阿伟科技@TG/油管Netflix 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
+      - 广移中转日本
+      - 日本1|微软1000M
+      - 江门中转日本 2
+      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
+      - GLaDOS-N2-08 2
+      - _CN_中国_tg频道:@bpjzx2_27
+      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+      - _TW_台湾_tg频道:@bpjzx2_55
+      - 伊朗_838
+      - 美国阿伟科技@TG/油管Netflix
+      - cmrelay01.yiyorelay.xyz:3705
+      - 新加坡4|广移中继
+      - 中国-1.44MB/s
+      - cmrelay01.yiyorelay.xyz:3700
+      - GLaDOS-N2-03
+      - 广移中转新加坡 2
+      - GB-185.212.62.19-68
+      - 加拿大阿伟科技@TG/油管
+      - 翻墙党fanqiangdang.com
+      - 专线|新加坡01解锁|Z271
+      - by@bpjzx2群友专享
+      - CN_10
+      - BGB中转日本
+      - cmrelay01.yiyorelay.xyz:3701
+      - V3-IEPL专线 香港HKBGP01 | 10x
+      - cmrelay01.yiyorelay.xyz:7705
+      - HK,
+      - BGB中转日本 2
+      - cmrelay01.yiyorelay.xyz:4003
       - _US_美国
-      - _GB_英国 2
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - _CN_中国_tg频道:@bpjzx2_52
-      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
-      - +香港+|+Azure+Leka+02
-      - C-JP-01（1.0x）
-      - +060新加坡∞中转
-      - _TW_台湾_tg频道:@bpjzx2_54
-      - _US_美国 2
-      - 韩国阿伟科技@TG/油管Netflix
-      - _HK_香港_tg频道:@bpjzx2_25
-      - _CA_加拿大 9
-      - 电信中转日本 2
-      - _02
-      - HK A 006
-      - 英国阿伟科技@TG/油管Netflix
-      - cmrelay01.yiyorelay.xyz:3702
-      - _CN_中国_tg频道:@bpjzx2_29
-      - 香港 ➤ 01
-      - 广移中新加坡
-      - cmrelay01.yiyorelay.xyz:6708
-      - 美国
-      - _CA_加拿大 10
-      - 保加利亚 Bulgaria●
-      - default_name
-      - SG,
-      - 香港星河
+      - 25澳大利亚∞直连
+      - cmrelay01.yiyorelay.xyz:4001
+      - US_62
+      - gz1.52168.xyz:1101
+      - GLaDOS-N2-00 2
+      - cmrelay01.yiyorelay.xyz:7708
+      - cmrelay01.yiyorelay.xyz:4002
+      - US_56
+      - gz1.52168.xyz:1117
+      - _HK_香港_tg频道:@bpjzx2_48
+      - GLaDOS-N2-05
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - V3-IEPL专线 香港FDC01 | 6x
       - V3-中转3473|广东W-香港HGC|解锁|x2.0|V2ray 2
       - US_52
       - 日本阿伟科技@TG/油管Netflix
-      - V3-IEPL专线 香港FDC01 | 6x
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - GLaDOS-N2-05
-      - _HK_香港_tg频道:@bpjzx2_48
-      - US_56
-      - gz1.52168.xyz:1117
-      - cmrelay01.yiyorelay.xyz:4002
-      - cmrelay01.yiyorelay.xyz:7708
-      - GLaDOS-N2-00 2
-      - gz1.52168.xyz:1101
-      - US_62
-      - cmrelay01.yiyorelay.xyz:4001
-      - 25澳大利亚∞直连
-      - cmrelay01.yiyorelay.xyz:4003
+      - 香港星河
+      - SG,
+      - default_name
+      - 保加利亚 Bulgaria●
+      - _CA_加拿大
+      - 美国
+      - cmrelay01.yiyorelay.xyz:6708
+      - 广移中新加坡
+      - 香港 ➤ 01
+      - _CN_中国_tg频道:@bpjzx2_29
+      - cmrelay01.yiyorelay.xyz:3702
+      - 英国阿伟科技@TG/油管Netflix
+      - HK A 006
+      - _02
+      - 电信中转日本 2
+      - _HK_香港_tg频道:@bpjzx2_25
+      - _CA_加拿大 2
+      - 韩国阿伟科技@TG/油管Netflix
+      - _US_美国 2
+      - _TW_台湾_tg频道:@bpjzx2_54
+      - +060新加坡∞中转
+      - +香港+|+Azure+Leka+02
+      - C-JP-01（1.0x）
+      - "@SSRSUB-V04-付费推荐:suo.yt/ssrsub"
+      - _CN_中国_tg频道:@bpjzx2_52
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _GB_英国
       - _US_美国 3
-      - BGB中转日本 2
-      - HK,
-      - cmrelay01.yiyorelay.xyz:7705
-      - V3-IEPL专线 香港HKBGP01 | 10x
-      - cmrelay01.yiyorelay.xyz:3701
-      - CN_10
-      - BGB中转日本
-      - by@bpjzx2群友专享
-      - 专线|新加坡01解锁|Z271
-      - 翻墙党fanqiangdang.com
-      - 加拿大阿伟科技@TG/油管
-      - GB-185.212.62.19-68
-      - 广移中转新加坡 2
-      - GLaDOS-N2-03
-      - cmrelay01.yiyorelay.xyz:3700
-      - 中国-1.44MB/s
-      - 新加坡4|广移中继
-      - cmrelay01.yiyorelay.xyz:3705
-      - 美国阿伟科技@TG/油管Netflix
-      - 伊朗_838
-      - :中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-      - _TW_台湾_tg频道:@bpjzx2_55
-      - _CN_中国_tg频道:@bpjzx2_27
-      - GLaDOS-N2-08 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港5-1000M-(端口80)
-      - 江门中转日本 2
-      - 日本1|微软1000M
-      - 广移中转日本
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港2-1000M-(端口80)
-      - _HK_香港_tg频道:@bpjzx2_1
-      - 韩国阿伟科技@TG/油管Netflix 2
-      - 日本|极速|三网优化
-      - V3-中转3192|广东D-香港|解锁|x1.5|V2ray 2
-      - ️‍🌈 ️‍🌈 ️‍🌈 流量站-香港3-1000M-(端口80)
-      - 香港 ➤ 04
-      - 印度阿伟科技@TG/油管
-      - 香港HGC-dip@vpnhat 2
-      - 广移中转新加坡
-      - 江门中转日本
-      - 电信中转日本
-      - 日本1|微软200M
-      - cn2relay01.yiyorelay.xyz:2706
-      - 日本3|极速|EC2
-      - V3-IEPL专线 新加坡05 | 8x 原生IP
-      - _新加坡_FMYC-220311_274
-      - _CN_中国_tg频道:@bpjzx2_50
-      - 广移中转日本 2
-      - GLaDOS-N2-00
-      - cn2relay01.yiyorelay.xyz:2705
-      - 标准|新加坡03解锁|Z209
-      - 日本阿伟科技@TG/油管Netflix 2
-      - cn2relay01.yiyorelay.xyz:2703
-      - cn2relay01.yiyorelay.xyz:2700
-      - 印度阿伟科技@TG/油管Netflix
-      - 台湾_TG@nodesharing_3
-      - 专线|新加坡03解锁|Z273
-      - 中国_405
-      - 香港阿伟科技@TG/油管Netflix
-      - _CA_加拿大 11
+      - JP,+3
+      - 香港星河 2
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - US_55
+      - V3-IEPL专线 香港HGC03 | 8x 原生IP
+      - GB_21
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - "[03-15]|oslook|美国(US)USA/SanJose_15"
+      - cmrelay01.yiyorelay.xyz:7702
+      - 英国 004
+      - 标准|日本01解锁|Z217
+      - 香港HGC-dip@vpnhat
+      - _GB_英国 2
+      - _CA_加拿大 9
+      - GLaDOS-N2-08
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
+      - :美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
+      - V4-中转3093|上海-日本M|解锁|x1.5|V2ray
+      - _CA_加拿大 10
+      - GLaDOS-N2-02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
