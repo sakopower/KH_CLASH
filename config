@@ -67,7 +67,7 @@ proxy-providers:
   ps:
     type: http
     interval: 9600
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/sakopower/KH_CLASH/main/speed"
+    url: "https://raw.githubusercontent.com/sakopower/KH_CLASH/main/speed"
     path: s.yaml
     health-check:
       enable: true
@@ -77,7 +77,7 @@ proxy-providers:
   px:
     type: http
     interval: 9600
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/sakopower/KH_CLASH/main/speed_ignore_ssl"
+    url: "https://raw.githubusercontent.com/sakopower/KH_CLASH/main/speed_ignore_ssl"
     path: x.yaml
     health-check:
       enable: true
