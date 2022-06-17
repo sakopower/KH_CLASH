@@ -5,387 +5,791 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡-tg频道：@bpjzx2 14, server: 120.232.190.86, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 中国_05291050, server: 120.232.190.86, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: CN_263 | 3.83Mb, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 14.29.124.174:11011, server: 14.29.124.174, port: 11011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.174:11046, server: 14.29.124.174, port: 11046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: vpnpool-Chuncheon-Oracle-nf, server: 120.232.190.86, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: YouTube-由零开始, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: vpnpool-Tokyo-DMIT-nf, server: 120.232.190.86, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Santa Clara-Tencent-nf, server: 120.232.190.86, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 14.29.124.174:11006, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港-tg频道：@bpjzx2 12, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-Tokyo-DMIT-nf 2, server: 120.232.190.86, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-LAX-DMIT-nf, server: 120.232.190.86, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg频道：@bpjzx2 11, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-香港Nerocloud-nf, server: 120.232.190.86, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 中国_YouTube：8度科技, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 香港-tg频道：@bpjzx2 9, server: 120.232.190.86, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: Relay__10.86Mb |38.83Mb, server: 120.232.190.86, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 中国_05311119, server: 120.232.190.86, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-香港HKT-dip, server: 120.232.190.86, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay__10.86Mb |38.83Mb 2, server: 120.232.190.86, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 14.29.124.174:11033, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 台湾-tg频道：@bpjzx2 3, server: 120.232.190.86, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: RU_835 | 4.23Mb, server: 46.3.240.10, port: 443, type: vmess, uuid: a9f93c36-6b1f-4f68-c067-aa1cff941f97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: biliroam, ws-headers: {Host: "%7B%22host%22:%22biubiu.homurawwmm.xyz%22%7D"}, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: gg01.nfeng6.pp.ua, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
-  - {name: vpnpool-台中Hinet-dip, server: 120.233.185.189, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-香港Nerocloud-nf 2, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: 116.129.254.78, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.78}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_209, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25287, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 台湾-tg频道：@bpjzx2 4, server: 120.233.185.189, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 223.166.129.29, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 223.166.129.29}, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_217, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:24007, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_246, server: 14.29.124.174, port: 11034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25279, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25256, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25210, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25238, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_259, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_288, server: 14.29.124.168, port: 24046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_239, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_208, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25271, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 101.132.192.212:30003, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 14.29.124.168:25283, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_233, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25254, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:24005, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管：全网最强白嫖 5, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 2, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管：全网最强白嫖 17, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_251, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_226, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25230, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_241, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_253, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: music.desperadoj.com:30003, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: CN_227, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25235, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 2, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_230, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 美国惠普HP 5, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-London-Misaka-dip, server: 120.233.185.189, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 14.29.124.174:11036, server: 14.29.124.174, port: 11036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.174:11038, server: 14.29.124.174, port: 11038, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 319, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.174:11016, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: vpnpool-香港HKT-dip 2, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-香港HKT-dip 3, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_197, server: 14.29.124.174, port: 11002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_203, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_280, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:24026, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:24006, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.174:11039, server: 14.29.124.174, port: 11039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.174:11035, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港-tg频道：@bpjzx2 15, server: 120.232.190.86, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
+  - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _US_美国_2_2@3, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 14.29.124.174:11003, server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: vpnpool-Chuncheon-Oracle-nf 2, server: 120.233.185.189, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Tokyo-DMIT-nf 3, server: 120.233.185.189, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 新加坡 002, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, sni: w13.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 039, server: tx-vip-02.top, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: tx-vip-02.top, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺, server: 217.30.10.63, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 英国 005, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_201_3@200, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 3, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25256, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25238, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25235, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 4, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇷🇺 2, server: 217.30.10.63, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: US_202_3@201, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 美国 007, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 5, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 002, server: hkbgp.pindan.ml, port: 10003, type: trojan, password: 49ff44dc-680c-4b81-b213-6b164197c052, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国 023, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.174:11011, server: 14.29.124.174, port: 11011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 019, server: 23.224.33.112, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 001, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 美国 036, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_301, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_947, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 🇷🇺 3, server: 217.30.10.63, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 美国 031, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: LT_621, server: 213.183.53.202, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 韩国 002, server: cm01.db-link.in, port: 13302, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: cm01.db-link.in}, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_220, server: zh01lv5uk02.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: 美国 044, server: tx-vip-03.top, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: tx-vip-03.top, skip-cert-verify: true, udp: true}
+  - {name: 213.183.59.214:9000, server: 213.183.59.214, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 🇷🇺 4, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: LT_770, server: 213.183.53.222, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_555, server: 213.183.53.202, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 美国 006, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 美国 042, server: jike-vip-02.xyz, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: jike-vip-02.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 043, server: vip-kl-01.click, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: vip-kl-01.click, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25279, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 040, server: tx-vip-10.top, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: tx-vip-10.top, skip-cert-verify: true, udp: true}
+  - {name: US_2279, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇰🇷KR_217, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN-高速节点推荐：v2cross.com, server: zh01lv5uk01.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: 美国 003, server: hkbgp.pindan.ml, port: 10002, type: trojan, password: 49ff44dc-680c-4b81-b213-6b164197c052, sni: hkbgp.pindan.ml, skip-cert-verify: true, udp: true}
+  - {name: LT_774, server: 213.183.53.222, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: 213.183.59.214:9008, server: 213.183.59.214, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: LT_615, server: 213.183.53.179, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: 213.183.59.214:9084, server: 213.183.59.214, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 加拿大 002, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: YouTube-由零开始, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 美国 022, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
+  - {name: LT_623, server: 213.183.53.221, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: CN-高速节点推荐：v2cross.com 2, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: LT_672, server: 213.183.53.208, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 英国 003, server: 144.24.69.60, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: 美国 028, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 5, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 008, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 6, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL_892, server: 185.246.155.46, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: 🇨🇳 7, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 016, server: usfree2.jiantian.xyz, port: 32453, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25254, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 047, server: app.ssfree.ru, port: 443, type: vmess, uuid: 611241a0-ed8d-11ec-8def-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
+  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: v2cross.com - 日本  7, server: 43.154.93.14, port: 443, type: vmess, uuid: afe936ee-536e-4e94-8c46-71d222183729, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vNz3qzS3ml, ws-headers: {Host: 43.154.93.14}, udp: true}
+  - {name: NL_951, server: 185.246.155.46, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 🇨🇳 8, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 058, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.206.209}, udp: true}
+  - {name: 美国 015, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 9, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RU_1224, server: 217.30.10.67, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 213.183.53.177:9033, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 捷克 001, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: "@SSRSUB-V05-付费推荐:v2cross.com", server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 孟加拉 001, server: kh1.nodegz.top, port: 444, type: trojan, password: eed5c3e1-2d36-4429-8795-2ed74d374f23, sni: kh1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-London-Misaka-dip, server: 120.233.185.189, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇦🇺, server: 185.167.116.252, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: RU_1217, server: 217.30.10.67, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 加拿大 001, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
+  - {name: 印度 001, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 英国 002, server: 144.24.90.94, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: 美国 025, server: us1.nodegz.top, port: 443, type: trojan, password: 14c52c38-942f-3c56-89af-97bd46c7b65e, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: AU_49, server: 185.167.116.252, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 🇷🇺 5, server: 217.30.10.63, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: AU_35, server: 185.167.116.24, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 美国 041, server: jike-vip-03.xyz, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: jike-vip-03.xyz, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25210, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: AU_105, server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: AU_87, server: 185.167.116.24, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 🇦🇺 2, server: 185.167.116.252, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: 🇷🇺 6, server: 217.30.10.63, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: NL_953, server: 185.246.155.46, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: LT_602, server: 213.183.53.208, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: AU_70, server: 185.167.116.24, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: 英国 001, server: 144.24.87.99, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: AU_71, server: 185.167.116.24, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 🇦🇺 3, server: 185.167.116.252, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_614, server: 213.183.53.221, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 澳大利亚 001, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: US_1668, server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: AU_36, server: 185.167.116.24, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 🇷🇺 7, server: 217.30.10.63, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_1866, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国 005, server: 192.9.183.183, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: AU_74, server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: 🇷🇺 8, server: 217.30.10.63, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_783, server: 213.183.53.221, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 美国 027, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _199, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇷🇺 9, server: 217.30.10.63, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 213.183.59.214:9020, server: 213.183.59.214, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: LT_822, server: 213.183.53.212, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: 51.210.51.88:443, server: 51.210.51.88, port: 443, type: ssr, cipher: aes-192-ctr, password: sEscPBiAD9K$&@79, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇦🇺 4, server: 185.167.116.252, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 🇷🇺 10, server: 217.30.10.63, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 🇦🇪, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: LT_650, server: 213.183.53.202, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _173, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇨🇳 10, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: LT_600, server: 213.183.53.202, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 美国 045, server: us2.nodegz.top, port: 444, type: trojan, password: bac11225-fd19-4b02-98ac-af5a1f55d63b, sni: us2.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: 瑞士 001, server: ch1.nodegz.top, port: 444, type: trojan, password: eed5c3e1-2d36-4429-8795-2ed74d374f23, sni: ch1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: JP-高速节点推荐：v2cross.com, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: v2cross.com - 新加坡Amazon数据中心 81, server: gy01.20220512.cyou, port: 56655, type: trojan, password: 207eed47-ffdd-4bd4-91c1-719ac25c9cee, sni: gy01.20220512.cyou, skip-cert-verify: true, udp: true}
+  - {name: 美国 026, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty}, udp: true}
+  - {name: LT_589, server: 213.183.53.182, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 11, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25230, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 050, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: 🇨🇳 12, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:24001, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 034, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 213.183.53.177:9057, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RS_1190, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇨🇳 13, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇦🇪 2, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇦🇪 3, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: LT_764, server: 213.183.53.222, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: LT_738, server: 213.183.53.222, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_246, server: 14.29.124.174, port: 11034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 14, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: LT_734, server: 213.183.53.182, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_209, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 英国 004, server: 144.24.77.154, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 11, server: 217.30.10.64, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 🇨🇳 15, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国 035, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 037, server: 51.81.223.35, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本 001, server: 203.138.98.199, port: 28000, type: trojan, password: 5108ad44-d614-459f-95bf-798b9eb3fdb8, skip-cert-verify: true, udp: true}
+  - {name: JP-高速节点推荐：v2cross.com 2, server: 85.208.108.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CN-高速节点推荐：v2cross.com 3, server: zh01lv5ca01.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc, udp: true}
+  - {name: 美国 013, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 16, server: 14.29.124.174, port: 11002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 摩尔多瓦 001, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 87cbe4c8-9884-42a7-90ce-b286443a82b8, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.174:11016, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 17, server: 14.29.124.174, port: 11012, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇷🇺 12, server: 217.30.10.63, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 🇷🇺 13, server: 217.30.10.63, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.59.206:9059, server: 213.183.59.206, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 美国 049, server: werwer-beyqcnh.koyeb.app, port: 443, type: vmess, uuid: 29115fe9-3091-4f35-a54c-2374709d20a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: werwer-beyqcnh.koyeb.app}, udp: true}
+  - {name: 美国 029, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr01.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: RU_1264, server: 217.30.10.63, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 🇷🇺 14, server: 217.30.10.63, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: RO_1161, server: 185.126.116.119, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: RO_1179, server: 185.126.116.119, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: RO_1163, server: 185.126.116.119, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 🇷🇺 15, server: 217.30.10.63, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 🇷🇺 16, server: 217.30.10.63, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: RO_1157, server: 185.126.116.119, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_80_3@79, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 英国 006, server: v2.ssrsub.com, port: 18443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: 🇷🇺 17, server: 217.30.10.63, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 🇷🇺 18, server: 217.30.10.63, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇷🇺 19, server: 217.30.10.63, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 🇷🇺 20, server: 217.30.10.63, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 新加坡 003, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, sni: w11.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 21, server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: LT_833, server: 213.183.63.221, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: RO_1159, server: 185.126.116.119, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 🇷🇺 22, server: 217.30.10.63, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: LT_731, server: 213.183.63.221, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 🇷🇺 23, server: 217.30.10.63, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 🇨🇳 18, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 213.183.59.211:9025, server: 213.183.59.211, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -404,403 +808,795 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-tg频道：@bpjzx2 12
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 9
-      - vpnpool-香港HKT-dip
-      - 台湾-tg频道：@bpjzx2 3
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - 台湾-tg频道：@bpjzx2 4
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - 香港-tg频道：@bpjzx2 15
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -816,97 +1612,198 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-tg频道：@bpjzx2 14
-      - 中国_05291050
-      - CN_263 | 3.83Mb
-      - 14.29.124.174:11011
-      - 14.29.124.174:11046
-      - vpnpool-Chuncheon-Oracle-nf
-      - YouTube-由零开始
-      - vpnpool-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - 14.29.124.174:11006
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-Tokyo-DMIT-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 香港-tg频道：@bpjzx2 11
-      - vpnpool-香港Nerocloud-nf
-      - 中国_YouTube：8度科技
-      - 香港-tg频道：@bpjzx2 9
-      - Relay__10.86Mb |38.83Mb
-      - 中国_05311119
-      - vpnpool-香港HKT-dip
-      - Relay__10.86Mb |38.83Mb 2
-      - 14.29.124.174:11033
-      - 台湾-tg频道：@bpjzx2 3
-      - RU_835 | 4.23Mb
-      - _油管：全网最强白嫖 24
-      - vpnpool-台中Hinet-dip
-      - vpnpool-香港Nerocloud-nf 2
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🇭🇰HK_209
-      - _油管：全网最强白嫖 14
-      - 14.29.124.168:25287
-      - 台湾-tg频道：@bpjzx2 4
-      - _油管：全网最强白嫖 21
-      - Relay_🇨🇳CN-🇰🇷KR_217
-      - 14.29.124.168:24007
-      - Relay_🇨🇳CN-🇭🇰HK_246
-      - 14.29.124.168:25267
-      - 14.29.124.168:25279
-      - 14.29.124.168:25256
-      - 14.29.124.168:25294
-      - 14.29.124.168:25210
-      - 14.29.124.168:25259
-      - 14.29.124.168:25238
-      - 14.29.124.168:25247
-      - CN_259
-      - Relay_🇨🇳CN-🇹🇼TW_288
-      - CN_239
-      - _油管：全网最强白嫖 15
-      - CN_208
-      - 14.29.124.168:25271
-      - 101.132.192.212:30003
-      - 14.29.124.168:25283
-      - CN_233
-      - 14.29.124.168:25254
-      - 14.29.124.168:24005
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
       - 🇨🇳
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 9
-      - CN_251
-      - CN_226
-      - 14.29.124.168:25230
-      - 14.29.124.168:25220
-      - CN_241
-      - CN_253
-      - _油管：全网最强白嫖 3
-      - music.desperadoj.com:30003
-      - CN_227
-      - 14.29.124.168:25235
+      - _油管：全网最强白嫖 5
       - 🇨🇳 2
-      - CN_230
-      - github.com/freefq - 美国惠普HP 5
-      - vpnpool-London-Misaka-dip
-      - 14.29.124.174:11036
-      - 14.29.124.174:11038
-      - _油管：全网最强白嫖 319
-      - 14.29.124.174:11016
-      - vpnpool-香港HKT-dip 2
-      - vpnpool-香港HKT-dip 3
-      - Relay_🇨🇳CN-🇭🇰HK_197
-      - Relay_🇨🇳CN-🇭🇰HK_203
-      - Relay_🇨🇳CN-🇭🇰HK_280
-      - 14.29.124.168:24026
-      - 14.29.124.168:24006
-      - 14.29.124.174:11039
-      - 14.29.124.174:11035
-      - 香港-tg频道：@bpjzx2 15
+      - _油管：全网最强白嫖 17
+      - 14.29.124.168:25247
+      - _US_美国_2_2@3
+      - _油管：全网最强白嫖 15
       - 14.29.124.174:11003
-      - vpnpool-Chuncheon-Oracle-nf 2
-      - vpnpool-Tokyo-DMIT-nf 3
+      - 新加坡 002
+      - 美国 039
+      - 🇷🇺
+      - 英国 005
+      - US_201_3@200
+      - 🇨🇳 3
+      - 14.29.124.168:25256
+      - 14.29.124.168:25238
+      - 14.29.124.168:25235
+      - 🇨🇳 4
+      - 🇷🇺 2
+      - US_202_3@201
+      - 美国 007
+      - github.com/freefq - 美国惠普HP 5
+      - 美国 002
+      - 美国 023
+      - 14.29.124.174:11011
+      - 美国 019
+      - 新加坡 001
+      - 美国 036
+      - Relay_🇨🇳CN-🇺🇸US_301
+      - NL_947
+      - 🇷🇺 3
+      - 美国 031
+      - LT_621
+      - 韩国 002
+      - Relay_🇨🇳CN-🇬🇧GB_220
+      - 美国 044
+      - 213.183.59.214:9000
+      - 🇷🇺 4
+      - LT_770
+      - LT_555
+      - 美国 006
+      - 美国 042
+      - 美国 043
+      - 14.29.124.168:25279
+      - 美国 040
+      - US_2279
+      - Relay_🇨🇳CN-🇰🇷KR_217
+      - CN-高速节点推荐：v2cross.com
+      - 美国 003
+      - LT_774
+      - 213.183.59.214:9008
+      - LT_615
+      - 213.183.59.214:9084
+      - 加拿大 002
+      - YouTube-由零开始
+      - 美国 022
+      - LT_623
+      - CN-高速节点推荐：v2cross.com 2
+      - LT_672
+      - 英国 003
+      - 美国 028
+      - 🇨🇳 5
+      - 美国 008
+      - 🇨🇳 6
+      - NL_892
+      - 🇨🇳 7
+      - 美国 016
+      - 14.29.124.168:25254
+      - 美国 047
+      - 14.29.124.168:25259
+      - v2cross.com - 日本  7
+      - NL_951
+      - 🇨🇳 8
+      - 美国 058
+      - 美国 015
+      - 🇨🇳 9
+      - RU_1224
+      - 213.183.53.177:9033
+      - 捷克 001
+      - "@SSRSUB-V05-付费推荐:v2cross.com"
+      - 孟加拉 001
+      - vpnpool-London-Misaka-dip
+      - 🇦🇺
+      - RU_1217
+      - 加拿大 001
+      - 印度 001
+      - 英国 002
+      - 美国 025
+      - AU_49
+      - 🇷🇺 5
+      - AU_35
+      - 美国 041
+      - 14.29.124.168:25210
+      - AU_105
+      - AU_87
+      - 🇦🇺 2
+      - 🇷🇺 6
+      - NL_953
+      - LT_602
+      - AU_70
+      - 英国 001
+      - AU_71
+      - 🇦🇺 3
+      - LT_614
+      - 澳大利亚 001
+      - US_1668
+      - AU_36
+      - 🇷🇺 7
+      - 14.29.124.168:25294
+      - US_1866
+      - 美国 005
+      - AU_74
+      - 🇷🇺 8
+      - LT_783
+      - 美国 027
+      - _199
+      - 🇷🇺 9
+      - 213.183.59.214:9020
+      - LT_822
+      - 51.210.51.88:443
+      - 🇦🇺 4
+      - 🇷🇺 10
+      - 🇦🇪
+      - LT_650
+      - _173
+      - 🇨🇳 10
+      - LT_600
+      - 美国 045
+      - 瑞士 001
+      - JP-高速节点推荐：v2cross.com
+      - v2cross.com - 新加坡Amazon数据中心 81
+      - 美国 026
+      - LT_589
+      - 14.29.124.168:25220
+      - 🇨🇳 11
+      - 14.29.124.168:25230
+      - 美国 050
+      - 🇨🇳 12
+      - 14.29.124.168:24001
+      - 美国 034
+      - 213.183.53.177:9057
+      - RS_1190
+      - 🇨🇳 13
+      - 🇦🇪 2
+      - 🇦🇪 3
+      - LT_764
+      - LT_738
+      - Relay_🇨🇳CN-🇭🇰HK_246
+      - 🇨🇳 14
+      - LT_734
+      - Relay_🇨🇳CN-🇭🇰HK_209
+      - 英国 004
+      - 🇷🇺 11
+      - 🇨🇳 15
+      - 美国 035
+      - 美国 037
+      - 日本 001
+      - JP-高速节点推荐：v2cross.com 2
+      - CN-高速节点推荐：v2cross.com 3
+      - 美国 013
+      - 🇨🇳 16
+      - 摩尔多瓦 001
+      - 14.29.124.174:11016
+      - 🇨🇳 17
+      - 🇷🇺 12
+      - 🇷🇺 13
+      - 213.183.59.206:9059
+      - 美国 049
+      - 美国 029
+      - RU_1264
+      - 🇷🇺 14
+      - RO_1161
+      - RO_1179
+      - RO_1163
+      - 🇷🇺 15
+      - 🇷🇺 16
+      - RO_1157
+      - DE_80_3@79
+      - 英国 006
+      - 🇷🇺 17
+      - 🇷🇺 18
+      - 🇷🇺 19
+      - 🇷🇺 20
+      - 新加坡 003
+      - 🇷🇺 21
+      - LT_833
+      - RO_1159
+      - 🇷🇺 22
+      - LT_731
+      - 🇷🇺 23
+      - 🇨🇳 18
+      - 213.183.59.211:9025
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
