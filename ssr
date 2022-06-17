@@ -5,151 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: vpnpool-台中Hinet-dip, server: 120.233.185.189, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 中国_05311124, server: 120.233.185.189, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 中国(TG频道:@kxswa), server: 120.233.185.189, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: ZEM1dFpTOTJjRzVvWVhRPQ, udp: true}
-  - {name: vpnpool-SG-Nerocloud-nf, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 香港-tg频道：@bpjzx2 16, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: Relay__ 9.18Mb |44.40Mb, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-香港Nerocloud-nf, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 中国(TG频道:@kxswa) 2, server: 120.233.185.189, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: ZEM1dFpTOTJjRzVvWVhRPQ, udp: true}
-  - {name: 新加坡-tg频道：@bpjzx2 10, server: 120.233.185.189, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 香港-tg频道：@bpjzx2 12, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-LAX-DMIT-nf, server: 120.233.185.189, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _CN_中国, server: 120.233.185.189, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ=, udp: true}
-  - {name: vpnpool-Tokyo-DMIT-nf, server: 120.233.185.189, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新加坡-tg频道：@bpjzx2 9, server: 120.233.185.189, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 新加坡-tg频道：@bpjzx2 8, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-香港HKT-dip, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Tokyo-DMIT-nf 2, server: 120.233.185.189, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: 120.233.185.189, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ=, udp: true}
-  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: 120.233.185.189, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ=, udp: true}
-  - {name: vpnpool-Novosibirsk-Baxet-nf, server: 120.233.185.189, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-香港HKT-dip 2, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 中国(TG频道:@kxswa) 3, server: 120.233.185.189, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: ZEM1dFpTOTJjRzVvWVhRPQ, udp: true}
-  - {name: vpnpool-SG-Nerocloud-nf 2, server: 120.233.185.189, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 中国_05311123, server: 120.233.185.189, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 香港-tg频道：@bpjzx2 11, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 台湾-tg频道：@bpjzx2 4, server: 120.233.185.189, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ=, udp: true}
-  - {name: vpnpool-SG-Tencent-nf, server: 120.233.185.189, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_86, server: 120.233.185.189, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: vpnpool-LAX-DMIT-nf 2, server: 120.233.185.189, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay__ 9.18Mb |44.40Mb 2, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: vpnpool-Chuncheon-Oracle-nf, server: 120.233.185.189, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: _油管：全网最强白嫖 301, server: 116.129.254.64, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9892:W1QZ48, obfs-param: dGVsZWdyYW0uY2hhbm5lbC5wMnBzaGFyaW5n, udp: true}
+  - {name: _油管：全网最强白嫖, server: 116.129.254.64, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9892:W1QZ48, obfs-param: dGVsZWdyYW0uY2hhbm5lbC5wMnBzaGFyaW5n, udp: true}
+  - {name: 香港|10奈飞香港AZ中转, server: azhk1.170809.xyz, port: 44584, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|22AZ中转, server: azhk2.170809.xyz, port: 23693, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|03香港AZ中转, server: azhk1.170809.xyz, port: 63987, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|13|香港AZ中转, server: azhk2.170809.xyz, port: 36730, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港丝袜奶茶+02-D, server: 20.239.160.239, port: 12339, type: trojan, password: a08bf68c-2713-41c6-b885-ab69c0c92c24, skip-cert-verify: true, udp: true}
+  - {name: 香港|10AZ中转, server: azhk1.170809.xyz, port: 39947, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|08奈飞香港AZ中转, server: azhk2.170809.xyz, port: 57557, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|17AZ中转, server: azhk1.170809.xyz, port: 53410, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC奈飞香港AZ中转, server: azhk1.170809.xyz, port: 55745, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DO香港AZ中转, server: azhk1.170809.xyz, port: 41975, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|21AZ中转, server: azhk1.170809.xyz, port: 31578, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 10, server: pu-hk-ys-01.uk, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: pu-hk-ys-01.uk, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞香港AZ中转, server: azhk1.170809.xyz, port: 51389, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|07奈飞AZ三线中转, server: azhk2.170809.xyz, port: 48146, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|17香港AZ中转, server: azhk2.170809.xyz, port: 62277, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|12奈飞联通中转, server: azhk1.170809.xyz, port: 19494, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: "Lv1+香港+02+[1.5]", server: lv1.dnspod.myasns.com, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: c834ed4693c937ce386dd4171a0a889e, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
+  - {name: "Lv1+香港+01+[1.0]", server: lv1.dnspod.myasns.com, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 71c71c4f57ed2525b90efe161f901337, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
+  - {name: "Lv1+香港+04+[2.0]", server: lv1.dnspod.myasns.com, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 9ab659ec762c6836aab741f48378ffc7, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
+  - {name: "Lv1+香港+03+[1.5]", server: lv1.dnspod.myasns.com, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7d540737117c1d56a0cb7e436bd5ad01, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
+  - {name: "SG,", server: 13.213.29.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK,", server: 18.141.173.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Az香港12, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.ningmengshui.xyz}, udp: true}
+  - {name: Az香港12 2, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.ningmengshui.xyz}, udp: true}
+  - {name: 「🇸🇬」翠冠梨 - 免流 x3, server: v6.emovpn.xyz, port: 126, type: vmess, uuid: 155de6da-0e69-4527-8a9a-854adc9707cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: 台湾Hinet-广移 | 解锁流媒体, server: gzyd1.xxcv.cc, port: 30010, type: trojan, password: 2cee2f05-9351-4a6d-9f80-ff859a54a0b3, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: CN+1+|+openit.ml, server: cdn1.myuuusss.com, port: 20007, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82, udp: true}
+  - {name: Alien, server: 133.167.106.55, port: 33115, type: vmess, uuid: 3a610ada-a699-4d6e-8140-7629febc6e51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本|软银|流媒体|标准1, server: 116.129.253.99, port: 30008, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本|软银|流媒体|标准2, server: 116.129.253.99, port: 30009, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本|NTT|标准2, server: 116.129.253.99, port: 30021, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本|NTT|标准1, server: 116.129.253.99, port: 30020, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|HE|流媒体|标准1, server: 116.129.253.99, port: 30026, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|HE|流媒体|标准2, server: 116.129.253.99, port: 30027, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 泰国|流媒体|标准2, server: 116.129.253.99, port: 30023, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,164 +188,198 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - vpnpool-台中Hinet-dip
-      - 香港-tg频道：@bpjzx2 16
-      - vpnpool-香港Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-香港HKT-dip
-      - vpnpool-香港HKT-dip 2
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - Az香港12
+      - Az香港12 2
+      - 台湾Hinet-广移 | 解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -341,38 +395,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vpnpool-台中Hinet-dip
-      - 中国_05311124
-      - 中国(TG频道:@kxswa)
-      - vpnpool-SG-Nerocloud-nf
-      - 香港-tg频道：@bpjzx2 16
-      - Relay__ 9.18Mb |44.40Mb
-      - vpnpool-香港Nerocloud-nf
-      - 中国(TG频道:@kxswa) 2
-      - 新加坡-tg频道：@bpjzx2 10
-      - 香港-tg频道：@bpjzx2 12
-      - vpnpool-LAX-DMIT-nf
-      - _CN_中国
-      - vpnpool-Tokyo-DMIT-nf
-      - 新加坡-tg频道：@bpjzx2 9
-      - 新加坡-tg频道：@bpjzx2 8
-      - vpnpool-香港HKT-dip
-      - vpnpool-Tokyo-DMIT-nf 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - vpnpool-Novosibirsk-Baxet-nf
-      - vpnpool-香港HKT-dip 2
-      - 中国(TG频道:@kxswa) 3
-      - vpnpool-SG-Nerocloud-nf 2
-      - 中国_05311123
-      - 香港-tg频道：@bpjzx2 11
-      - 台湾-tg频道：@bpjzx2 4
-      - _CN_中国->🇭🇰_HK_香港
-      - vpnpool-SG-Tencent-nf
-      - Relay_🇨🇳CN-🇹🇼TW_86
-      - vpnpool-LAX-DMIT-nf 2
-      - Relay__ 9.18Mb |44.40Mb 2
-      - vpnpool-Chuncheon-Oracle-nf
+      - _油管：全网最强白嫖 301
+      - _油管：全网最强白嫖
+      - 香港|10奈飞香港AZ中转
+      - 香港|22AZ中转
+      - 香港|03香港AZ中转
+      - 香港|13|香港AZ中转
+      - 香港丝袜奶茶+02-D
+      - 香港|10AZ中转
+      - 香港|08奈飞香港AZ中转
+      - 香港|17AZ中转
+      - 新加坡|03|OC奈飞香港AZ中转
+      - 新加坡|02|DO香港AZ中转
+      - 香港|21AZ中转
+      - 香港(youtube阿伟科技) 10
+      - 香港|07奈飞香港AZ中转
+      - 香港|07奈飞AZ三线中转
+      - 香港|17香港AZ中转
+      - 香港|12奈飞联通中转
+      - Lv1+香港+02+[1.5]
+      - Lv1+香港+01+[1.0]
+      - Lv1+香港+04+[2.0]
+      - Lv1+香港+03+[1.5]
+      - SG,
+      - HK,
+      - Az香港12
+      - Az香港12 2
+      - 「🇸🇬」翠冠梨 - 免流 x3
+      - 台湾Hinet-广移 | 解锁流媒体
+      - CN+1+|+openit.ml
+      - Alien
+      - 日本|软银|流媒体|标准1
+      - 日本|软银|流媒体|标准2
+      - 日本|NTT|标准2
+      - 日本|NTT|标准1
+      - 新加坡|HE|流媒体|标准1
+      - 新加坡|HE|流媒体|标准2
+      - 泰国|流媒体|标准2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9329,6 +9388,8 @@ rules:
  - DOMAIN-SUFFIX,hypeapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
  - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,idmchina.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,imazingchina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,keyshot.cc,🛑 全球拦截
@@ -9398,6 +9459,8 @@ rules:
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+ - DOMAIN,radio.itunes.apple.com,🌍 国外媒体
+ - DOMAIN,tv.applemusic.com,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
@@ -9442,6 +9505,7 @@ rules:
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
  - DOMAIN,linear.tv.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
+ - DOMAIN,uts-api.itunes.apple.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
@@ -9528,6 +9592,7 @@ rules:
  - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
+ - IP-CIDR,210.71.227.200/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
@@ -9628,15 +9693,14 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
  - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
  - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
- - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
- - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
+ - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
+ - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
  - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
  - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
  - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
@@ -9654,6 +9718,7 @@ rules:
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
  - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
@@ -9667,11 +9732,14 @@ rules:
  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
- - IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
+ - IP-CIDR,91.105.192.0/23,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR,185.76.151.0/24,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
  - DOMAIN,payments-jp.amazon.com,🔰 节点选择
@@ -9680,16 +9748,36 @@ rules:
  - DOMAIN,a248.e.akamai.net,🔰 节点选择
  - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
  - DOMAIN,testflight.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
+ - DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,aex.com,🔰 节点选择
  - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
  - DOMAIN-SUFFIX,binance.cc,🔰 节点选择
  - DOMAIN-SUFFIX,binance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,binance.us,🔰 节点选择
  - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
  - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bithumb.com,🔰 节点选择
  - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择
+ - DOMAIN-SUFFIX,bittrex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bybit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinbase.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coincheck.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coingecko.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择
+ - DOMAIN-SUFFIX,ftx.com,🔰 节点选择
  - DOMAIN-SUFFIX,gate.io,🔰 节点选择
+ - DOMAIN-SUFFIX,gemini.com,🔰 节点选择
  - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择
+ - DOMAIN-SUFFIX,kraken.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kucoin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,liquid.com,🔰 节点选择
  - DOMAIN-SUFFIX,okex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
  - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
  - DOMAIN-SUFFIX,zb.com,🔰 节点选择
  - DOMAIN-SUFFIX,discord.com,🔰 节点选择
@@ -9722,6 +9810,7 @@ rules:
  - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
  - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
@@ -9772,11 +9861,14 @@ rules:
  - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,95.161.64.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve
  - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
  - DOMAIN-SUFFIX,t.co,🔰 节点选择
@@ -9845,7 +9937,6 @@ rules:
  - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
  - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
- - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
  - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
@@ -9939,7 +10030,6 @@ rules:
  - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
  - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
  - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
- - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
  - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
  - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
  - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
@@ -9965,6 +10055,7 @@ rules:
  - DOMAIN-SUFFIX,marc.info,🔰 节点选择
  - DOMAIN-SUFFIX,matters.news,🔰 节点选择
  - DOMAIN-SUFFIX,maying.co,🔰 节点选择
+ - DOMAIN-SUFFIX,medibang.com,🔰 节点选择
  - DOMAIN-SUFFIX,medium.com,🔰 节点选择
  - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
  - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
@@ -10054,6 +10145,7 @@ rules:
  - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
  - DOMAIN-SUFFIX,streema.com,🔰 节点选择
  - DOMAIN-SUFFIX,substack.com,🔰 节点选择
+ - DOMAIN-SUFFIX,substack.com,🔰 节点选择
  - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
  - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
  - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
@@ -10069,6 +10161,7 @@ rules:
  - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
  - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
  - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
  - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
  - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
  - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
@@ -10185,20 +10278,33 @@ rules:
  - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
  - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
  - DOMAIN,books.itunes.apple.com,🔰 节点选择
- - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
- - DOMAIN,beta.music.apple.com,🔰 节点选择
- - DOMAIN,tv.apple.com,🔰 节点选择
- - DOMAIN,apps.apple.com,🔰 节点选择
- - DOMAIN,itunes.apple.com,🔰 节点选择
  - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+ - DOMAIN,beta.music.apple.com,🔰 节点选择
  - DOMAIN,lookup-api.apple.com,🔰 节点选择
+ - DOMAIN,apps.apple.com,🔰 节点选择
+ - DOMAIN,books.apple.com,🔰 节点选择
+ - DOMAIN,itunes.apple.com,🔰 节点选择
+ - DOMAIN,tv.apple.com,🔰 节点选择
+ - DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择
+ - DOMAIN,bookkeeper.itunes.apple.com,🔰 节点选择
+ - DOMAIN,gateway.icloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apple.news,🔰 节点选择
+ - DOMAIN,news-assets.apple.com,🔰 节点选择
+ - DOMAIN,news-client.apple.com,🔰 节点选择
+ - DOMAIN,news-client-search.apple.com,🔰 节点选择
+ - DOMAIN,news-edge.apple.com,🔰 节点选择
+ - DOMAIN,news-events.apple.com,🔰 节点选择
+ - DOMAIN,apple.comscoreresearch.com,🔰 节点选择
  - DOMAIN-SUFFIX,go.dev,🔰 节点选择
  - DOMAIN-SUFFIX,golang.org,🔰 节点选择
+ - DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
  - DOMAIN-SUFFIX,bing.com,🔰 节点选择
  - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
  - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
  - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
  - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
  - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
  - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
  - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
@@ -10206,12 +10312,10 @@ rules:
  - DOMAIN,developer.apple.com,🔰 节点选择
  - DOMAIN,www.icloud.com,🔰 节点选择
  - DOMAIN,ocsp.apple.com,🔰 节点选择
- - DOMAIN,xp.apple.com,🔰 节点选择
  - DOMAIN,cacerts.digicert.com,🔰 节点选择
  - DOMAIN,crl3.digicert.com,🔰 节点选择
  - DOMAIN,crl4.digicert.com,🔰 节点选择
  - DOMAIN,ocsp.digicert.com,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
  - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
  - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
@@ -10367,19 +10471,11 @@ rules:
  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tencent-cloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
  - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
- - IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
  - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
@@ -10459,6 +10555,7 @@ rules:
  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
+ - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
@@ -10503,8 +10600,6 @@ rules:
  - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
- - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
@@ -10527,6 +10622,7 @@ rules:
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
  - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
+ - DOMAIN-SUFFIX,shouqianba.com,🎯 全球直连
  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
