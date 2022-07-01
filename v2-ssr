@@ -10,156 +10,1012 @@ dns:
     nameserver:
       - 223.5.5.5
 proxies:
-  - {name: h192837.strongpipe.live:11243, server: h192837.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11244, server: h192837.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11245, server: h192837.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11343, server: h192837.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11344, server: h192837.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11345, server: h192837.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11443, server: h192837.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11444, server: h192837.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11445, server: h192837.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11543, server: h192837.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11544, server: h192837.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11545, server: h192837.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11743, server: h192837.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11744, server: h192837.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h192837.strongpipe.live:11745, server: h192837.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20443, server: h3816tw.strongpipe.live, port: 20443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20444, server: h3816tw.strongpipe.live, port: 20444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20445, server: h3816tw.strongpipe.live, port: 20445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20446, server: h3816tw.strongpipe.live, port: 20446, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20447, server: h3816tw.strongpipe.live, port: 20447, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20448, server: h3816tw.strongpipe.live, port: 20448, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h3816tw.strongpipe.live:20449, server: h3816tw.strongpipe.live, port: 20449, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11243, server: h517439.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11244, server: h517439.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11245, server: h517439.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11343, server: h517439.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11344, server: h517439.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11345, server: h517439.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11443, server: h517439.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11444, server: h517439.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11445, server: h517439.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11543, server: h517439.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11544, server: h517439.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11545, server: h517439.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11743, server: h517439.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11744, server: h517439.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h517439.strongpipe.live:11745, server: h517439.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11243, server: h63956.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11244, server: h63956.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11245, server: h63956.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11343, server: h63956.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11344, server: h63956.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11345, server: h63956.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11443, server: h63956.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11444, server: h63956.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11445, server: h63956.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11543, server: h63956.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11544, server: h63956.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11743, server: h63956.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11744, server: h63956.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h63956.strongpipe.live:11745, server: h63956.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11243, server: h738106.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11244, server: h738106.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11245, server: h738106.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11343, server: h738106.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11344, server: h738106.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11345, server: h738106.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11443, server: h738106.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11444, server: h738106.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11445, server: h738106.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11543, server: h738106.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11544, server: h738106.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11545, server: h738106.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11743, server: h738106.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11744, server: h738106.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h738106.strongpipe.live:11745, server: h738106.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11243, server: h890361.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11244, server: h890361.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11245, server: h890361.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11343, server: h890361.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11344, server: h890361.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11345, server: h890361.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11443, server: h890361.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11444, server: h890361.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11445, server: h890361.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11543, server: h890361.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11544, server: h890361.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11545, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11743, server: h890361.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11744, server: h890361.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h890361.strongpipe.live:11745, server: h890361.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11243, server: h961359.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11244, server: h961359.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11245, server: h961359.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11343, server: h961359.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11344, server: h961359.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11345, server: h961359.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11443, server: h961359.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11444, server: h961359.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11445, server: h961359.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11543, server: h961359.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11544, server: h961359.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11545, server: h961359.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11743, server: h961359.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11744, server: h961359.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961359.strongpipe.live:11745, server: h961359.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11243, server: h961684.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11244, server: h961684.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11245, server: h961684.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11343, server: h961684.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11344, server: h961684.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11345, server: h961684.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11443, server: h961684.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11444, server: h961684.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11445, server: h961684.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11543, server: h961684.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11544, server: h961684.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11545, server: h961684.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11743, server: h961684.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11744, server: h961684.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: h961684.strongpipe.live:11745, server: h961684.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 301, server: 116.129.254.64, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9892:W1QZ48, obfs-param: dGVsZWdyYW0uY2hhbm5lbC5wMnBzaGFyaW5n, udp: true}
-  - {name: _油管：全网最强白嫖, server: 116.129.254.64, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9892:W1QZ48, obfs-param: dGVsZWdyYW0uY2hhbm5lbC5wMnBzaGFyaW5n, udp: true}
-  - {name: 香港|10奈飞香港AZ中转, server: azhk1.170809.xyz, port: 44584, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|22AZ中转, server: azhk2.170809.xyz, port: 23693, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|03香港AZ中转, server: azhk1.170809.xyz, port: 63987, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|13|香港AZ中转, server: azhk2.170809.xyz, port: 36730, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港丝袜奶茶+02-D, server: 20.239.160.239, port: 12339, type: trojan, password: a08bf68c-2713-41c6-b885-ab69c0c92c24, skip-cert-verify: true, udp: true}
-  - {name: 香港|10AZ中转, server: azhk1.170809.xyz, port: 39947, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|08奈飞香港AZ中转, server: azhk2.170809.xyz, port: 57557, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|17AZ中转, server: azhk1.170809.xyz, port: 53410, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|03|OC奈飞香港AZ中转, server: azhk1.170809.xyz, port: 55745, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|02|DO香港AZ中转, server: azhk1.170809.xyz, port: 41975, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|21AZ中转, server: azhk1.170809.xyz, port: 31578, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 10, server: pu-hk-ys-01.uk, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: pu-hk-ys-01.uk, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞香港AZ中转, server: azhk1.170809.xyz, port: 51389, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|07奈飞AZ三线中转, server: azhk2.170809.xyz, port: 48146, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|17香港AZ中转, server: azhk2.170809.xyz, port: 62277, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk2.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港|12奈飞联通中转, server: azhk1.170809.xyz, port: 19494, type: trojan, password: 47bcec9c-86f2-4478-bc7f-cef7de71adca, sni: azhk1.170809.xyz, skip-cert-verify: true, udp: true}
-  - {name: "Lv1+香港+02+[1.5]", server: lv1.dnspod.myasns.com, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: c834ed4693c937ce386dd4171a0a889e, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
-  - {name: "Lv1+香港+01+[1.0]", server: lv1.dnspod.myasns.com, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 71c71c4f57ed2525b90efe161f901337, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
-  - {name: "Lv1+香港+04+[2.0]", server: lv1.dnspod.myasns.com, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 9ab659ec762c6836aab741f48378ffc7, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
-  - {name: "Lv1+香港+03+[1.5]", server: lv1.dnspod.myasns.com, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7d540737117c1d56a0cb7e436bd5ad01, plugin: obfs, plugin-opts: {mode: http, host: 9b6696b7aee1.microsoft.com}, udp: true}
-  - {name: "SG,", server: 13.213.29.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK,", server: 18.141.173.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Az香港12, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.ningmengshui.xyz}, udp: true}
-  - {name: Az香港12 2, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.ningmengshui.xyz}, udp: true}
-  - {name: 「🇸🇬」翠冠梨 - 免流 x3, server: v6.emovpn.xyz, port: 126, type: vmess, uuid: 155de6da-0e69-4527-8a9a-854adc9707cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 台湾Hinet-广移 | 解锁流媒体, server: gzyd1.xxcv.cc, port: 30010, type: trojan, password: 2cee2f05-9351-4a6d-9f80-ff859a54a0b3, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: CN+1+|+openit.ml, server: cdn1.myuuusss.com, port: 20007, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82, udp: true}
-  - {name: Alien, server: 133.167.106.55, port: 33115, type: vmess, uuid: 3a610ada-a699-4d6e-8140-7629febc6e51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本|软银|流媒体|标准1, server: 116.129.253.99, port: 30008, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本|软银|流媒体|标准2, server: 116.129.253.99, port: 30009, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本|NTT|标准2, server: 116.129.253.99, port: 30021, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本|NTT|标准1, server: 116.129.253.99, port: 30020, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|HE|流媒体|标准1, server: 116.129.253.99, port: 30026, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|HE|流媒体|标准2, server: 116.129.253.99, port: 30027, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国|流媒体|标准2, server: 116.129.253.99, port: 30023, type: vmess, uuid: ae92efdd-696d-395f-81ae-3a9d06158d08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-
+  - name: SZCM-HK-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h63956.strongpipe.live
+    port: 11545
+    tls: true
+    skip-cert-verify: true
+  - name: CTVIP-HK-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961359.strongpipe.live
+    port: 11545
+    tls: true
+    skip-cert-verify: true
+  - name: CM-HK-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h890361.strongpipe.live
+    port: 11545
+    tls: true
+    skip-cert-verify: true
+  - name: SZCM-JP-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h63956.strongpipe.live
+    port: 11445
+    tls: true
+    skip-cert-verify: true
+  - name: CTVIP-JP-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961359.strongpipe.live
+    port: 11445
+    tls: true
+    skip-cert-verify: true
+  - name: CM-JP-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h890361.strongpipe.live
+    port: 11445
+    tls: true
+    skip-cert-verify: true
+  - name: CU-JP-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961684.strongpipe.live
+    port: 11445
+    tls: true
+    skip-cert-verify: true
+  - name: CTVIP-DE-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961359.strongpipe.live
+    port: 11745
+    tls: true
+    skip-cert-verify: true
+  - name: CU-DE-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961684.strongpipe.live
+    port: 11745
+    tls: true
+    skip-cert-verify: true
+  - name: CM-TW-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h3816tw.strongpipe.live
+    port: 20443
+    tls: true
+    skip-cert-verify: true
+  - name: CTVIP-US-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961359.strongpipe.live
+    port: 11245
+    tls: true
+    skip-cert-verify: true
+  - name: CU-US-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h961684.strongpipe.live
+    port: 11245
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 1
+    server: h192837.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 2
+    server: h192837.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 3
+    server: h192837.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 4
+    server: h517439.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 5
+    server: h517439.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 6
+    server: h517439.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 7
+    server: h63956.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 8
+    server: h63956.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 9
+    server: h63956.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 10
+    server: h738106.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 11
+    server: h738106.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 12
+    server: h738106.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 13
+    server: h890361.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 14
+    server: h890361.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 15
+    server: h890361.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 16
+    server: h961359.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 17
+    server: h961359.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 18
+    server: h961359.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 19
+    server: h961684.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 20
+    server: h961684.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 21
+    server: h961684.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 1
+    server: h192837.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 2
+    server: h192837.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 3
+    server: h192837.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 4
+    server: h517439.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 5
+    server: h517439.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 6
+    server: h517439.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 7
+    server: h63956.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 8
+    server: h63956.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 9
+    server: h63956.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 10
+    server: h738106.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 11
+    server: h738106.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 12
+    server: h738106.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 13
+    server: h890361.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 14
+    server: h890361.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 15
+    server: h890361.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 16
+    server: h961359.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 17
+    server: h961359.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 18
+    server: h961359.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 19
+    server: h961684.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 20
+    server: h961684.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 21
+    server: h961684.strongpipe.live
+    port: 11445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 1
+    server: h192837.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 2
+    server: h192837.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 3
+    server: h192837.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 4
+    server: h517439.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 5
+    server: h517439.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 6
+    server: h517439.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 7
+    server: h63956.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 8
+    server: h63956.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 9
+    server: h63956.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 10
+    server: h738106.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 11
+    server: h738106.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 12
+    server: h738106.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 13
+    server: h890361.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 14
+    server: h890361.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 15
+    server: h890361.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 16
+    server: h961359.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 17
+    server: h961359.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 18
+    server: h961359.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 19
+    server: h961684.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 20
+    server: h961684.strongpipe.live
+    port: 11244
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 21
+    server: h961684.strongpipe.live
+    port: 11245
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 1
+    server: h192837.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 2
+    server: h192837.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 3
+    server: h192837.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 4
+    server: h517439.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 5
+    server: h517439.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 6
+    server: h517439.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 7
+    server: h63956.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 8
+    server: h63956.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 9
+    server: h63956.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 10
+    server: h738106.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 11
+    server: h738106.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 12
+    server: h738106.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 13
+    server: h890361.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 14
+    server: h890361.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 15
+    server: h890361.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 16
+    server: h961359.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 17
+    server: h961359.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 18
+    server: h961359.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 19
+    server: h961684.strongpipe.live
+    port: 11743
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 20
+    server: h961684.strongpipe.live
+    port: 11744
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇩🇪 HTTPS | 德国 | 21
+    server: h961684.strongpipe.live
+    port: 11745
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 1
+    server: h3816tw.strongpipe.live
+    port: 20443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 2
+    server: h3816tw.strongpipe.live
+    port: 20444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 3
+    server: h3816tw.strongpipe.live
+    port: 20445
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 4
+    server: h3816tw.strongpipe.live
+    port: 20446
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 5
+    server: h3816tw.strongpipe.live
+    port: 20447
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 6
+    server: h3816tw.strongpipe.live
+    port: 20448
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 7
+    server: h3816tw.strongpipe.live
+    port: 20449
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 8
+    server: h192837.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 9
+    server: h192837.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 10
+    server: h192837.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 11
+    server: h517439.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 12
+    server: h517439.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 13
+    server: h517439.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 14
+    server: h63956.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 15
+    server: h63956.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 16
+    server: h63956.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 17
+    server: h738106.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 18
+    server: h738106.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 19
+    server: h738106.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 20
+    server: h890361.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 21
+    server: h890361.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 22
+    server: h890361.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 23
+    server: h961359.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 24
+    server: h961359.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 25
+    server: h961359.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 26
+    server: h961684.strongpipe.live
+    port: 11343
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 27
+    server: h961684.strongpipe.live
+    port: 11344
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 28
+    server: h961684.strongpipe.live
+    port: 11345
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - {name: 香港HK172, server: cmonline02.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35760:1sEzoslZeTH, obfs-param: "", udp: true}
+  - {name: 154.3.6.24:40088, server: 154.3.6.24, port: 40088, type: ssr, cipher: dummy, password: sytgta26erIOSTZrver@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 154.9.204.15:60000, server: 154.9.204.15, port: 60000, type: ssr, cipher: dummy, password: baredi*&^$rectnana, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 日本 301, server: 81301.bftp.sagittarius-link.com, port: 60301, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 日本 302, server: 81302.rt0n.sagittarius-link.com, port: 60302, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 日本 303, server: 81303.rt5y.sagittarius-link.com, port: 60303, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 日本 304, server: 81304.xwd1.sagittarius-link.com, port: 60304, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 香港 301, server: hk301.sagittarius-link.com, port: 61301, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 香港 302, server: hk302.sagittarius-link.com, port: 61302, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 香港 304, server: hk304.sagittarius-link.com, port: 61304, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 台湾 301, server: tw301.sagittarius-link.com, port: 62301, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 台湾 302, server: tw302.sagittarius-link.com, port: 62302, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 新加坡 301, server: sg301.sagittarius-link.com, port: 64301, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
+  - {name: 新加坡 302, server: sg302.sagittarius-link.com, port: 64302, type: ssr, cipher: dummy, password: 5GMSIjTiXS8, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 24185:tMn5WV, obfs-param: 241850eba3.download.windowsupdate.com, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -169,320 +1025,293 @@ proxy-groups:
       - 🇺🇸 美区
       - 🇯🇵 日区
       - 🇭🇰 港区
-      - cn 台湾区
       - 🇩🇪 德区
-      - sg 新加坡区
-      - ko 韩国区
-      - ca 中国区
+      - 🇨🇳 台湾区
       - SSR 区
+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - h192837.strongpipe.live:11243
-      - h192837.strongpipe.live:11244
-      - h192837.strongpipe.live:11245
-      - h192837.strongpipe.live:11343
-      - h192837.strongpipe.live:11344
-      - h192837.strongpipe.live:11345
-      - h192837.strongpipe.live:11443
-      - h192837.strongpipe.live:11444
-      - h192837.strongpipe.live:11445
-      - h192837.strongpipe.live:11543
-      - h192837.strongpipe.live:11544
-      - h192837.strongpipe.live:11545
-      - h192837.strongpipe.live:11743
-      - h192837.strongpipe.live:11744
-      - h192837.strongpipe.live:11745
-      - h3816tw.strongpipe.live:20443
-      - h3816tw.strongpipe.live:20444
-      - h3816tw.strongpipe.live:20445
-      - h3816tw.strongpipe.live:20446
-      - h3816tw.strongpipe.live:20447
-      - h3816tw.strongpipe.live:20448
-      - h3816tw.strongpipe.live:20449
-      - h517439.strongpipe.live:11243
-      - h517439.strongpipe.live:11244
-      - h517439.strongpipe.live:11245
-      - h517439.strongpipe.live:11343
-      - h517439.strongpipe.live:11344
-      - h517439.strongpipe.live:11345
-      - h517439.strongpipe.live:11443
-      - h517439.strongpipe.live:11444
-      - h517439.strongpipe.live:11445
-      - h517439.strongpipe.live:11543
-      - h517439.strongpipe.live:11544
-      - h517439.strongpipe.live:11545
-      - h517439.strongpipe.live:11743
-      - h517439.strongpipe.live:11744
-      - h517439.strongpipe.live:11745
-      - h63956.strongpipe.live:11243
-      - h63956.strongpipe.live:11244
-      - h63956.strongpipe.live:11245
-      - h63956.strongpipe.live:11343
-      - h63956.strongpipe.live:11344
-      - h63956.strongpipe.live:11345
-      - h63956.strongpipe.live:11443
-      - h63956.strongpipe.live:11444
-      - h63956.strongpipe.live:11445
-      - h63956.strongpipe.live:11543
-      - h63956.strongpipe.live:11544
-      - h63956.strongpipe.live:11545
-      - h63956.strongpipe.live:11743
-      - h63956.strongpipe.live:11744
-      - h63956.strongpipe.live:11745
-      - h738106.strongpipe.live:11243
-      - h738106.strongpipe.live:11244
-      - h738106.strongpipe.live:11245
-      - h738106.strongpipe.live:11343
-      - h738106.strongpipe.live:11344
-      - h738106.strongpipe.live:11345
-      - h738106.strongpipe.live:11443
-      - h738106.strongpipe.live:11444
-      - h738106.strongpipe.live:11445
-      - h738106.strongpipe.live:11543
-      - h738106.strongpipe.live:11544
-      - h738106.strongpipe.live:11545
-      - h738106.strongpipe.live:11743
-      - h738106.strongpipe.live:11744
-      - h738106.strongpipe.live:11745
-      - h890361.strongpipe.live:11243
-      - h890361.strongpipe.live:11244
-      - h890361.strongpipe.live:11245
-      - h890361.strongpipe.live:11343
-      - h890361.strongpipe.live:11344
-      - h890361.strongpipe.live:11345
-      - h890361.strongpipe.live:11443
-      - h890361.strongpipe.live:11444
-      - h890361.strongpipe.live:11445
-      - h890361.strongpipe.live:11543
-      - h890361.strongpipe.live:11544
-      - h890361.strongpipe.live:11545
-      - h890361.strongpipe.live:11743
-      - h890361.strongpipe.live:11744
-      - h890361.strongpipe.live:11745
-      - h961359.strongpipe.live:11243
-      - h961359.strongpipe.live:11244
-      - h961359.strongpipe.live:11245
-      - h961359.strongpipe.live:11343
-      - h961359.strongpipe.live:11344
-      - h961359.strongpipe.live:11345
-      - h961359.strongpipe.live:11443
-      - h961359.strongpipe.live:11444
-      - h961359.strongpipe.live:11445
-      - h961359.strongpipe.live:11543
-      - h961359.strongpipe.live:11544
-      - h961359.strongpipe.live:11545
-      - h961359.strongpipe.live:11743
-      - h961359.strongpipe.live:11744
-      - h961359.strongpipe.live:11745
-      - h961684.strongpipe.live:11243
-      - h961684.strongpipe.live:11244
-      - h961684.strongpipe.live:11245
-      - h961684.strongpipe.live:11343
-      - h961684.strongpipe.live:11344
-      - h961684.strongpipe.live:11345
-      - h961684.strongpipe.live:11443
-      - h961684.strongpipe.live:11444
-      - h961684.strongpipe.live:11445
-      - h961684.strongpipe.live:11543
-      - h961684.strongpipe.live:11544
-      - h961684.strongpipe.live:11545
-      - h961684.strongpipe.live:11743
-      - h961684.strongpipe.live:11744
-      - h961684.strongpipe.live:11745
-      - _油管：全网最强白嫖 301
-      - _油管：全网最强白嫖
-      - 香港|10奈飞香港AZ中转
-      - 香港|22AZ中转
-      - 香港|03香港AZ中转
-      - 香港|13|香港AZ中转
-      - 香港丝袜奶茶+02-D
-      - 香港|10AZ中转
-      - 香港|08奈飞香港AZ中转
-      - 香港|17AZ中转
-      - 新加坡|03|OC奈飞香港AZ中转
-      - 新加坡|02|DO香港AZ中转
-      - 香港|21AZ中转
-      - 香港(youtube阿伟科技) 10
-      - 香港|07奈飞香港AZ中转
-      - 香港|07奈飞AZ三线中转
-      - 香港|17香港AZ中转
-      - 香港|12奈飞联通中转
-      - Lv1+香港+02+[1.5]
-      - Lv1+香港+01+[1.0]
-      - Lv1+香港+04+[2.0]
-      - Lv1+香港+03+[1.5]
-      - SG,
-      - HK,
-      - Az香港12
-      - Az香港12 2
-      - 「🇸🇬」翠冠梨 - 免流 x3
-      - 台湾Hinet-广移 | 解锁流媒体
-      - CN+1+|+openit.ml
-      - Alien
-      - 日本|软银|流媒体|标准1
-      - 日本|软银|流媒体|标准2
-      - 日本|NTT|标准2
-      - 日本|NTT|标准1
-      - 新加坡|HE|流媒体|标准1
-      - 新加坡|HE|流媒体|标准2
-      - 泰国|流媒体|标准2
+      - SZCM-HK-3[ran-out](https)
+      - CTVIP-HK-3[ran-out](https)
+      - CM-HK-3[ran-out](https)
+      - SZCM-JP-3[ran-out](https)
+      - CTVIP-JP-3[ran-out](https)
+      - CM-JP-3[ran-out](https)
+      - CU-JP-3[ran-out](https)
+      - CTVIP-DE-3[ran-out](https)
+      - CU-DE-3[ran-out](https)
+      - CM-TW-3[ran-out](https)
+      - CTVIP-US-3[ran-out](https)
+      - CU-US-3[ran-out](https)
+      - 🇭🇰 HTTPS | 香港 | 1
+      - 🇭🇰 HTTPS | 香港 | 2
+      - 🇭🇰 HTTPS | 香港 | 3
+      - 🇭🇰 HTTPS | 香港 | 4
+      - 🇭🇰 HTTPS | 香港 | 5
+      - 🇭🇰 HTTPS | 香港 | 6
+      - 🇭🇰 HTTPS | 香港 | 7
+      - 🇭🇰 HTTPS | 香港 | 8
+      - 🇭🇰 HTTPS | 香港 | 9
+      - 🇭🇰 HTTPS | 香港 | 10
+      - 🇭🇰 HTTPS | 香港 | 11
+      - 🇭🇰 HTTPS | 香港 | 12
+      - 🇭🇰 HTTPS | 香港 | 13
+      - 🇭🇰 HTTPS | 香港 | 14
+      - 🇭🇰 HTTPS | 香港 | 15
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
+      - 🇭🇰 HTTPS | 香港 | 19
+      - 🇭🇰 HTTPS | 香港 | 20
+      - 🇭🇰 HTTPS | 香港 | 21
+      - 🇯🇵 HTTPS | 日本 | 1
+      - 🇯🇵 HTTPS | 日本 | 2
+      - 🇯🇵 HTTPS | 日本 | 3
+      - 🇯🇵 HTTPS | 日本 | 4
+      - 🇯🇵 HTTPS | 日本 | 5
+      - 🇯🇵 HTTPS | 日本 | 6
+      - 🇯🇵 HTTPS | 日本 | 7
+      - 🇯🇵 HTTPS | 日本 | 8
+      - 🇯🇵 HTTPS | 日本 | 9
+      - 🇯🇵 HTTPS | 日本 | 10
+      - 🇯🇵 HTTPS | 日本 | 11
+      - 🇯🇵 HTTPS | 日本 | 12
+      - 🇯🇵 HTTPS | 日本 | 13
+      - 🇯🇵 HTTPS | 日本 | 14
+      - 🇯🇵 HTTPS | 日本 | 15
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+      - 🇯🇵 HTTPS | 日本 | 18
+      - 🇯🇵 HTTPS | 日本 | 19
+      - 🇯🇵 HTTPS | 日本 | 20
+      - 🇯🇵 HTTPS | 日本 | 21
+      - 🇺🇸 HTTPS | 美国 | 1
+      - 🇺🇸 HTTPS | 美国 | 2
+      - 🇺🇸 HTTPS | 美国 | 3
+      - 🇺🇸 HTTPS | 美国 | 4
+      - 🇺🇸 HTTPS | 美国 | 5
+      - 🇺🇸 HTTPS | 美国 | 6
+      - 🇺🇸 HTTPS | 美国 | 7
+      - 🇺🇸 HTTPS | 美国 | 8
+      - 🇺🇸 HTTPS | 美国 | 9
+      - 🇺🇸 HTTPS | 美国 | 10
+      - 🇺🇸 HTTPS | 美国 | 11
+      - 🇺🇸 HTTPS | 美国 | 12
+      - 🇺🇸 HTTPS | 美国 | 13
+      - 🇺🇸 HTTPS | 美国 | 14
+      - 🇺🇸 HTTPS | 美国 | 15
+      - 🇺🇸 HTTPS | 美国 | 16
+      - 🇺🇸 HTTPS | 美国 | 17
+      - 🇺🇸 HTTPS | 美国 | 18
+      - 🇺🇸 HTTPS | 美国 | 19
+      - 🇺🇸 HTTPS | 美国 | 20
+      - 🇺🇸 HTTPS | 美国 | 21
+      - 🇩🇪 HTTPS | 德国 | 1
+      - 🇩🇪 HTTPS | 德国 | 2
+      - 🇩🇪 HTTPS | 德国 | 3
+      - 🇩🇪 HTTPS | 德国 | 4
+      - 🇩🇪 HTTPS | 德国 | 5
+      - 🇩🇪 HTTPS | 德国 | 6
+      - 🇩🇪 HTTPS | 德国 | 7
+      - 🇩🇪 HTTPS | 德国 | 8
+      - 🇩🇪 HTTPS | 德国 | 9
+      - 🇩🇪 HTTPS | 德国 | 10
+      - 🇩🇪 HTTPS | 德国 | 11
+      - 🇩🇪 HTTPS | 德国 | 12
+      - 🇩🇪 HTTPS | 德国 | 13
+      - 🇩🇪 HTTPS | 德国 | 14
+      - 🇩🇪 HTTPS | 德国 | 15
+      - 🇩🇪 HTTPS | 德国 | 16
+      - 🇩🇪 HTTPS | 德国 | 17
+      - 🇩🇪 HTTPS | 德国 | 18
+      - 🇩🇪 HTTPS | 德国 | 19
+      - 🇩🇪 HTTPS | 德国 | 20
+      - 🇩🇪 HTTPS | 德国 | 21
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 8
+      - 🇨🇳 HTTPS | 台湾 | 9
+      - 🇨🇳 HTTPS | 台湾 | 10
+      - 🇨🇳 HTTPS | 台湾 | 11
+      - 🇨🇳 HTTPS | 台湾 | 12
+      - 🇨🇳 HTTPS | 台湾 | 13
+      - 🇨🇳 HTTPS | 台湾 | 14
+      - 🇨🇳 HTTPS | 台湾 | 15
+      - 🇨🇳 HTTPS | 台湾 | 16
+      - 🇨🇳 HTTPS | 台湾 | 17
+      - 🇨🇳 HTTPS | 台湾 | 18
+      - 🇨🇳 HTTPS | 台湾 | 19
+      - 🇨🇳 HTTPS | 台湾 | 20
+      - 🇨🇳 HTTPS | 台湾 | 21
+      - 154.3.6.24:40088
+      - 154.9.204.15:60000
+      - 日本 301
+      - 日本 302
+      - 日本 303
+      - 日本 304
+      - 香港 301
+      - 香港 302
+      - 香港 304
+      - 台湾 301
+      - 台湾 302
+      - 新加坡 301
+      - 新加坡 302
  
   - name: 🖐 手动选择
     type: select
     proxies:
-      - ♻️ 自动选择
-      - h192837.strongpipe.live:11243
-      - h192837.strongpipe.live:11244
-      - h192837.strongpipe.live:11245
-      - h192837.strongpipe.live:11343
-      - h192837.strongpipe.live:11344
-      - h192837.strongpipe.live:11345
-      - h192837.strongpipe.live:11443
-      - h192837.strongpipe.live:11444
-      - h192837.strongpipe.live:11445
-      - h192837.strongpipe.live:11543
-      - h192837.strongpipe.live:11544
-      - h192837.strongpipe.live:11545
-      - h192837.strongpipe.live:11743
-      - h192837.strongpipe.live:11744
-      - h192837.strongpipe.live:11745
-      - h3816tw.strongpipe.live:20443
-      - h3816tw.strongpipe.live:20444
-      - h3816tw.strongpipe.live:20445
-      - h3816tw.strongpipe.live:20446
-      - h3816tw.strongpipe.live:20447
-      - h3816tw.strongpipe.live:20448
-      - h3816tw.strongpipe.live:20449
-      - h517439.strongpipe.live:11243
-      - h517439.strongpipe.live:11244
-      - h517439.strongpipe.live:11245
-      - h517439.strongpipe.live:11343
-      - h517439.strongpipe.live:11344
-      - h517439.strongpipe.live:11345
-      - h517439.strongpipe.live:11443
-      - h517439.strongpipe.live:11444
-      - h517439.strongpipe.live:11445
-      - h517439.strongpipe.live:11543
-      - h517439.strongpipe.live:11544
-      - h517439.strongpipe.live:11545
-      - h517439.strongpipe.live:11743
-      - h517439.strongpipe.live:11744
-      - h517439.strongpipe.live:11745
-      - h63956.strongpipe.live:11243
-      - h63956.strongpipe.live:11244
-      - h63956.strongpipe.live:11245
-      - h63956.strongpipe.live:11343
-      - h63956.strongpipe.live:11344
-      - h63956.strongpipe.live:11345
-      - h63956.strongpipe.live:11443
-      - h63956.strongpipe.live:11444
-      - h63956.strongpipe.live:11445
-      - h63956.strongpipe.live:11543
-      - h63956.strongpipe.live:11544
-      - h63956.strongpipe.live:11545
-      - h63956.strongpipe.live:11743
-      - h63956.strongpipe.live:11744
-      - h63956.strongpipe.live:11745
-      - h738106.strongpipe.live:11243
-      - h738106.strongpipe.live:11244
-      - h738106.strongpipe.live:11245
-      - h738106.strongpipe.live:11343
-      - h738106.strongpipe.live:11344
-      - h738106.strongpipe.live:11345
-      - h738106.strongpipe.live:11443
-      - h738106.strongpipe.live:11444
-      - h738106.strongpipe.live:11445
-      - h738106.strongpipe.live:11543
-      - h738106.strongpipe.live:11544
-      - h738106.strongpipe.live:11545
-      - h738106.strongpipe.live:11743
-      - h738106.strongpipe.live:11744
-      - h738106.strongpipe.live:11745
-      - h890361.strongpipe.live:11243
-      - h890361.strongpipe.live:11244
-      - h890361.strongpipe.live:11245
-      - h890361.strongpipe.live:11343
-      - h890361.strongpipe.live:11344
-      - h890361.strongpipe.live:11345
-      - h890361.strongpipe.live:11443
-      - h890361.strongpipe.live:11444
-      - h890361.strongpipe.live:11445
-      - h890361.strongpipe.live:11543
-      - h890361.strongpipe.live:11544
-      - h890361.strongpipe.live:11545
-      - h890361.strongpipe.live:11743
-      - h890361.strongpipe.live:11744
-      - h890361.strongpipe.live:11745
-      - h961359.strongpipe.live:11243
-      - h961359.strongpipe.live:11244
-      - h961359.strongpipe.live:11245
-      - h961359.strongpipe.live:11343
-      - h961359.strongpipe.live:11344
-      - h961359.strongpipe.live:11345
-      - h961359.strongpipe.live:11443
-      - h961359.strongpipe.live:11444
-      - h961359.strongpipe.live:11445
-      - h961359.strongpipe.live:11543
-      - h961359.strongpipe.live:11544
-      - h961359.strongpipe.live:11545
-      - h961359.strongpipe.live:11743
-      - h961359.strongpipe.live:11744
-      - h961359.strongpipe.live:11745
-      - h961684.strongpipe.live:11243
-      - h961684.strongpipe.live:11244
-      - h961684.strongpipe.live:11245
-      - h961684.strongpipe.live:11343
-      - h961684.strongpipe.live:11344
-      - h961684.strongpipe.live:11345
-      - h961684.strongpipe.live:11443
-      - h961684.strongpipe.live:11444
-      - h961684.strongpipe.live:11445
-      - h961684.strongpipe.live:11543
-      - h961684.strongpipe.live:11544
-      - h961684.strongpipe.live:11545
-      - h961684.strongpipe.live:11743
-      - h961684.strongpipe.live:11744
-      - h961684.strongpipe.live:11745
-      - _油管：全网最强白嫖 301
-      - _油管：全网最强白嫖
-      - 香港|10奈飞香港AZ中转
-      - 香港|22AZ中转
-      - 香港|03香港AZ中转
-      - 香港|13|香港AZ中转
-      - 香港丝袜奶茶+02-D
-      - 香港|10AZ中转
-      - 香港|08奈飞香港AZ中转
-      - 香港|17AZ中转
-      - 新加坡|03|OC奈飞香港AZ中转
-      - 新加坡|02|DO香港AZ中转
-      - 香港|21AZ中转
-      - 香港(youtube阿伟科技) 10
-      - 香港|07奈飞香港AZ中转
-      - 香港|07奈飞AZ三线中转
-      - 香港|17香港AZ中转
-      - 香港|12奈飞联通中转
-      - Lv1+香港+02+[1.5]
-      - Lv1+香港+01+[1.0]
-      - Lv1+香港+04+[2.0]
-      - Lv1+香港+03+[1.5]
-      - SG,
-      - HK,
-      - Az香港12
-      - Az香港12 2
-      - 「🇸🇬」翠冠梨 - 免流 x3
-      - 台湾Hinet-广移 | 解锁流媒体
-      - CN+1+|+openit.ml
-      - Alien
-      - 日本|软银|流媒体|标准1
-      - 日本|软银|流媒体|标准2
-      - 日本|NTT|标准2
-      - 日本|NTT|标准1
-      - 新加坡|HE|流媒体|标准1
-      - 新加坡|HE|流媒体|标准2
-      - 泰国|流媒体|标准2
+      - SZCM-HK-3[ran-out](https)
+      - CTVIP-HK-3[ran-out](https)
+      - CM-HK-3[ran-out](https)
+      - SZCM-JP-3[ran-out](https)
+      - CTVIP-JP-3[ran-out](https)
+      - CM-JP-3[ran-out](https)
+      - CU-JP-3[ran-out](https)
+      - CTVIP-DE-3[ran-out](https)
+      - CU-DE-3[ran-out](https)
+      - CM-TW-3[ran-out](https)
+      - CTVIP-US-3[ran-out](https)
+      - CU-US-3[ran-out](https)
+      - 🇭🇰 HTTPS | 香港 | 1
+      - 🇭🇰 HTTPS | 香港 | 2
+      - 🇭🇰 HTTPS | 香港 | 3
+      - 🇭🇰 HTTPS | 香港 | 4
+      - 🇭🇰 HTTPS | 香港 | 5
+      - 🇭🇰 HTTPS | 香港 | 6
+      - 🇭🇰 HTTPS | 香港 | 7
+      - 🇭🇰 HTTPS | 香港 | 8
+      - 🇭🇰 HTTPS | 香港 | 9
+      - 🇭🇰 HTTPS | 香港 | 10
+      - 🇭🇰 HTTPS | 香港 | 11
+      - 🇭🇰 HTTPS | 香港 | 12
+      - 🇭🇰 HTTPS | 香港 | 13
+      - 🇭🇰 HTTPS | 香港 | 14
+      - 🇭🇰 HTTPS | 香港 | 15
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
+      - 🇭🇰 HTTPS | 香港 | 19
+      - 🇭🇰 HTTPS | 香港 | 20
+      - 🇭🇰 HTTPS | 香港 | 21
+      - 🇯🇵 HTTPS | 日本 | 1
+      - 🇯🇵 HTTPS | 日本 | 2
+      - 🇯🇵 HTTPS | 日本 | 3
+      - 🇯🇵 HTTPS | 日本 | 4
+      - 🇯🇵 HTTPS | 日本 | 5
+      - 🇯🇵 HTTPS | 日本 | 6
+      - 🇯🇵 HTTPS | 日本 | 7
+      - 🇯🇵 HTTPS | 日本 | 8
+      - 🇯🇵 HTTPS | 日本 | 9
+      - 🇯🇵 HTTPS | 日本 | 10
+      - 🇯🇵 HTTPS | 日本 | 11
+      - 🇯🇵 HTTPS | 日本 | 12
+      - 🇯🇵 HTTPS | 日本 | 13
+      - 🇯🇵 HTTPS | 日本 | 14
+      - 🇯🇵 HTTPS | 日本 | 15
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+      - 🇯🇵 HTTPS | 日本 | 18
+      - 🇯🇵 HTTPS | 日本 | 19
+      - 🇯🇵 HTTPS | 日本 | 20
+      - 🇯🇵 HTTPS | 日本 | 21
+      - 🇺🇸 HTTPS | 美国 | 1
+      - 🇺🇸 HTTPS | 美国 | 2
+      - 🇺🇸 HTTPS | 美国 | 3
+      - 🇺🇸 HTTPS | 美国 | 4
+      - 🇺🇸 HTTPS | 美国 | 5
+      - 🇺🇸 HTTPS | 美国 | 6
+      - 🇺🇸 HTTPS | 美国 | 7
+      - 🇺🇸 HTTPS | 美国 | 8
+      - 🇺🇸 HTTPS | 美国 | 9
+      - 🇺🇸 HTTPS | 美国 | 10
+      - 🇺🇸 HTTPS | 美国 | 11
+      - 🇺🇸 HTTPS | 美国 | 12
+      - 🇺🇸 HTTPS | 美国 | 13
+      - 🇺🇸 HTTPS | 美国 | 14
+      - 🇺🇸 HTTPS | 美国 | 15
+      - 🇺🇸 HTTPS | 美国 | 16
+      - 🇺🇸 HTTPS | 美国 | 17
+      - 🇺🇸 HTTPS | 美国 | 18
+      - 🇺🇸 HTTPS | 美国 | 19
+      - 🇺🇸 HTTPS | 美国 | 20
+      - 🇺🇸 HTTPS | 美国 | 21
+      - 🇩🇪 HTTPS | 德国 | 1
+      - 🇩🇪 HTTPS | 德国 | 2
+      - 🇩🇪 HTTPS | 德国 | 3
+      - 🇩🇪 HTTPS | 德国 | 4
+      - 🇩🇪 HTTPS | 德国 | 5
+      - 🇩🇪 HTTPS | 德国 | 6
+      - 🇩🇪 HTTPS | 德国 | 7
+      - 🇩🇪 HTTPS | 德国 | 8
+      - 🇩🇪 HTTPS | 德国 | 9
+      - 🇩🇪 HTTPS | 德国 | 10
+      - 🇩🇪 HTTPS | 德国 | 11
+      - 🇩🇪 HTTPS | 德国 | 12
+      - 🇩🇪 HTTPS | 德国 | 13
+      - 🇩🇪 HTTPS | 德国 | 14
+      - 🇩🇪 HTTPS | 德国 | 15
+      - 🇩🇪 HTTPS | 德国 | 16
+      - 🇩🇪 HTTPS | 德国 | 17
+      - 🇩🇪 HTTPS | 德国 | 18
+      - 🇩🇪 HTTPS | 德国 | 19
+      - 🇩🇪 HTTPS | 德国 | 20
+      - 🇩🇪 HTTPS | 德国 | 21
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 8
+      - 🇨🇳 HTTPS | 台湾 | 9
+      - 🇨🇳 HTTPS | 台湾 | 10
+      - 🇨🇳 HTTPS | 台湾 | 11
+      - 🇨🇳 HTTPS | 台湾 | 12
+      - 🇨🇳 HTTPS | 台湾 | 13
+      - 🇨🇳 HTTPS | 台湾 | 14
+      - 🇨🇳 HTTPS | 台湾 | 15
+      - 🇨🇳 HTTPS | 台湾 | 16
+      - 🇨🇳 HTTPS | 台湾 | 17
+      - 🇨🇳 HTTPS | 台湾 | 18
+      - 🇨🇳 HTTPS | 台湾 | 19
+      - 🇨🇳 HTTPS | 台湾 | 20
+      - 🇨🇳 HTTPS | 台湾 | 21
+      - 154.3.6.24:40088
+      - 154.9.204.15:60000
+      - 日本 301
+      - 日本 302
+      - 日本 303
+      - 日本 304
+      - 香港 301
+      - 香港 302
+      - 香港 304
+      - 台湾 301
+      - 台湾 302
+      - 新加坡 301
+      - 新加坡 302
  
   - name: 🇺🇸 美区
     type: url-test
@@ -490,65 +1319,89 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - h192837.strongpipe.live:11243
-      - h192837.strongpipe.live:11244
-      - h192837.strongpipe.live:11245
-      - h192837.strongpipe.live:11343
-      - h192837.strongpipe.live:11344
-      - h192837.strongpipe.live:11345
-      - h192837.strongpipe.live:11443
-      - h192837.strongpipe.live:11444
-      - h192837.strongpipe.live:11445
-      - h192837.strongpipe.live:11543
-      - h192837.strongpipe.live:11544
-      - h192837.strongpipe.live:11545
-      - h192837.strongpipe.live:11743
-      - h192837.strongpipe.live:11744
-      - h192837.strongpipe.live:11745
-
+      - CTVIP-US-3[ran-out](https)
+      - CU-US-3[ran-out](https)
+      - 🇺🇸 HTTPS | 美国 | 1
+      - 🇺🇸 HTTPS | 美国 | 2
+      - 🇺🇸 HTTPS | 美国 | 3
+      - 🇺🇸 HTTPS | 美国 | 4
+      - 🇺🇸 HTTPS | 美国 | 5
+      - 🇺🇸 HTTPS | 美国 | 6
+      - 🇺🇸 HTTPS | 美国 | 7
+      - 🇺🇸 HTTPS | 美国 | 8
+      - 🇺🇸 HTTPS | 美国 | 9
+      - 🇺🇸 HTTPS | 美国 | 10
+      - 🇺🇸 HTTPS | 美国 | 11
+      - 🇺🇸 HTTPS | 美国 | 12
+      - 🇺🇸 HTTPS | 美国 | 13
+      - 🇺🇸 HTTPS | 美国 | 14
+      - 🇺🇸 HTTPS | 美国 | 15
+      - 🇺🇸 HTTPS | 美国 | 16
+      - 🇺🇸 HTTPS | 美国 | 17
+      - 🇺🇸 HTTPS | 美国 | 18
+      - 🇺🇸 HTTPS | 美国 | 19
+      - 🇺🇸 HTTPS | 美国 | 20
+      - 🇺🇸 HTTPS | 美国 | 21
   - name: 🇩🇪 德区
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     proxies:
-      - h517439.strongpipe.live:11243
-      - h517439.strongpipe.live:11244
-      - h517439.strongpipe.live:11245
-      - h517439.strongpipe.live:11343
-      - h517439.strongpipe.live:11344
-      - h517439.strongpipe.live:11345
-      - h517439.strongpipe.live:11443
-      - h517439.strongpipe.live:11444
-      - h517439.strongpipe.live:11445
-      - h517439.strongpipe.live:11543
-      - h517439.strongpipe.live:11544
-      - h517439.strongpipe.live:11545
-      - h517439.strongpipe.live:11743
-      - h517439.strongpipe.live:11744
-      - h517439.strongpipe.live:11745
-
+      - CTVIP-DE-3[ran-out](https)
+      - CU-DE-3[ran-out](https)
+      - 🇩🇪 HTTPS | 德国 | 1
+      - 🇩🇪 HTTPS | 德国 | 2
+      - 🇩🇪 HTTPS | 德国 | 3
+      - 🇩🇪 HTTPS | 德国 | 4
+      - 🇩🇪 HTTPS | 德国 | 5
+      - 🇩🇪 HTTPS | 德国 | 6
+      - 🇩🇪 HTTPS | 德国 | 7
+      - 🇩🇪 HTTPS | 德国 | 8
+      - 🇩🇪 HTTPS | 德国 | 9
+      - 🇩🇪 HTTPS | 德国 | 10
+      - 🇩🇪 HTTPS | 德国 | 11
+      - 🇩🇪 HTTPS | 德国 | 12
+      - 🇩🇪 HTTPS | 德国 | 13
+      - 🇩🇪 HTTPS | 德国 | 14
+      - 🇩🇪 HTTPS | 德国 | 15
+      - 🇩🇪 HTTPS | 德国 | 16
+      - 🇩🇪 HTTPS | 德国 | 17
+      - 🇩🇪 HTTPS | 德国 | 18
+      - 🇩🇪 HTTPS | 德国 | 19
+      - 🇩🇪 HTTPS | 德国 | 20
+      - 🇩🇪 HTTPS | 德国 | 21
   - name: 🇯🇵 日区
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     proxies:
-      - h63956.strongpipe.live:11243
-      - h63956.strongpipe.live:11244
-      - h63956.strongpipe.live:11245
-      - h63956.strongpipe.live:11343
-      - h63956.strongpipe.live:11344
-      - h63956.strongpipe.live:11345
-      - h63956.strongpipe.live:11443
-      - h63956.strongpipe.live:11444
-      - h63956.strongpipe.live:11445
-      - h63956.strongpipe.live:11543
-      - h63956.strongpipe.live:11544
-      - h63956.strongpipe.live:11545
-      - h63956.strongpipe.live:11743
-      - h63956.strongpipe.live:11744
-      - h63956.strongpipe.live:11745
+      - SZCM-JP-3[ran-out](https)
+      - CTVIP-JP-3[ran-out](https)
+      - CM-JP-3[ran-out](https)
+      - CU-JP-3[ran-out](https)
+      - 🇯🇵 HTTPS | 日本 | 1
+      - 🇯🇵 HTTPS | 日本 | 2
+      - 🇯🇵 HTTPS | 日本 | 3
+      - 🇯🇵 HTTPS | 日本 | 4
+      - 🇯🇵 HTTPS | 日本 | 5
+      - 🇯🇵 HTTPS | 日本 | 6
+      - 🇯🇵 HTTPS | 日本 | 7
+      - 🇯🇵 HTTPS | 日本 | 8
+      - 🇯🇵 HTTPS | 日本 | 9
+      - 🇯🇵 HTTPS | 日本 | 10
+      - 🇯🇵 HTTPS | 日本 | 11
+      - 🇯🇵 HTTPS | 日本 | 12
+      - 🇯🇵 HTTPS | 日本 | 13
+      - 🇯🇵 HTTPS | 日本 | 14
+      - 🇯🇵 HTTPS | 日本 | 15
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+      - 🇯🇵 HTTPS | 日本 | 18
+      - 🇯🇵 HTTPS | 日本 | 19
+      - 🇯🇵 HTTPS | 日本 | 20
+      - 🇯🇵 HTTPS | 日本 | 21
 
   - name: 🇭🇰 港区
     type: url-test
@@ -556,101 +1409,65 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - h738106.strongpipe.live:11243
-      - h738106.strongpipe.live:11244
-      - h738106.strongpipe.live:11245
-      - h738106.strongpipe.live:11343
-      - h738106.strongpipe.live:11344
-      - h738106.strongpipe.live:11345
-      - h738106.strongpipe.live:11443
-      - h738106.strongpipe.live:11444
-      - h738106.strongpipe.live:11445
-      - h738106.strongpipe.live:11543
-      - h738106.strongpipe.live:11544
-      - h738106.strongpipe.live:11545
-      - h738106.strongpipe.live:11743
-      - h738106.strongpipe.live:11744
-      - h738106.strongpipe.live:11745
+      - SZCM-HK-3[ran-out](https)
+      - CTVIP-HK-3[ran-out](https)
+      - CM-HK-3[ran-out](https)
+      - 🇭🇰 HTTPS | 香港 | 1
+      - 🇭🇰 HTTPS | 香港 | 2
+      - 🇭🇰 HTTPS | 香港 | 3
+      - 🇭🇰 HTTPS | 香港 | 4
+      - 🇭🇰 HTTPS | 香港 | 5
+      - 🇭🇰 HTTPS | 香港 | 6
+      - 🇭🇰 HTTPS | 香港 | 7
+      - 🇭🇰 HTTPS | 香港 | 8
+      - 🇭🇰 HTTPS | 香港 | 9
+      - 🇭🇰 HTTPS | 香港 | 10
+      - 🇭🇰 HTTPS | 香港 | 11
+      - 🇭🇰 HTTPS | 香港 | 12
+      - 🇭🇰 HTTPS | 香港 | 13
+      - 🇭🇰 HTTPS | 香港 | 14
+      - 🇭🇰 HTTPS | 香港 | 15
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
+      - 🇭🇰 HTTPS | 香港 | 19
+      - 🇭🇰 HTTPS | 香港 | 20
+      - 🇭🇰 HTTPS | 香港 | 21
 
-  - name: cn 台湾区
+  - name: 🇨🇳 台湾区
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     proxies:
-      - h3816tw.strongpipe.live:20443
-      - h3816tw.strongpipe.live:20444
-      - h3816tw.strongpipe.live:20445
-      - h3816tw.strongpipe.live:20446
-      - h3816tw.strongpipe.live:20447
-      - h3816tw.strongpipe.live:20448
-      - h3816tw.strongpipe.live:20449
-
-  - name: sg 新加坡区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - h890361.strongpipe.live:11243
-      - h890361.strongpipe.live:11244
-      - h890361.strongpipe.live:11245
-      - h890361.strongpipe.live:11343
-      - h890361.strongpipe.live:11344
-      - h890361.strongpipe.live:11345
-      - h890361.strongpipe.live:11443
-      - h890361.strongpipe.live:11444
-      - h890361.strongpipe.live:11445
-      - h890361.strongpipe.live:11543
-      - h890361.strongpipe.live:11544
-      - h890361.strongpipe.live:11545
-      - h890361.strongpipe.live:11743
-      - h890361.strongpipe.live:11744
-      - h890361.strongpipe.live:11745
-
-  - name: ko 韩国区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - h961359.strongpipe.live:11243
-      - h961359.strongpipe.live:11244
-      - h961359.strongpipe.live:11245
-      - h961359.strongpipe.live:11343
-      - h961359.strongpipe.live:11344
-      - h961359.strongpipe.live:11345
-      - h961359.strongpipe.live:11443
-      - h961359.strongpipe.live:11444
-      - h961359.strongpipe.live:11445
-      - h961359.strongpipe.live:11543
-      - h961359.strongpipe.live:11544
-      - h961359.strongpipe.live:11545
-      - h961359.strongpipe.live:11743
-      - h961359.strongpipe.live:11744
-      - h961359.strongpipe.live:11745
-
-  - name: ca 中国区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - h961684.strongpipe.live:11243
-      - h961684.strongpipe.live:11244
-      - h961684.strongpipe.live:11245
-      - h961684.strongpipe.live:11343
-      - h961684.strongpipe.live:11344
-      - h961684.strongpipe.live:11345
-      - h961684.strongpipe.live:11443
-      - h961684.strongpipe.live:11444
-      - h961684.strongpipe.live:11445
-      - h961684.strongpipe.live:11543
-      - h961684.strongpipe.live:11544
-      - h961684.strongpipe.live:11545
-      - h961684.strongpipe.live:11743
-      - h961684.strongpipe.live:11744
-      - h961684.strongpipe.live:11745
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 1
+      - 🇨🇳 HTTPS | 台湾 | 2
+      - 🇨🇳 HTTPS | 台湾 | 3
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 5
+      - 🇨🇳 HTTPS | 台湾 | 6
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇨🇳 HTTPS | 台湾 | 8
+      - 🇨🇳 HTTPS | 台湾 | 9
+      - 🇨🇳 HTTPS | 台湾 | 10
+      - 🇨🇳 HTTPS | 台湾 | 11
+      - 🇨🇳 HTTPS | 台湾 | 12
+      - 🇨🇳 HTTPS | 台湾 | 13
+      - 🇨🇳 HTTPS | 台湾 | 14
+      - 🇨🇳 HTTPS | 台湾 | 15
+      - 🇨🇳 HTTPS | 台湾 | 16
+      - 🇨🇳 HTTPS | 台湾 | 17
+      - 🇨🇳 HTTPS | 台湾 | 18
+      - 🇨🇳 HTTPS | 台湾 | 19
+      - 🇨🇳 HTTPS | 台湾 | 20
+      - 🇨🇳 HTTPS | 台湾 | 21
 
   - name: SSR 区
     type: url-test
@@ -658,44 +1475,20 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - _油管：全网最强白嫖 301
-      - _油管：全网最强白嫖
-      - 香港|10奈飞香港AZ中转
-      - 香港|22AZ中转
-      - 香港|03香港AZ中转
-      - 香港|13|香港AZ中转
-      - 香港丝袜奶茶+02-D
-      - 香港|10AZ中转
-      - 香港|08奈飞香港AZ中转
-      - 香港|17AZ中转
-      - 新加坡|03|OC奈飞香港AZ中转
-      - 新加坡|02|DO香港AZ中转
-      - 香港|21AZ中转
-      - 香港(youtube阿伟科技) 10
-      - 香港|07奈飞香港AZ中转
-      - 香港|07奈飞AZ三线中转
-      - 香港|17香港AZ中转
-      - 香港|12奈飞联通中转
-      - Lv1+香港+02+[1.5]
-      - Lv1+香港+01+[1.0]
-      - Lv1+香港+04+[2.0]
-      - Lv1+香港+03+[1.5]
-      - SG,
-      - HK,
-      - Az香港12
-      - Az香港12 2
-      - 「🇸🇬」翠冠梨 - 免流 x3
-      - 台湾Hinet-广移 | 解锁流媒体
-      - CN+1+|+openit.ml
-      - Alien
-      - 日本|软银|流媒体|标准1
-      - 日本|软银|流媒体|标准2
-      - 日本|NTT|标准2
-      - 日本|NTT|标准1
-      - 新加坡|HE|流媒体|标准1
-      - 新加坡|HE|流媒体|标准2
-      - 泰国|流媒体|标准2
-
+      - 154.3.6.24:40088
+      - 154.9.204.15:60000
+      - 日本 301
+      - 日本 302
+      - 日本 303
+      - 日本 304
+      - 香港 301
+      - 香港 302
+      - 香港 304
+      - 台湾 301
+      - 台湾 302
+      - 新加坡 301
+      - 新加坡 302
+ 
   - name: 🎯 全球直连
     type: select
     proxies:
