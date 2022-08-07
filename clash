@@ -38,9 +38,6 @@ proxies:
   - {name: US_87, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: US_90, server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: US_96, server: 38.114.114.67, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CN 2 → TG@SCINV, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: CN 2 → TG@SCINV 2, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
   - {name: DE_168, server: 193.108.117.75, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: DE_172, server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: HK HKG GZ.HK HKT TR B(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
@@ -122,9 +119,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -205,9 +199,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -289,9 +280,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -385,9 +373,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -475,9 +460,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -558,9 +540,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -642,9 +621,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
@@ -735,9 +711,6 @@ proxy-groups:
       - US_87
       - US_90
       - US_96
-      - CN 2 → TG@SCINV
-      - CN 2 → TG@SCINV 2
-      - :德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
       - DE_168
       - DE_172
       - HK HKG GZ.HK HKT TR B(trojan)
