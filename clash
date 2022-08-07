@@ -39,8 +39,6 @@ proxies:
   - {name: _US_美国_41, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _US_美国_22, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国_15, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix, server: 167.88.63.59, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 新加坡_0802021, server: 139.162.7.177, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nkpvpn.site, ws-headers: {Host: 139.162.7.177}, udp: true}
   - {name: 新加坡_0802005, server: bai-piao-wang-zhe12.98848.xyz, port: 36736, type: vmess, uuid: 50a9c98e-8c48-4680-feff-a7ea34705ae9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ytryr6, ws-headers: {Host: bai-piao-wang-zhe12.98848.xyz}, udp: true}
   - {name: 新加坡 003, server: sghe.tjvpn.org, port: 443, type: trojan, password: 363b95c0-e9ec-11ec-b631-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
@@ -128,8 +126,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -216,8 +212,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -305,8 +299,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -406,8 +398,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -501,8 +491,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -589,8 +577,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -678,8 +664,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
@@ -776,8 +760,6 @@ proxy-groups:
       - _US_美国_41
       - _US_美国_22
       - _US_美国_15
-      - :美国-ss-167.88.63.59:8881-可用-直连-不支持Netflix
-      - :美国-ss-167.88.63.59:6697-可用-直连-不支持Netflix
       - 新加坡_0802021
       - 新加坡_0802005
       - 新加坡 003
