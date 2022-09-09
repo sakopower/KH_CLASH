@@ -5,1501 +5,240 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 dns:
-    enable: false
-    listen: 0.0.0.0:53
-    nameserver:
-      - 223.5.5.5
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: true
+  default-nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - '*.linksys.com'
+  - '*.linksyssmartwifi.com'
+  - swscan.apple.com
+  - mesu.apple.com
+  - '*.msftconnecttest.com'
+  - '*.msftncsi.com'
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - '*.time.edu.cn'
+  - '*.ntp.org.cn'
+  - +.pool.ntp.org
+  - time1.cloud.tencent.com
+  - +.music.163.com
+  - '*.126.net'
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - '*.kuwo.cn'
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - +.y.qq.com
+  - +.music.tc.qq.com
+  - aqqmusic.tc.qq.com
+  - +.stream.qqmusic.qq.com
+  - '*.xiami.com'
+  - +.music.migu.cn
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
+  - localhost.ptlogin2.qq.com
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - '*.mcdn.bilivideo.cn'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
 proxies:
-  - name: SZCM-HK-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h63956.strongpipe.live
-    port: 11545
-    tls: true
-    skip-cert-verify: true
-  - name: CTVIP-HK-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961359.strongpipe.live
-    port: 11545
-    tls: true
-    skip-cert-verify: true
-  - name: CM-HK-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h890361.strongpipe.live
-    port: 11545
-    tls: true
-    skip-cert-verify: true
-  - name: SZCM-JP-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h63956.strongpipe.live
-    port: 11445
-    tls: true
-    skip-cert-verify: true
-  - name: CTVIP-JP-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961359.strongpipe.live
-    port: 11445
-    tls: true
-    skip-cert-verify: true
-  - name: CM-JP-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h890361.strongpipe.live
-    port: 11445
-    tls: true
-    skip-cert-verify: true
-  - name: CU-JP-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961684.strongpipe.live
-    port: 11445
-    tls: true
-    skip-cert-verify: true
-  - name: CTVIP-DE-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961359.strongpipe.live
-    port: 11745
-    tls: true
-    skip-cert-verify: true
-  - name: CU-DE-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961684.strongpipe.live
-    port: 11745
-    tls: true
-    skip-cert-verify: true
-  - name: CM-TW-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h3816tw.strongpipe.live
-    port: 20443
-    tls: true
-    skip-cert-verify: true
-  - name: CTVIP-US-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961359.strongpipe.live
-    port: 11245
-    tls: true
-    skip-cert-verify: true
-  - name: CU-US-3[ran-out](https)
-    username: dcf12c7e7d
-    password: 26bae9b023
-    type: http
-    server: h961684.strongpipe.live
-    port: 11245
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 1
-    server: h192837.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 2
-    server: h192837.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 3
-    server: h192837.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 4
-    server: h517439.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 5
-    server: h517439.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 6
-    server: h517439.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 7
-    server: h63956.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 8
-    server: h63956.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 9
-    server: h63956.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 10
-    server: h738106.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 11
-    server: h738106.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 12
-    server: h738106.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 13
-    server: h890361.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 14
-    server: h890361.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 15
-    server: h890361.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 16
-    server: h961359.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 17
-    server: h961359.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 18
-    server: h961359.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 19
-    server: h961684.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 20
-    server: h961684.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 HTTPS | 香港 | 21
-    server: h961684.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 1
-    server: h192837.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 2
-    server: h192837.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 3
-    server: h192837.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 4
-    server: h517439.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 5
-    server: h517439.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 6
-    server: h517439.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 7
-    server: h63956.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 8
-    server: h63956.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 9
-    server: h63956.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 10
-    server: h738106.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 11
-    server: h738106.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 12
-    server: h738106.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 13
-    server: h890361.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 14
-    server: h890361.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 15
-    server: h890361.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 16
-    server: h961359.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 17
-    server: h961359.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 18
-    server: h961359.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 19
-    server: h961684.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 20
-    server: h961684.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 HTTPS | 日本 | 21
-    server: h961684.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 1
-    server: h192837.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 2
-    server: h192837.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 3
-    server: h192837.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 4
-    server: h517439.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 5
-    server: h517439.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 6
-    server: h517439.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 7
-    server: h63956.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 8
-    server: h63956.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 9
-    server: h63956.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 10
-    server: h738106.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 11
-    server: h738106.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 12
-    server: h738106.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 13
-    server: h890361.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 14
-    server: h890361.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 15
-    server: h890361.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 16
-    server: h961359.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 17
-    server: h961359.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 18
-    server: h961359.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 19
-    server: h961684.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 20
-    server: h961684.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 HTTPS | 美国 | 21
-    server: h961684.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 1
-    server: h192837.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 2
-    server: h192837.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 3
-    server: h192837.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 4
-    server: h517439.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 5
-    server: h517439.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 6
-    server: h517439.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 7
-    server: h63956.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 8
-    server: h63956.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 9
-    server: h63956.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 10
-    server: h738106.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 11
-    server: h738106.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 12
-    server: h738106.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 13
-    server: h890361.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 14
-    server: h890361.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 15
-    server: h890361.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 16
-    server: h961359.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 17
-    server: h961359.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 18
-    server: h961359.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 19
-    server: h961684.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 20
-    server: h961684.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 HTTPS | 德国 | 21
-    server: h961684.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 1
-    server: h3816tw.strongpipe.live
-    port: 20443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 2
-    server: h3816tw.strongpipe.live
-    port: 20444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 3
-    server: h3816tw.strongpipe.live
-    port: 20445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 4
-    server: h3816tw.strongpipe.live
-    port: 20446
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 5
-    server: h3816tw.strongpipe.live
-    port: 20447
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 6
-    server: h3816tw.strongpipe.live
-    port: 20448
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 7
-    server: h3816tw.strongpipe.live
-    port: 20449
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 8
-    server: h192837.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 9
-    server: h192837.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 10
-    server: h192837.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 11
-    server: h517439.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 12
-    server: h517439.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 13
-    server: h517439.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 14
-    server: h63956.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 15
-    server: h63956.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 16
-    server: h63956.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 17
-    server: h738106.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 18
-    server: h738106.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 19
-    server: h738106.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 20
-    server: h890361.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 21
-    server: h890361.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 22
-    server: h890361.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 23
-    server: h961359.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 24
-    server: h961359.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 25
-    server: h961359.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 26
-    server: h961684.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 27
-    server: h961684.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 HTTPS | 台湾 | 28
-    server: h961684.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - {name: TG频道https://t.me/iosfulishare+Standard|广新|IEPL|08+2, server: bs2-2.getnjnd.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: TG频道https://t.me/iosfulishare+Standard|广新|IEPL|05+2, server: bs2-2.getnjnd.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: "TG频道:@kxswa|Lv3+香港+07+[2.0]", server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: TG@hkaa0🇨🇳17, server: centos8.expirationv3.com, port: 8745, type: ss, cipher: aes-128-gcm, password: 9c072decffd326dfe7976480e8792404, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 中转+🇸🇬+SG+27+TG:@nodpai+(Beta), server: linux.nameserversv3.com, port: 9201, type: ss, cipher: aes-256-gcm, password: 2bf86435908573620556efdd3a4883ad, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 中转+🇸🇬+SG+35+TG:@nodpai+(Beta), server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: "TG频道:@kxswa|Lv3+香港+07+[2.0] 2", server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 中转+🇭🇰+HK+2+TG:@nodpai+(Beta), server: qkhxc.websitesv3.com, port: 9521, type: ss, cipher: aes-256-gcm, password: 6071345b7a58134cc962c96f7a502ae6, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: TG频道https://t.me/iosfulishare+Standard|广新|IEPL|07+2, server: bs2-2.getnjnd.com, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: TG频道https://t.me/iosfulishare+Standard|广新|IEPL|04+2, server: nm1-2.getnjnd.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: "TG频道:@kxswa|Lv3+台湾+01+[3.0]", server: centos8.expirationv3.com, port: 8755, type: ss, cipher: aes-128-gcm, password: 58f4886b76f38daeb78986eeb63bc406, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
+  - {"type":"http","name":"YouTube梦歌_16","server":"h3816tw.strongpipe.live","port":20443,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_17","server":"h3816tw.strongpipe.live","port":20444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_18","server":"h3816tw.strongpipe.live","port":20445,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_19","server":"h3816tw.strongpipe.live","port":20446,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_20","server":"h3816tw.strongpipe.live","port":20447,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_21","server":"h3816tw.strongpipe.live","port":20448,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"YouTube梦歌_22","server":"h3816tw.strongpipe.live","port":20449,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {name: CN 11, server: pull-cache-lu01.xyx-xylo.com, port: 19701, type: trojan, password: 79745894-044c-3298-a893-bbfcb6b24a2c, sni: pull-cache-lu01.xyx-xylo.com, skip-cert-verify: true, udp: true}
+  - {name: HK 12, server: gang3.hotfun.buzz, port: 24135, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: gang3.hotfun.buzz, skip-cert-verify: true, udp: true}
+  - {name: JP 15, server: ajpws.hotfun.buzz, port: 45123, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: ajpws.hotfun.buzz, skip-cert-verify: true, udp: true}
+  - {name: SG 21, server: asgws.hotfun.buzz, port: 23511, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: asgws.hotfun.buzz, skip-cert-verify: true, udp: true}
+  - {name: CK, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
   - {name: 台湾, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: Cow+Vagina_1, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 中转+🇸🇬+SG+31+TG:@nodpai+(Beta), server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: TG@hkaa0+🇨🇳+143, server: centos8.expirationv3.com, port: 8748, type: ss, cipher: aes-128-gcm, password: 7158933f8a144bd3c8b777983428ed44, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: TG频道https://t.me/iosfulishare+Standard|广台|IEPL|06+2, server: bs2-2.getnjnd.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: TG@hkaa0+🇨🇳+142, server: centos8.expirationv3.com, port: 8755, type: ss, cipher: aes-128-gcm, password: 58f4886b76f38daeb78986eeb63bc406, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 台湾 2, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 台湾02, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 台北Sky-dip, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "Lv3+香港+09+[2.0]", server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 中转+🇹🇼+TW+62+TG:@nodpai+(Beta), server: debian10.domainsv3.com, port: 8002, type: ss, cipher: chacha20-ietf-poly1305, password: b725df014956e837936b4fa5dbf88f04, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
+  - {name: YouTube:全网最强白嫖, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 不限速千兆-tw1115, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-aweikeji, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-aweikeji 2, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 不限速千兆-tw247, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: _YouTube：全网最强白嫖, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)", server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管-阿伟科技+12, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 台北Hinet, server: 60.249.3.125, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Hinet 2, server: 60.249.3.227, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Hinet 3, server: 60.249.3.231, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Hinet 4, server: 60.249.3.226, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Hinet 5, server: 60.249.3.229, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台中Hinet, server: 211.72.35.152, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Hinet 6, server: 60.249.3.230, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 华南1, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "台湾+🛩️PapaLaozi\n38", server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 台北Hinet 7, server: 60.249.3.228, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: "️PapaLaozi\n139", server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG@hkaa0🇨🇳33, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _Cow+Vagina_33, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
+  - {name: TG@hkaa0🇨🇳33 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道https://t.me/iosfulishare 🇨🇳7, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: da.kanao.xyz, port: 58819, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🖐 手动选择
-      - 🇺🇸 美区
-      - 🇯🇵 日区
-      - 🇭🇰 港区
-      - 🇩🇪 德区
-      - 🇨🇳 台湾区
+      - cn 台湾区
+      - ca 中国区
       - SSR 区
-
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SZCM-HK-3[ran-out](https)
-      - CTVIP-HK-3[ran-out](https)
-      - CM-HK-3[ran-out](https)
-      - SZCM-JP-3[ran-out](https)
-      - CTVIP-JP-3[ran-out](https)
-      - CM-JP-3[ran-out](https)
-      - CU-JP-3[ran-out](https)
-      - CTVIP-DE-3[ran-out](https)
-      - CU-DE-3[ran-out](https)
-      - CM-TW-3[ran-out](https)
-      - CTVIP-US-3[ran-out](https)
-      - CU-US-3[ran-out](https)
-      - 🇭🇰 HTTPS | 香港 | 1
-      - 🇭🇰 HTTPS | 香港 | 2
-      - 🇭🇰 HTTPS | 香港 | 3
-      - 🇭🇰 HTTPS | 香港 | 4
-      - 🇭🇰 HTTPS | 香港 | 5
-      - 🇭🇰 HTTPS | 香港 | 6
-      - 🇭🇰 HTTPS | 香港 | 7
-      - 🇭🇰 HTTPS | 香港 | 8
-      - 🇭🇰 HTTPS | 香港 | 9
-      - 🇭🇰 HTTPS | 香港 | 10
-      - 🇭🇰 HTTPS | 香港 | 11
-      - 🇭🇰 HTTPS | 香港 | 12
-      - 🇭🇰 HTTPS | 香港 | 13
-      - 🇭🇰 HTTPS | 香港 | 14
-      - 🇭🇰 HTTPS | 香港 | 15
-      - 🇭🇰 HTTPS | 香港 | 16
-      - 🇭🇰 HTTPS | 香港 | 17
-      - 🇭🇰 HTTPS | 香港 | 18
-      - 🇭🇰 HTTPS | 香港 | 19
-      - 🇭🇰 HTTPS | 香港 | 20
-      - 🇭🇰 HTTPS | 香港 | 21
-      - 🇯🇵 HTTPS | 日本 | 1
-      - 🇯🇵 HTTPS | 日本 | 2
-      - 🇯🇵 HTTPS | 日本 | 3
-      - 🇯🇵 HTTPS | 日本 | 4
-      - 🇯🇵 HTTPS | 日本 | 5
-      - 🇯🇵 HTTPS | 日本 | 6
-      - 🇯🇵 HTTPS | 日本 | 7
-      - 🇯🇵 HTTPS | 日本 | 8
-      - 🇯🇵 HTTPS | 日本 | 9
-      - 🇯🇵 HTTPS | 日本 | 10
-      - 🇯🇵 HTTPS | 日本 | 11
-      - 🇯🇵 HTTPS | 日本 | 12
-      - 🇯🇵 HTTPS | 日本 | 13
-      - 🇯🇵 HTTPS | 日本 | 14
-      - 🇯🇵 HTTPS | 日本 | 15
-      - 🇯🇵 HTTPS | 日本 | 16
-      - 🇯🇵 HTTPS | 日本 | 17
-      - 🇯🇵 HTTPS | 日本 | 18
-      - 🇯🇵 HTTPS | 日本 | 19
-      - 🇯🇵 HTTPS | 日本 | 20
-      - 🇯🇵 HTTPS | 日本 | 21
-      - 🇺🇸 HTTPS | 美国 | 1
-      - 🇺🇸 HTTPS | 美国 | 2
-      - 🇺🇸 HTTPS | 美国 | 3
-      - 🇺🇸 HTTPS | 美国 | 4
-      - 🇺🇸 HTTPS | 美国 | 5
-      - 🇺🇸 HTTPS | 美国 | 6
-      - 🇺🇸 HTTPS | 美国 | 7
-      - 🇺🇸 HTTPS | 美国 | 8
-      - 🇺🇸 HTTPS | 美国 | 9
-      - 🇺🇸 HTTPS | 美国 | 10
-      - 🇺🇸 HTTPS | 美国 | 11
-      - 🇺🇸 HTTPS | 美国 | 12
-      - 🇺🇸 HTTPS | 美国 | 13
-      - 🇺🇸 HTTPS | 美国 | 14
-      - 🇺🇸 HTTPS | 美国 | 15
-      - 🇺🇸 HTTPS | 美国 | 16
-      - 🇺🇸 HTTPS | 美国 | 17
-      - 🇺🇸 HTTPS | 美国 | 18
-      - 🇺🇸 HTTPS | 美国 | 19
-      - 🇺🇸 HTTPS | 美国 | 20
-      - 🇺🇸 HTTPS | 美国 | 21
-      - 🇩🇪 HTTPS | 德国 | 1
-      - 🇩🇪 HTTPS | 德国 | 2
-      - 🇩🇪 HTTPS | 德国 | 3
-      - 🇩🇪 HTTPS | 德国 | 4
-      - 🇩🇪 HTTPS | 德国 | 5
-      - 🇩🇪 HTTPS | 德国 | 6
-      - 🇩🇪 HTTPS | 德国 | 7
-      - 🇩🇪 HTTPS | 德国 | 8
-      - 🇩🇪 HTTPS | 德国 | 9
-      - 🇩🇪 HTTPS | 德国 | 10
-      - 🇩🇪 HTTPS | 德国 | 11
-      - 🇩🇪 HTTPS | 德国 | 12
-      - 🇩🇪 HTTPS | 德国 | 13
-      - 🇩🇪 HTTPS | 德国 | 14
-      - 🇩🇪 HTTPS | 德国 | 15
-      - 🇩🇪 HTTPS | 德国 | 16
-      - 🇩🇪 HTTPS | 德国 | 17
-      - 🇩🇪 HTTPS | 德国 | 18
-      - 🇩🇪 HTTPS | 德国 | 19
-      - 🇩🇪 HTTPS | 德国 | 20
-      - 🇩🇪 HTTPS | 德国 | 21
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 8
-      - 🇨🇳 HTTPS | 台湾 | 9
-      - 🇨🇳 HTTPS | 台湾 | 10
-      - 🇨🇳 HTTPS | 台湾 | 11
-      - 🇨🇳 HTTPS | 台湾 | 12
-      - 🇨🇳 HTTPS | 台湾 | 13
-      - 🇨🇳 HTTPS | 台湾 | 14
-      - 🇨🇳 HTTPS | 台湾 | 15
-      - 🇨🇳 HTTPS | 台湾 | 16
-      - 🇨🇳 HTTPS | 台湾 | 17
-      - 🇨🇳 HTTPS | 台湾 | 18
-      - 🇨🇳 HTTPS | 台湾 | 19
-      - 🇨🇳 HTTPS | 台湾 | 20
-      - 🇨🇳 HTTPS | 台湾 | 21
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|08+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|05+2
-      - TG频道:@kxswa|Lv3+香港+07+[2.0]
-      - TG@hkaa0🇨🇳17
-      - 中转+🇸🇬+SG+27+TG:@nodpai+(Beta)
-      - 中转+🇸🇬+SG+35+TG:@nodpai+(Beta)
-      - TG频道:@kxswa|Lv3+香港+07+[2.0] 2
-      - 中转+🇭🇰+HK+2+TG:@nodpai+(Beta)
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|07+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|04+2
-      - _CN_中国->🇭🇰_HK_香港
-      - TG频道:@kxswa|Lv3+台湾+01+[3.0]
+      - YouTube梦歌_16
+      - YouTube梦歌_17
+      - YouTube梦歌_18
+      - YouTube梦歌_19
+      - YouTube梦歌_20
+      - YouTube梦歌_21
+      - YouTube梦歌_22
+      - CN 11
+      - HK 12
+      - JP 15
+      - SG 21
+      - CK
       - 台湾
       - Cow+Vagina_1
-      - 中转+🇸🇬+SG+31+TG:@nodpai+(Beta)
-      - TG@hkaa0+🇨🇳+143
-      - _CN_中国->🇭🇰_HK_香港 2
-      - TG频道https://t.me/iosfulishare+Standard|广台|IEPL|06+2
-      - TG@hkaa0+🇨🇳+142
-      - 台湾 2
-      - 台湾02
-      - 台北Sky-dip
-      - Lv3+香港+09+[2.0]
-      - 中转+🇹🇼+TW+62+TG:@nodpai+(Beta)
- 
+      - YouTube:全网最强白嫖
+      - 不限速千兆-tw1115
+      - 油管-aweikeji
+      - 油管-aweikeji 2
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
+      - 油管-阿伟科技+12
+      - 台北Hinet
+      - 台北Hinet 2
+      - 台北Hinet 3
+      - 台北Hinet 4
+      - 台北Hinet 5
+      - 台中Hinet
+      - 台北Hinet 6
+      - 华南1
+      - "台湾+🛩️PapaLaozi\n38"
+      - 台北Hinet 7
+      - "️PapaLaozi\n139"
+      - TG@hkaa0🇨🇳33
+      - _Cow+Vagina_33
+      - TG@hkaa0🇨🇳33 2
+      - TG频道https://t.me/iosfulishare 🇨🇳7
+      - _CN_中国->🇭🇰_HK_香港
+
   - name: 🖐 手动选择
     type: select
     proxies:
-      - SZCM-HK-3[ran-out](https)
-      - CTVIP-HK-3[ran-out](https)
-      - CM-HK-3[ran-out](https)
-      - SZCM-JP-3[ran-out](https)
-      - CTVIP-JP-3[ran-out](https)
-      - CM-JP-3[ran-out](https)
-      - CU-JP-3[ran-out](https)
-      - CTVIP-DE-3[ran-out](https)
-      - CU-DE-3[ran-out](https)
-      - CM-TW-3[ran-out](https)
-      - CTVIP-US-3[ran-out](https)
-      - CU-US-3[ran-out](https)
-      - 🇭🇰 HTTPS | 香港 | 1
-      - 🇭🇰 HTTPS | 香港 | 2
-      - 🇭🇰 HTTPS | 香港 | 3
-      - 🇭🇰 HTTPS | 香港 | 4
-      - 🇭🇰 HTTPS | 香港 | 5
-      - 🇭🇰 HTTPS | 香港 | 6
-      - 🇭🇰 HTTPS | 香港 | 7
-      - 🇭🇰 HTTPS | 香港 | 8
-      - 🇭🇰 HTTPS | 香港 | 9
-      - 🇭🇰 HTTPS | 香港 | 10
-      - 🇭🇰 HTTPS | 香港 | 11
-      - 🇭🇰 HTTPS | 香港 | 12
-      - 🇭🇰 HTTPS | 香港 | 13
-      - 🇭🇰 HTTPS | 香港 | 14
-      - 🇭🇰 HTTPS | 香港 | 15
-      - 🇭🇰 HTTPS | 香港 | 16
-      - 🇭🇰 HTTPS | 香港 | 17
-      - 🇭🇰 HTTPS | 香港 | 18
-      - 🇭🇰 HTTPS | 香港 | 19
-      - 🇭🇰 HTTPS | 香港 | 20
-      - 🇭🇰 HTTPS | 香港 | 21
-      - 🇯🇵 HTTPS | 日本 | 1
-      - 🇯🇵 HTTPS | 日本 | 2
-      - 🇯🇵 HTTPS | 日本 | 3
-      - 🇯🇵 HTTPS | 日本 | 4
-      - 🇯🇵 HTTPS | 日本 | 5
-      - 🇯🇵 HTTPS | 日本 | 6
-      - 🇯🇵 HTTPS | 日本 | 7
-      - 🇯🇵 HTTPS | 日本 | 8
-      - 🇯🇵 HTTPS | 日本 | 9
-      - 🇯🇵 HTTPS | 日本 | 10
-      - 🇯🇵 HTTPS | 日本 | 11
-      - 🇯🇵 HTTPS | 日本 | 12
-      - 🇯🇵 HTTPS | 日本 | 13
-      - 🇯🇵 HTTPS | 日本 | 14
-      - 🇯🇵 HTTPS | 日本 | 15
-      - 🇯🇵 HTTPS | 日本 | 16
-      - 🇯🇵 HTTPS | 日本 | 17
-      - 🇯🇵 HTTPS | 日本 | 18
-      - 🇯🇵 HTTPS | 日本 | 19
-      - 🇯🇵 HTTPS | 日本 | 20
-      - 🇯🇵 HTTPS | 日本 | 21
-      - 🇺🇸 HTTPS | 美国 | 1
-      - 🇺🇸 HTTPS | 美国 | 2
-      - 🇺🇸 HTTPS | 美国 | 3
-      - 🇺🇸 HTTPS | 美国 | 4
-      - 🇺🇸 HTTPS | 美国 | 5
-      - 🇺🇸 HTTPS | 美国 | 6
-      - 🇺🇸 HTTPS | 美国 | 7
-      - 🇺🇸 HTTPS | 美国 | 8
-      - 🇺🇸 HTTPS | 美国 | 9
-      - 🇺🇸 HTTPS | 美国 | 10
-      - 🇺🇸 HTTPS | 美国 | 11
-      - 🇺🇸 HTTPS | 美国 | 12
-      - 🇺🇸 HTTPS | 美国 | 13
-      - 🇺🇸 HTTPS | 美国 | 14
-      - 🇺🇸 HTTPS | 美国 | 15
-      - 🇺🇸 HTTPS | 美国 | 16
-      - 🇺🇸 HTTPS | 美国 | 17
-      - 🇺🇸 HTTPS | 美国 | 18
-      - 🇺🇸 HTTPS | 美国 | 19
-      - 🇺🇸 HTTPS | 美国 | 20
-      - 🇺🇸 HTTPS | 美国 | 21
-      - 🇩🇪 HTTPS | 德国 | 1
-      - 🇩🇪 HTTPS | 德国 | 2
-      - 🇩🇪 HTTPS | 德国 | 3
-      - 🇩🇪 HTTPS | 德国 | 4
-      - 🇩🇪 HTTPS | 德国 | 5
-      - 🇩🇪 HTTPS | 德国 | 6
-      - 🇩🇪 HTTPS | 德国 | 7
-      - 🇩🇪 HTTPS | 德国 | 8
-      - 🇩🇪 HTTPS | 德国 | 9
-      - 🇩🇪 HTTPS | 德国 | 10
-      - 🇩🇪 HTTPS | 德国 | 11
-      - 🇩🇪 HTTPS | 德国 | 12
-      - 🇩🇪 HTTPS | 德国 | 13
-      - 🇩🇪 HTTPS | 德国 | 14
-      - 🇩🇪 HTTPS | 德国 | 15
-      - 🇩🇪 HTTPS | 德国 | 16
-      - 🇩🇪 HTTPS | 德国 | 17
-      - 🇩🇪 HTTPS | 德国 | 18
-      - 🇩🇪 HTTPS | 德国 | 19
-      - 🇩🇪 HTTPS | 德国 | 20
-      - 🇩🇪 HTTPS | 德国 | 21
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 8
-      - 🇨🇳 HTTPS | 台湾 | 9
-      - 🇨🇳 HTTPS | 台湾 | 10
-      - 🇨🇳 HTTPS | 台湾 | 11
-      - 🇨🇳 HTTPS | 台湾 | 12
-      - 🇨🇳 HTTPS | 台湾 | 13
-      - 🇨🇳 HTTPS | 台湾 | 14
-      - 🇨🇳 HTTPS | 台湾 | 15
-      - 🇨🇳 HTTPS | 台湾 | 16
-      - 🇨🇳 HTTPS | 台湾 | 17
-      - 🇨🇳 HTTPS | 台湾 | 18
-      - 🇨🇳 HTTPS | 台湾 | 19
-      - 🇨🇳 HTTPS | 台湾 | 20
-      - 🇨🇳 HTTPS | 台湾 | 21
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|08+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|05+2
-      - TG频道:@kxswa|Lv3+香港+07+[2.0]
-      - TG@hkaa0🇨🇳17
-      - 中转+🇸🇬+SG+27+TG:@nodpai+(Beta)
-      - 中转+🇸🇬+SG+35+TG:@nodpai+(Beta)
-      - TG频道:@kxswa|Lv3+香港+07+[2.0] 2
-      - 中转+🇭🇰+HK+2+TG:@nodpai+(Beta)
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|07+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|04+2
-      - _CN_中国->🇭🇰_HK_香港
-      - TG频道:@kxswa|Lv3+台湾+01+[3.0]
+      - YouTube梦歌_16
+      - YouTube梦歌_17
+      - YouTube梦歌_18
+      - YouTube梦歌_19
+      - YouTube梦歌_20
+      - YouTube梦歌_21
+      - YouTube梦歌_22
+      - CN 11
+      - HK 12
+      - JP 15
+      - SG 21
+      - CK
       - 台湾
       - Cow+Vagina_1
-      - 中转+🇸🇬+SG+31+TG:@nodpai+(Beta)
-      - TG@hkaa0+🇨🇳+143
-      - _CN_中国->🇭🇰_HK_香港 2
-      - TG频道https://t.me/iosfulishare+Standard|广台|IEPL|06+2
-      - TG@hkaa0+🇨🇳+142
-      - 台湾 2
-      - 台湾02
-      - 台北Sky-dip
-      - Lv3+香港+09+[2.0]
-      - 中转+🇹🇼+TW+62+TG:@nodpai+(Beta)
+      - YouTube:全网最强白嫖
+      - 不限速千兆-tw1115
+      - 油管-aweikeji
+      - 油管-aweikeji 2
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
+      - 油管-阿伟科技+12
+      - 台北Hinet
+      - 台北Hinet 2
+      - 台北Hinet 3
+      - 台北Hinet 4
+      - 台北Hinet 5
+      - 台中Hinet
+      - 台北Hinet 6
+      - 华南1
+      - "台湾+🛩️PapaLaozi\n38"
+      - 台北Hinet 7
+      - "️PapaLaozi\n139"
+      - TG@hkaa0🇨🇳33
+      - _Cow+Vagina_33
+      - TG@hkaa0🇨🇳33 2
+      - TG频道https://t.me/iosfulishare 🇨🇳7
+      - _CN_中国->🇭🇰_HK_香港
+ 
 
-  - name: 🇺🇸 美区
+  - name: cn 台湾区
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     proxies:
-      - CTVIP-US-3[ran-out](https)
-      - CU-US-3[ran-out](https)
-      - 🇺🇸 HTTPS | 美国 | 1
-      - 🇺🇸 HTTPS | 美国 | 2
-      - 🇺🇸 HTTPS | 美国 | 3
-      - 🇺🇸 HTTPS | 美国 | 4
-      - 🇺🇸 HTTPS | 美国 | 5
-      - 🇺🇸 HTTPS | 美国 | 6
-      - 🇺🇸 HTTPS | 美国 | 7
-      - 🇺🇸 HTTPS | 美国 | 8
-      - 🇺🇸 HTTPS | 美国 | 9
-      - 🇺🇸 HTTPS | 美国 | 10
-      - 🇺🇸 HTTPS | 美国 | 11
-      - 🇺🇸 HTTPS | 美国 | 12
-      - 🇺🇸 HTTPS | 美国 | 13
-      - 🇺🇸 HTTPS | 美国 | 14
-      - 🇺🇸 HTTPS | 美国 | 15
-      - 🇺🇸 HTTPS | 美国 | 16
-      - 🇺🇸 HTTPS | 美国 | 17
-      - 🇺🇸 HTTPS | 美国 | 18
-      - 🇺🇸 HTTPS | 美国 | 19
-      - 🇺🇸 HTTPS | 美国 | 20
-      - 🇺🇸 HTTPS | 美国 | 21
-  - name: 🇩🇪 德区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - CTVIP-DE-3[ran-out](https)
-      - CU-DE-3[ran-out](https)
-      - 🇩🇪 HTTPS | 德国 | 1
-      - 🇩🇪 HTTPS | 德国 | 2
-      - 🇩🇪 HTTPS | 德国 | 3
-      - 🇩🇪 HTTPS | 德国 | 4
-      - 🇩🇪 HTTPS | 德国 | 5
-      - 🇩🇪 HTTPS | 德国 | 6
-      - 🇩🇪 HTTPS | 德国 | 7
-      - 🇩🇪 HTTPS | 德国 | 8
-      - 🇩🇪 HTTPS | 德国 | 9
-      - 🇩🇪 HTTPS | 德国 | 10
-      - 🇩🇪 HTTPS | 德国 | 11
-      - 🇩🇪 HTTPS | 德国 | 12
-      - 🇩🇪 HTTPS | 德国 | 13
-      - 🇩🇪 HTTPS | 德国 | 14
-      - 🇩🇪 HTTPS | 德国 | 15
-      - 🇩🇪 HTTPS | 德国 | 16
-      - 🇩🇪 HTTPS | 德国 | 17
-      - 🇩🇪 HTTPS | 德国 | 18
-      - 🇩🇪 HTTPS | 德国 | 19
-      - 🇩🇪 HTTPS | 德国 | 20
-      - 🇩🇪 HTTPS | 德国 | 21
-  - name: 🇯🇵 日区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - SZCM-JP-3[ran-out](https)
-      - CTVIP-JP-3[ran-out](https)
-      - CM-JP-3[ran-out](https)
-      - CU-JP-3[ran-out](https)
-      - 🇯🇵 HTTPS | 日本 | 1
-      - 🇯🇵 HTTPS | 日本 | 2
-      - 🇯🇵 HTTPS | 日本 | 3
-      - 🇯🇵 HTTPS | 日本 | 4
-      - 🇯🇵 HTTPS | 日本 | 5
-      - 🇯🇵 HTTPS | 日本 | 6
-      - 🇯🇵 HTTPS | 日本 | 7
-      - 🇯🇵 HTTPS | 日本 | 8
-      - 🇯🇵 HTTPS | 日本 | 9
-      - 🇯🇵 HTTPS | 日本 | 10
-      - 🇯🇵 HTTPS | 日本 | 11
-      - 🇯🇵 HTTPS | 日本 | 12
-      - 🇯🇵 HTTPS | 日本 | 13
-      - 🇯🇵 HTTPS | 日本 | 14
-      - 🇯🇵 HTTPS | 日本 | 15
-      - 🇯🇵 HTTPS | 日本 | 16
-      - 🇯🇵 HTTPS | 日本 | 17
-      - 🇯🇵 HTTPS | 日本 | 18
-      - 🇯🇵 HTTPS | 日本 | 19
-      - 🇯🇵 HTTPS | 日本 | 20
-      - 🇯🇵 HTTPS | 日本 | 21
+      - YouTube梦歌_16
+      - YouTube梦歌_17
+      - YouTube梦歌_18
+      - YouTube梦歌_19
+      - YouTube梦歌_20
+      - YouTube梦歌_21
+      - YouTube梦歌_22
 
-  - name: 🇭🇰 港区
+  - name: ca 中国区
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 180
     tolerance: 50
     proxies:
-      - SZCM-HK-3[ran-out](https)
-      - CTVIP-HK-3[ran-out](https)
-      - CM-HK-3[ran-out](https)
-      - 🇭🇰 HTTPS | 香港 | 1
-      - 🇭🇰 HTTPS | 香港 | 2
-      - 🇭🇰 HTTPS | 香港 | 3
-      - 🇭🇰 HTTPS | 香港 | 4
-      - 🇭🇰 HTTPS | 香港 | 5
-      - 🇭🇰 HTTPS | 香港 | 6
-      - 🇭🇰 HTTPS | 香港 | 7
-      - 🇭🇰 HTTPS | 香港 | 8
-      - 🇭🇰 HTTPS | 香港 | 9
-      - 🇭🇰 HTTPS | 香港 | 10
-      - 🇭🇰 HTTPS | 香港 | 11
-      - 🇭🇰 HTTPS | 香港 | 12
-      - 🇭🇰 HTTPS | 香港 | 13
-      - 🇭🇰 HTTPS | 香港 | 14
-      - 🇭🇰 HTTPS | 香港 | 15
-      - 🇭🇰 HTTPS | 香港 | 16
-      - 🇭🇰 HTTPS | 香港 | 17
-      - 🇭🇰 HTTPS | 香港 | 18
-      - 🇭🇰 HTTPS | 香港 | 19
-      - 🇭🇰 HTTPS | 香港 | 20
-      - 🇭🇰 HTTPS | 香港 | 21
-
-  - name: 🇨🇳 台湾区
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 50
-    proxies:
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 1
-      - 🇨🇳 HTTPS | 台湾 | 2
-      - 🇨🇳 HTTPS | 台湾 | 3
-      - 🇨🇳 HTTPS | 台湾 | 4
-      - 🇨🇳 HTTPS | 台湾 | 5
-      - 🇨🇳 HTTPS | 台湾 | 6
-      - 🇨🇳 HTTPS | 台湾 | 7
-      - 🇨🇳 HTTPS | 台湾 | 8
-      - 🇨🇳 HTTPS | 台湾 | 9
-      - 🇨🇳 HTTPS | 台湾 | 10
-      - 🇨🇳 HTTPS | 台湾 | 11
-      - 🇨🇳 HTTPS | 台湾 | 12
-      - 🇨🇳 HTTPS | 台湾 | 13
-      - 🇨🇳 HTTPS | 台湾 | 14
-      - 🇨🇳 HTTPS | 台湾 | 15
-      - 🇨🇳 HTTPS | 台湾 | 16
-      - 🇨🇳 HTTPS | 台湾 | 17
-      - 🇨🇳 HTTPS | 台湾 | 18
-      - 🇨🇳 HTTPS | 台湾 | 19
-      - 🇨🇳 HTTPS | 台湾 | 20
-      - 🇨🇳 HTTPS | 台湾 | 21
+      - CN 11
+      - HK 12
+      - JP 15
+      - SG 21
+      - CK
 
   - name: SSR 区
     type: url-test
@@ -1507,31 +246,33 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|08+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|05+2
-      - TG频道:@kxswa|Lv3+香港+07+[2.0]
-      - TG@hkaa0🇨🇳17
-      - 中转+🇸🇬+SG+27+TG:@nodpai+(Beta)
-      - 中转+🇸🇬+SG+35+TG:@nodpai+(Beta)
-      - TG频道:@kxswa|Lv3+香港+07+[2.0] 2
-      - 中转+🇭🇰+HK+2+TG:@nodpai+(Beta)
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|07+2
-      - TG频道https://t.me/iosfulishare+Standard|广新|IEPL|04+2
-      - _CN_中国->🇭🇰_HK_香港
-      - TG频道:@kxswa|Lv3+台湾+01+[3.0]
       - 台湾
       - Cow+Vagina_1
-      - 中转+🇸🇬+SG+31+TG:@nodpai+(Beta)
-      - TG@hkaa0+🇨🇳+143
-      - _CN_中国->🇭🇰_HK_香港 2
-      - TG频道https://t.me/iosfulishare+Standard|广台|IEPL|06+2
-      - TG@hkaa0+🇨🇳+142
-      - 台湾 2
-      - 台湾02
-      - 台北Sky-dip
-      - Lv3+香港+09+[2.0]
-      - 中转+🇹🇼+TW+62+TG:@nodpai+(Beta)
- 
+      - YouTube:全网最强白嫖
+      - 不限速千兆-tw1115
+      - 油管-aweikeji
+      - 油管-aweikeji 2
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
+      - 油管-阿伟科技+12
+      - 台北Hinet
+      - 台北Hinet 2
+      - 台北Hinet 3
+      - 台北Hinet 4
+      - 台北Hinet 5
+      - 台中Hinet
+      - 台北Hinet 6
+      - 华南1
+      - "台湾+🛩️PapaLaozi\n38"
+      - 台北Hinet 7
+      - "️PapaLaozi\n139"
+      - TG@hkaa0🇨🇳33
+      - _Cow+Vagina_33
+      - TG@hkaa0🇨🇳33 2
+      - TG频道https://t.me/iosfulishare 🇨🇳7
+      - _CN_中国->🇭🇰_HK_香港
+
   - name: 🎯 全球直连
     type: select
     proxies:
