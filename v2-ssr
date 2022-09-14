@@ -79,6 +79,38 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
+  - {"type":"http","name":"http_proxy_17","server":"h3816tw.strongpipe.live","port":20444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_21","server":"h3816tw.strongpipe.live","port":20448,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_86","server":"h961359.strongpipe.live","port":11343,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_92","server":"h961359.strongpipe.live","port":11543,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_90","server":"h961359.strongpipe.live","port":11444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_93","server":"h961359.strongpipe.live","port":11544,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - name: CM-TW-3[ran-out](https)
+    username: dcf12c7e7d
+    password: 26bae9b023
+    type: http
+    server: h3816tw.strongpipe.live
+    port: 20443
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 4
+    server: h3816tw.strongpipe.live
+    port: 20446
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇨🇳 HTTPS | 台湾 | 7
+    server: h3816tw.strongpipe.live
+    port: 20449
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - {"type":"http","name":"🇹🇼 TW 台湾 HTTP TG@PapaLaozi
+    15","server":"h3816tw.strongpipe.live","port":20445,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
   - {"type":"http","name":"YouTube梦歌_16","server":"h3816tw.strongpipe.live","port":20443,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
   - {"type":"http","name":"YouTube梦歌_17","server":"h3816tw.strongpipe.live","port":20444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
   - {"type":"http","name":"YouTube梦歌_18","server":"h3816tw.strongpipe.live","port":20445,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
@@ -86,21 +118,64 @@ proxies:
   - {"type":"http","name":"YouTube梦歌_20","server":"h3816tw.strongpipe.live","port":20447,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
   - {"type":"http","name":"YouTube梦歌_21","server":"h3816tw.strongpipe.live","port":20448,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
   - {"type":"http","name":"YouTube梦歌_22","server":"h3816tw.strongpipe.live","port":20449,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
-  - {name: CN 11, server: pull-cache-lu01.xyx-xylo.com, port: 19701, type: trojan, password: 79745894-044c-3298-a893-bbfcb6b24a2c, sni: pull-cache-lu01.xyx-xylo.com, skip-cert-verify: true, udp: true}
-  - {name: HK 12, server: gang3.hotfun.buzz, port: 24135, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: gang3.hotfun.buzz, skip-cert-verify: true, udp: true}
-  - {name: JP 15, server: ajpws.hotfun.buzz, port: 45123, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: ajpws.hotfun.buzz, skip-cert-verify: true, udp: true}
-  - {name: SG 21, server: asgws.hotfun.buzz, port: 23511, type: trojan, password: e1f80416-5394-4fcd-af80-12ef9799a92c, sni: asgws.hotfun.buzz, skip-cert-verify: true, udp: true}
-  - {name: CK, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
-  - {name: 台湾, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {"type":"http","name":"🇨🇳 CN 中国 HTTP TG@PapaLaozi
+    77","server":"h961359.strongpipe.live","port":11543,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"🇨🇳 CN 中国 HTTP TG@PapaLaozi
+    78","server":"h961359.strongpipe.live","port":11544,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"🇨🇳 CN 中国 HTTP TG@PapaLaozi
+    74","server":"h961359.strongpipe.live","port":11443,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"🇨🇳 CN 中国 HTTP TG@PapaLaozi
+    75","server":"h961359.strongpipe.live","port":11444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - name: 🇭🇰 HTTPS | 香港 | 16
+    server: h961359.strongpipe.live
+    port: 11543
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 17
+    server: h961359.strongpipe.live
+    port: 11544
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇭🇰 HTTPS | 香港 | 18
+    server: h961359.strongpipe.live
+    port: 11545
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 16
+    server: h961359.strongpipe.live
+    port: 11443
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇯🇵 HTTPS | 日本 | 17
+    server: h961359.strongpipe.live
+    port: 11444
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 HTTPS | 美国 | 16
+    server: h961359.strongpipe.live
+    port: 11243
+    type: http
+    username: dcf12c7e7d
+    password: 26bae9b023
+    tls: true
+    skip-cert-verify: true
   - {name: Cow+Vagina_1, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: YouTube:全网最强白嫖, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 不限速千兆-tw1115, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 油管-aweikeji, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 油管-aweikeji 2, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 不限速千兆-tw247, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全网最强白嫖, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)", server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管-阿伟科技+12, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 大萝卜鸡香港1, server: 47.242.145.161, port: 54073, type: ssr, cipher: dummy, password: !<str> 3455634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 台北Hinet, server: 60.249.3.125, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
   - {name: 台北Hinet 2, server: 60.249.3.227, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
   - {name: 台北Hinet 3, server: 60.249.3.231, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
@@ -108,15 +183,37 @@ proxies:
   - {name: 台北Hinet 5, server: 60.249.3.229, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
   - {name: 台中Hinet, server: 211.72.35.152, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
   - {name: 台北Hinet 6, server: 60.249.3.230, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
-  - {name: 华南1, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "台湾+🛩️PapaLaozi\n38", server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 郴州联通-台中Hinet-dip, server: 116.129.254.29, port: 3383, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
   - {name: 台北Hinet 7, server: 60.249.3.228, port: 3389, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0, server: 117.164.185.222, port: 21002, type: trojan, password: ded86ba8-2e5d-4794-8b35-b967e59497bf, skip-cert-verify: true, udp: true}
+  - {name: 台湾, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 台湾 2, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: YouTube:全网最强白嫖, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: +台湾02, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 台湾02, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-阿伟科技+17, server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-aweikeji, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW+1+|+@Airproxies, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 不限速千兆-tw247, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: _YouTube：全网最强白嫖, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-阿伟科技+12, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: _YouTube：全网最强白嫖 2, server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "台湾+🛩️PapaLaozi\n38", server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: "️PapaLaozi\n139", server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG@hkaa0🇨🇳33, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _Cow+Vagina_33, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
-  - {name: TG@hkaa0🇨🇳33 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道https://t.me/iosfulishare 🇨🇳7, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: da.kanao.xyz, port: 58819, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW+19+TG:@nodpai+(Beta), server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW+27+TG:@nodpai+(Beta), server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW+21+TG:@nodpai+(Beta), server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW+38+TG:@nodpai+(Beta), server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TW+22+TG:@nodpai+(Beta), server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 郴州联通-香港Misaka-dip, server: 116.129.253.191, port: 3384, type: trojan, password: c992d4055f0a7383, skip-cert-verify: true, udp: true}
+  - {name: 台北Sky-dip, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 不限速千兆-tw1115, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 油管-aweikeji 2, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: _Cow+Vagina_35, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 新加坡 01, server: 956caf2a-6b5a-483e-ab99-14225d81bd54.eb15e879-8a5a-4d01-8d5d-3e95877724ca.0549e055-448b-4940-9072-a39318e7f002.yuanjiao.cyou, port: 19041, type: trojan, password: 9710e9ba-23a3-4b70-8852-8d1edfd665ee, sni: 956caf2a-6b5a-483e-ab99-14225d81bd54.eb15e879-8a5a-4d01-8d5d-3e95877724ca.0549e055-448b-4940-9072-a39318e7f002.yuanjiao.cyou, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 04, server: 956caf2a-6b5a-483e-ab99-14225d81bd54.eb15e879-8a5a-4d01-8d5d-3e95877724ca.0549e055-448b-4940-9072-a39318e7f002.yuanjiao.cyou, port: 19044, type: trojan, password: 9710e9ba-23a3-4b70-8852-8d1edfd665ee, sni: 956caf2a-6b5a-483e-ab99-14225d81bd54.eb15e879-8a5a-4d01-8d5d-3e95877724ca.0549e055-448b-4940-9072-a39318e7f002.yuanjiao.cyou, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 07, server: 3952fa6f-8e5e-46c0-9103-6dd4132e825b.f82d292f-849e-4f2b-8308-17795dfa6a7e.7dba1d20-014e-4e1c-9069-a7d58f78c4f6.yuanjiao.cyou, port: 19042, type: trojan, password: 9710e9ba-23a3-4b70-8852-8d1edfd665ee, sni: 3952fa6f-8e5e-46c0-9103-6dd4132e825b.f82d292f-849e-4f2b-8308-17795dfa6a7e.7dba1d20-014e-4e1c-9069-a7d58f78c4f6.yuanjiao.cyou, skip-cert-verify: true, udp: true}
+  - {name: 香港Ali|tg频道:@ripaojiedian, server: 47.242.238.92, port: 53917, type: ssr, cipher: dummy, password: !<str> 3457854, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -124,6 +221,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🖐 手动选择
+      - 🇺🇸 美区
+      - 🇯🇵 日区
+      - 🇭🇰 港区
       - cn 台湾区
       - ca 中国区
       - SSR 区
@@ -132,6 +232,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - http_proxy_17
+      - http_proxy_21
+      - http_proxy_86
+      - http_proxy_92
+      - http_proxy_90
+      - http_proxy_93
+      - CM-TW-3[ran-out](https)
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇹🇼 TW 台湾 HTTP TG@PapaLaozi 15
       - YouTube梦歌_16
       - YouTube梦歌_17
       - YouTube梦歌_18
@@ -139,21 +249,18 @@ proxy-groups:
       - YouTube梦歌_20
       - YouTube梦歌_21
       - YouTube梦歌_22
-      - CN 11
-      - HK 12
-      - JP 15
-      - SG 21
-      - CK
-      - 台湾
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 77
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 78
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 74
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 75
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+      - 🇺🇸 HTTPS | 美国 | 16
       - Cow+Vagina_1
-      - YouTube:全网最强白嫖
-      - 不限速千兆-tw1115
-      - 油管-aweikeji
-      - 油管-aweikeji 2
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
-      - 油管-阿伟科技+12
+      - 大萝卜鸡香港1
       - 台北Hinet
       - 台北Hinet 2
       - 台北Hinet 3
@@ -161,19 +268,51 @@ proxy-groups:
       - 台北Hinet 5
       - 台中Hinet
       - 台北Hinet 6
-      - 华南1
-      - "台湾+🛩️PapaLaozi\n38"
+      - 郴州联通-台中Hinet-dip
       - 台北Hinet 7
+      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
+      - 台湾
+      - 台湾 2
+      - YouTube:全网最强白嫖
+      - +台湾02
+      - 台湾02
+      - 油管-阿伟科技+17
+      - 油管-aweikeji
+      - TW+1+|+@Airproxies
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - 油管-阿伟科技+12
+      - _YouTube：全网最强白嫖 2
+      - "台湾+🛩️PapaLaozi\n38"
       - "️PapaLaozi\n139"
-      - TG@hkaa0🇨🇳33
-      - _Cow+Vagina_33
-      - TG@hkaa0🇨🇳33 2
-      - TG频道https://t.me/iosfulishare 🇨🇳7
-      - _CN_中国->🇭🇰_HK_香港
+      - TW+19+TG:@nodpai+(Beta)
+      - TW+27+TG:@nodpai+(Beta)
+      - TW+21+TG:@nodpai+(Beta)
+      - TW+38+TG:@nodpai+(Beta)
+      - TW+22+TG:@nodpai+(Beta)
+      - 郴州联通-香港Misaka-dip
+      - 台北Sky-dip
+      - 不限速千兆-tw1115
+      - 油管-aweikeji 2
+      - _Cow+Vagina_35
+      - 新加坡 01
+      - 新加坡 04
+      - 新加坡 07
+      - 香港Ali|tg频道:@ripaojiedian
 
   - name: 🖐 手动选择
     type: select
     proxies:
+      - http_proxy_17
+      - http_proxy_21
+      - http_proxy_86
+      - http_proxy_92
+      - http_proxy_90
+      - http_proxy_93
+      - CM-TW-3[ran-out](https)
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇹🇼 TW 台湾 HTTP TG@PapaLaozi 15
       - YouTube梦歌_16
       - YouTube梦歌_17
       - YouTube梦歌_18
@@ -181,21 +320,18 @@ proxy-groups:
       - YouTube梦歌_20
       - YouTube梦歌_21
       - YouTube梦歌_22
-      - CN 11
-      - HK 12
-      - JP 15
-      - SG 21
-      - CK
-      - 台湾
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 77
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 78
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 74
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 75
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+      - 🇺🇸 HTTPS | 美国 | 16
       - Cow+Vagina_1
-      - YouTube:全网最强白嫖
-      - 不限速千兆-tw1115
-      - 油管-aweikeji
-      - 油管-aweikeji 2
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
-      - 油管-阿伟科技+12
+      - 大萝卜鸡香港1
       - 台北Hinet
       - 台北Hinet 2
       - 台北Hinet 3
@@ -203,16 +339,71 @@ proxy-groups:
       - 台北Hinet 5
       - 台中Hinet
       - 台北Hinet 6
-      - 华南1
-      - "台湾+🛩️PapaLaozi\n38"
+      - 郴州联通-台中Hinet-dip
       - 台北Hinet 7
+      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
+      - 台湾
+      - 台湾 2
+      - YouTube:全网最强白嫖
+      - +台湾02
+      - 台湾02
+      - 油管-阿伟科技+17
+      - 油管-aweikeji
+      - TW+1+|+@Airproxies
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - 油管-阿伟科技+12
+      - _YouTube：全网最强白嫖 2
+      - "台湾+🛩️PapaLaozi\n38"
       - "️PapaLaozi\n139"
-      - TG@hkaa0🇨🇳33
-      - _Cow+Vagina_33
-      - TG@hkaa0🇨🇳33 2
-      - TG频道https://t.me/iosfulishare 🇨🇳7
-      - _CN_中国->🇭🇰_HK_香港
+      - TW+19+TG:@nodpai+(Beta)
+      - TW+27+TG:@nodpai+(Beta)
+      - TW+21+TG:@nodpai+(Beta)
+      - TW+38+TG:@nodpai+(Beta)
+      - TW+22+TG:@nodpai+(Beta)
+      - 郴州联通-香港Misaka-dip
+      - 台北Sky-dip
+      - 不限速千兆-tw1115
+      - 油管-aweikeji 2
+      - _Cow+Vagina_35
+      - 新加坡 01
+      - 新加坡 04
+      - 新加坡 07
+      - 香港Ali|tg频道:@ripaojiedian
  
+
+  - name: 🇺🇸 美区
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    tolerance: 50
+    proxies:
+      - http_proxy_17
+      - http_proxy_21
+      - http_proxy_86
+      - http_proxy_92
+      - http_proxy_90
+      - http_proxy_93
+      - 🇺🇸 HTTPS | 美国 | 16
+
+  - name: 🇯🇵 日区
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    tolerance: 50
+    proxies:
+      - 🇯🇵 HTTPS | 日本 | 16
+      - 🇯🇵 HTTPS | 日本 | 17
+
+  - name: 🇭🇰 港区
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    tolerance: 50
+    proxies:
+      - 🇭🇰 HTTPS | 香港 | 16
+      - 🇭🇰 HTTPS | 香港 | 17
+      - 🇭🇰 HTTPS | 香港 | 18
 
   - name: cn 台湾区
     type: url-test
@@ -220,6 +411,10 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
+      - CM-TW-3[ran-out](https)
+      - 🇨🇳 HTTPS | 台湾 | 4
+      - 🇨🇳 HTTPS | 台湾 | 7
+      - 🇹🇼 TW 台湾 HTTP TG@PapaLaozi 15
       - YouTube梦歌_16
       - YouTube梦歌_17
       - YouTube梦歌_18
@@ -234,11 +429,10 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - CN 11
-      - HK 12
-      - JP 15
-      - SG 21
-      - CK
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 77
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 78
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 74
+      - 🇨🇳 CN 中国 HTTP TG@PapaLaozi 75
 
   - name: SSR 区
     type: url-test
@@ -246,16 +440,8 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - 台湾
       - Cow+Vagina_1
-      - YouTube:全网最强白嫖
-      - 不限速千兆-tw1115
-      - 油管-aweikeji
-      - 油管-aweikeji 2
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - "[vmess]🇨🇳[CN]s1.mine.com.cn:4433(77a286f4-0a0b-4ef7-aaef-a4fff60872e9)"
-      - 油管-阿伟科技+12
+      - 大萝卜鸡香港1
       - 台北Hinet
       - 台北Hinet 2
       - 台北Hinet 3
@@ -263,15 +449,37 @@ proxy-groups:
       - 台北Hinet 5
       - 台中Hinet
       - 台北Hinet 6
-      - 华南1
-      - "台湾+🛩️PapaLaozi\n38"
+      - 郴州联通-台中Hinet-dip
       - 台北Hinet 7
+      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
+      - 台湾
+      - 台湾 2
+      - YouTube:全网最强白嫖
+      - +台湾02
+      - 台湾02
+      - 油管-阿伟科技+17
+      - 油管-aweikeji
+      - TW+1+|+@Airproxies
+      - 不限速千兆-tw247
+      - _YouTube：全网最强白嫖
+      - 油管-阿伟科技+12
+      - _YouTube：全网最强白嫖 2
+      - "台湾+🛩️PapaLaozi\n38"
       - "️PapaLaozi\n139"
-      - TG@hkaa0🇨🇳33
-      - _Cow+Vagina_33
-      - TG@hkaa0🇨🇳33 2
-      - TG频道https://t.me/iosfulishare 🇨🇳7
-      - _CN_中国->🇭🇰_HK_香港
+      - TW+19+TG:@nodpai+(Beta)
+      - TW+27+TG:@nodpai+(Beta)
+      - TW+21+TG:@nodpai+(Beta)
+      - TW+38+TG:@nodpai+(Beta)
+      - TW+22+TG:@nodpai+(Beta)
+      - 郴州联通-香港Misaka-dip
+      - 台北Sky-dip
+      - 不限速千兆-tw1115
+      - 油管-aweikeji 2
+      - _Cow+Vagina_35
+      - 新加坡 01
+      - 新加坡 04
+      - 新加坡 07
+      - 香港Ali|tg频道:@ripaojiedian
 
   - name: 🎯 全球直连
     type: select
