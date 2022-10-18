@@ -174,44 +174,23 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - {name: JP+14+TG:@nodpai+(Beta), server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: JP+24+TG:@nodpai+(Beta), server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 新加坡 B/01 x1.0, server: 117.164.185.220, port: 61001, type: trojan, password: ec3d404b-e7de-44d7-a646-c6b52bdb148c, skip-cert-verify: true, udp: true}
-  - {name: TG@hkaa0🇨🇳33, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@hkaa0🇨🇳41, server: 121.41.86.94, port: 1, type: vmess, uuid: 3781e552-2d72-40e4-dc1f-f06e10c8c1fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@hkaa0|中国_3, server: 121.41.86.94, port: 5674, type: vmess, uuid: 79ce0633-5bc1-44ab-a47c-119916f2901d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 121.41.86.94}, udp: true}
-  - {name: TG@hkaa0|中国_8, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0, server: 117.164.185.222, port: 21002, type: trojan, password: ded86ba8-2e5d-4794-8b35-b967e59497bf, skip-cert-verify: true, udp: true}
-  - {name: "️PapaLaozi\n139", server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 欢迎加入https://t.me/go2sharing 174, server: 175.178.163.153, port: 443, type: vmess, uuid: a0beed23-9e05-49c9-85f7-bdcf360a3a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: TG@hkaa0🇨🇳33 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@hkaa0🇨🇳33 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国-tg频道:@bpjzx2-6, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国【YouTube-由零開始】 2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管-aweikeji, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 中国【YouTube-由零開始】, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国【YouTube-由零開始】 3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG@hkaa0|中国_2, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 不限速千兆-tw2110, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness019.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: +台湾02, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 台湾02, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 油管-阿伟科技+17, server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 油管-aweikeji 2, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+1+|+@Airproxies, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 不限速千兆-tw247, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全网最强白嫖, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全网最强白嫖 2, server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 油管-阿伟科技+12, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全网最强白嫖 3, server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "台湾+🛩️PapaLaozi\n38", server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+27+TG:@nodpai+(Beta), server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+21+TG:@nodpai+(Beta), server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+38+TG:@nodpai+(Beta), server: fndx600mtwline010tr.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d0760c7c21f8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndx600mtwline010tr.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+23+TG:@nodpai+(Beta), server: fn600mliness016.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd04a7b470fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness016.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TW+22+TG:@nodpai+(Beta), server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _Cow+Vagina_35, server: dx15.jicojs.com, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx15.jicojs.com, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 不限速千兆-tw2317, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _CN_中国, server: 43.155.114.162, port: 34716, type: vmess, uuid: a8d3fceb-d4c3-4fa3-a7b3-8410e57c95d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.155.114.162]}}, udp: true}
+  - name: "\U0001F4CCTG频道@Jsnzk"
+    password: 26bae9b023
+    server: h961359.strongpipe.live
+    type: http
+    port: 11543
+    username: dcf12c7e7d
+    tls: true
+    skip-cert-verify: true
+  - {name: 新加坡2|tg频道:@ripaojiedian, server: rk.cc01.xyz, port: 22009, type: ss, cipher: chacha20-ietf-poly1305, password: 4c8edb4d-dd29-4ef4-aac6-46f279731e2a, udp: true}
+  - {name: A新加坡2 VIP1 网址:vvdnn.com, server: 5hk.fdhsujj.xyz, port: 23542, type: ssr, cipher: aes-256-cfb, password: J3ITPq, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 286652:Ky6KOw, obfs-param: dbe96286652.microsoft.com, udp: true}
+  - {name: A新加坡4 VIP1 网址:vvdnn.com, server: v2hk5.fdhsujj.xyz, port: 23544, type: ssr, cipher: aes-256-cfb, password: J3ITPq, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 286652:Ky6KOw, obfs-param: dbe96286652.microsoft.com, udp: true}
+  - {name: A新加坡6 VIP1 网址:vvdnn.com, server: v2hk6.fdhsujj.xyz, port: 23545, type: ssr, cipher: aes-256-cfb, password: J3ITPq, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 286652:Ky6KOw, obfs-param: dbe96286652.microsoft.com, udp: true}
+  - {name: A香港6 VIP1 网址:vvdnn.com, server: hkt2.fdhsujj.xyz, port: 11393, type: ssr, cipher: aes-256-cfb, password: J3ITPq, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 286652:Ky6KOw, obfs-param: dbe96286652.microsoft.com, udp: true}
+  - {name: 不限速千兆-tw73, server: fn600mliness016.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd04a7b470fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness016.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 不限速千兆-tw2718, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 巴基斯坦+003, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 巴基斯坦+002, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -257,44 +236,16 @@ proxy-groups:
       - 🇯🇵 HTTPS | 日本 | 16
       - 🇯🇵 HTTPS | 日本 | 17
       - 🇺🇸 HTTPS | 美国 | 16
-      - JP+14+TG:@nodpai+(Beta)
-      - JP+24+TG:@nodpai+(Beta)
-      - 新加坡 B/01 x1.0
-      - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇨🇳41
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_8
-      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
-      - "️PapaLaozi\n139"
-      - 欢迎加入https://t.me/go2sharing 174
-      - TG@hkaa0🇨🇳33 2
-      - TG@hkaa0🇨🇳33 3
-      - 中国-tg频道:@bpjzx2-6
-      - 中国【YouTube-由零開始】 2
-      - 油管-aweikeji
-      - 中国【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 3
-      - TG@hkaa0|中国_2
-      - 不限速千兆-tw2110
-      - +台湾02
-      - 台湾02
-      - 油管-阿伟科技+17
-      - 油管-aweikeji 2
-      - TW+1+|+@Airproxies
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - 油管-阿伟科技+12
-      - _YouTube：全网最强白嫖 3
-      - "台湾+🛩️PapaLaozi\n38"
-      - TW+27+TG:@nodpai+(Beta)
-      - TW+21+TG:@nodpai+(Beta)
-      - TW+38+TG:@nodpai+(Beta)
-      - TW+23+TG:@nodpai+(Beta)
-      - TW+22+TG:@nodpai+(Beta)
-      - _Cow+Vagina_35
-      - 不限速千兆-tw2317
-      - _CN_中国
+      - "\U0001F4CCTG频道@Jsnzk"
+      - 新加坡2|tg频道:@ripaojiedian
+      - A新加坡2 VIP1 网址:vvdnn.com
+      - A新加坡4 VIP1 网址:vvdnn.com
+      - A新加坡6 VIP1 网址:vvdnn.com
+      - A香港6 VIP1 网址:vvdnn.com
+      - 不限速千兆-tw73
+      - 不限速千兆-tw2718
+      - 巴基斯坦+003
+      - 巴基斯坦+002
 
   - name: 🖐 手动选择
     type: select
@@ -326,44 +277,16 @@ proxy-groups:
       - 🇯🇵 HTTPS | 日本 | 16
       - 🇯🇵 HTTPS | 日本 | 17
       - 🇺🇸 HTTPS | 美国 | 16
-      - JP+14+TG:@nodpai+(Beta)
-      - JP+24+TG:@nodpai+(Beta)
-      - 新加坡 B/01 x1.0
-      - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇨🇳41
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_8
-      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
-      - "️PapaLaozi\n139"
-      - 欢迎加入https://t.me/go2sharing 174
-      - TG@hkaa0🇨🇳33 2
-      - TG@hkaa0🇨🇳33 3
-      - 中国-tg频道:@bpjzx2-6
-      - 中国【YouTube-由零開始】 2
-      - 油管-aweikeji
-      - 中国【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 3
-      - TG@hkaa0|中国_2
-      - 不限速千兆-tw2110
-      - +台湾02
-      - 台湾02
-      - 油管-阿伟科技+17
-      - 油管-aweikeji 2
-      - TW+1+|+@Airproxies
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - 油管-阿伟科技+12
-      - _YouTube：全网最强白嫖 3
-      - "台湾+🛩️PapaLaozi\n38"
-      - TW+27+TG:@nodpai+(Beta)
-      - TW+21+TG:@nodpai+(Beta)
-      - TW+38+TG:@nodpai+(Beta)
-      - TW+23+TG:@nodpai+(Beta)
-      - TW+22+TG:@nodpai+(Beta)
-      - _Cow+Vagina_35
-      - 不限速千兆-tw2317
-      - _CN_中国
+      - "\U0001F4CCTG频道@Jsnzk"
+      - 新加坡2|tg频道:@ripaojiedian
+      - A新加坡2 VIP1 网址:vvdnn.com
+      - A新加坡4 VIP1 网址:vvdnn.com
+      - A新加坡6 VIP1 网址:vvdnn.com
+      - A香港6 VIP1 网址:vvdnn.com
+      - 不限速千兆-tw73
+      - 不限速千兆-tw2718
+      - 巴基斯坦+003
+      - 巴基斯坦+002
  
 
   - name: 🇺🇸 美区
@@ -379,6 +302,7 @@ proxy-groups:
       - http_proxy_90
       - http_proxy_93
       - 🇺🇸 HTTPS | 美国 | 16
+      - "\U0001F4CCTG频道@Jsnzk"
 
   - name: 🇯🇵 日区
     type: url-test
@@ -434,44 +358,15 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - JP+14+TG:@nodpai+(Beta)
-      - JP+24+TG:@nodpai+(Beta)
-      - 新加坡 B/01 x1.0
-      - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇨🇳41
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_8
-      - TG频道https://t.me/iosfulishare 香港 IEPL/02 x3.0
-      - "️PapaLaozi\n139"
-      - 欢迎加入https://t.me/go2sharing 174
-      - TG@hkaa0🇨🇳33 2
-      - TG@hkaa0🇨🇳33 3
-      - 中国-tg频道:@bpjzx2-6
-      - 中国【YouTube-由零開始】 2
-      - 油管-aweikeji
-      - 中国【YouTube-由零開始】
-      - 中国【YouTube-由零開始】 3
-      - TG@hkaa0|中国_2
-      - 不限速千兆-tw2110
-      - +台湾02
-      - 台湾02
-      - 油管-阿伟科技+17
-      - 油管-aweikeji 2
-      - TW+1+|+@Airproxies
-      - 不限速千兆-tw247
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - 油管-阿伟科技+12
-      - _YouTube：全网最强白嫖 3
-      - "台湾+🛩️PapaLaozi\n38"
-      - TW+27+TG:@nodpai+(Beta)
-      - TW+21+TG:@nodpai+(Beta)
-      - TW+38+TG:@nodpai+(Beta)
-      - TW+23+TG:@nodpai+(Beta)
-      - TW+22+TG:@nodpai+(Beta)
-      - _Cow+Vagina_35
-      - 不限速千兆-tw2317
-      - _CN_中国
+      - 新加坡2|tg频道:@ripaojiedian
+      - A新加坡2 VIP1 网址:vvdnn.com
+      - A新加坡4 VIP1 网址:vvdnn.com
+      - A新加坡6 VIP1 网址:vvdnn.com
+      - A香港6 VIP1 网址:vvdnn.com
+      - 不限速千兆-tw73
+      - 不限速千兆-tw2718
+      - 巴基斯坦+003
+      - 巴基斯坦+002
 
   - name: 🎯 全球直连
     type: select
