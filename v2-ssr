@@ -14,480 +14,389 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇨🇳_CN\r_3","type":"trojan","server":"120.241.255.196","port":25462,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN-14.18.81.201-064","type":"vmess","server":"gzdx.jcnode.top","port":20000,"cipher":"auto","uuid":"05a0e8a3-21c3-4e2b-a8cd-157763bc3fac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"gzdx.jcnode.top"}}}
-  - {"name":"🇨🇳_CN","type":"vmess","server":"hy.guanguan.club","port":11410,"cipher":"auto","uuid":"5707bceb-1da9-41e1-bd03-1bb3d1c28a2c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/nba","headers":{"host":"hy.guanguan.club"}}}
-  - {"name":"中转节点-2.03MB/s(Youtube:不良林)","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"bc89909f-9d27-4b71-bf49-6d97ddaa5e31","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN\r_5","type":"trojan","server":"120.241.255.196","port":14256,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中转节点-3.29MB/s(Youtube:不良林)","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"f2a874dc-68e4-4b69-a5eb-d32c7539323d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"中转节点-7.86MB/s(Youtube:不良林)","type":"ss","server":"preshdata1.anijerktt.xyz","port":12023,"password":"Sj10bnYDe7w6V29E","cipher":"aes-128-gcm"}
-  - {"name":"🇨🇳_CN\r_4","type":"trojan","server":"223.111.129.6","port":35477,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中转节点-12.75MB/s(Youtube:不良林)","type":"trojan","server":"223.111.129.6","port":54829,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN-101.89.140.242-213","type":"vmess","server":"shcm.donghui.tech","port":50916,"cipher":"auto","uuid":"6945e893-9bed-4e4d-adc4-f5c67539a04a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/fly","headers":{"host":"shcm.donghui.tech"}}}
-  - {"name":"中转节点-3.93MB/s(Youtube:不良林)","type":"trojan","server":"cs.ttkcloud.xyz","port":51005,"udp":true,"password":"9f337739-d8b1-43d2-a7ae-c22751b88a69","sni":"74.120.175.243","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN\r_2","type":"trojan","server":"120.241.255.196","port":41687,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_1","type":"vmess","server":"jp2.mooooobai.top","port":12342,"cipher":"auto","uuid":"8fe40424-de1a-48e7-9a78-247dae536cce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本-4.60MB/s(Youtube:不良林)","type":"trojan","server":"s-jp01.aikun.online","port":10000,"udp":true,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","sni":"s-jp01.aikun.online","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 _HK_香港","type":"trojan","server":"aws-hk01.aikun.online","port":7045,"udp":true,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","sni":"aws-hk01.aikun.online","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN\r_1","type":"trojan","server":"120.241.255.196","port":54585,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳_IN_印度","type":"vmess","server":"34.131.59.57","port":80,"cipher":"auto","uuid":"e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸 _US_美国_1","type":"vmess","server":"s245.rpscloud3.cloud","port":80,"cipher":"auto","uuid":"d65ca664-72d3-4a14-a836-00eadd0df46e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/graphql","headers":{"host":"s245.rpscloud3.cloud"}}}
-  - {"name":"🇧🇿_BZ_伯利兹","type":"vmess","server":"203.30.191.19","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
+  - {"name":"🇸🇬SG-18.139.161.153-013","type":"vmess","server":"sg02.170203.xyz","port":43543,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg02.170203.xyz"}}}
+  - {"name":"🇺🇸 _US_美国->🇫🇷_FR_法国","type":"vmess","server":"141.193.213.21","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"🇺🇸 _US_美国_1","type":"vmess","server":"172.67.145.166","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
   - {"name":"🇺🇸 _US_美国_2","type":"vmess","server":"172.67.164.125","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_8","type":"vmess","server":"usdo.tzccifq.ga","port":443,"cipher":"auto","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦 _CA_加拿大_1","type":"vmess","server":"23.227.38.26","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"2.arvanktbr.store"}}}
-  - {"name":"🇦🇲_AM_亚美尼亚->🇺🇸_US_美国","type":"vmess","server":"185.162.228.110","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
   - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"172.67.199.34","port":80,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_13","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_19","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"172.67.147.152","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chcara","headers":{"host":"v2fly.samrta.website"}}}
-  - {"name":"🇺🇸 _US_美国->🇫🇷_FR_法国_1","type":"vmess","server":"141.193.213.21","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"🇺🇸 _US_美国_3","type":"vmess","server":"172.67.145.166","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸 _US_美国_4","type":"vmess","server":"la.awsbest.com","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_15","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
+  - {"name":"🇺🇸 _US_美国_3","type":"vmess","server":"172.67.201.14","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
+  - {"name":"美国+V2CROSS.COM","type":"ss","server":"172.99.188.99","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":" | 2.31Mb","type":"ss","server":"172.99.188.99","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇦🇲_AM_亚美尼亚->🇺🇸_US_美国","type":"vmess","server":"185.162.228.110","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
   - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32","type":"vmess","server":"203.30.191.4","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_17","type":"vmess","server":"ger2.onemaster.sbs","port":2053,"cipher":"auto","uuid":"a6067377-e76f-4450-b04e-3b470ec92cb0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ger2.onemaster.sbs"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_11","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"🇺🇸 _US_美国_5","type":"vmess","server":"oplg1.cfcdn2.xyz","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_7","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"3855b736-bf24-461f-b5b9-1d3f04484b37","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl2?ed=2048","headers":{"host":"nl2.yfjc.sbs"}}}
-  - {"name":"🇺🇸_US_美国_2_10@12","type":"vmess","server":"khvwycch.cymlr.xyz","port":443,"cipher":"auto","uuid":"db39ef95-4245-418a-84c0-14c202f29bc6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/videnset","headers":{"host":"khvwycch.cymlr.xyz"}}}
-  - {"name":"🇺🇸 _US_美国_6","type":"vmess","server":"172.64.154.103","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
-  - {"name":"🇺🇸 _US_美国->🇫🇷_FR_法国_2","type":"vmess","server":"172.67.46.53","port":443,"cipher":"auto","uuid":"5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"fr.binghe.design"}}}
-  - {"name":"美国-5.65MB/s(Youtube:不良林)","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
-  - {"name":"🇺🇸 _US_美国_7","type":"vmess","server":"172.67.201.14","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇺🇸_US","type":"vmess","server":"america1.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vAambj4DgXrs5sfCFptMk","headers":{"host":"america1.yj2022.ga"}}}
-  - {"name":"美国+V2CROSS.COM_1","type":"ss","server":"172.99.188.99","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国+V2CROSS.COM_2","type":"ss","server":"172.99.188.99","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"172.64.153.155","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
-  - {"name":"🇮🇳印度【YouTube-由零開始】_2","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇮🇳印度【YouTube-由零開始】_1","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vin1.0bad.com"}}}
-  - {"name":"🇳🇱_NL_荷兰","type":"ss","server":"172.99.188.99","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸 _US_美国_8","type":"vmess","server":"us1.wanwusheng.me","port":443,"cipher":"auto","uuid":"44ceb389-4cea-4ea1-eef9-11ce6f3effe6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.wanwusheng.me"}}}
-  - {"name":"🇹🇼_TW_台湾","type":"vmess","server":"twweb.dashedu.net","port":50516,"cipher":"auto","uuid":"dd28265e-cda9-4638-8072-93170203f71a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇮🇩 _ID_印度尼西亚","type":"trojan","server":"ulist.com.my.asia1.oceis.net","port":443,"udp":true,"password":"94660920-baaa-11ed-b236-205c6d5f5d78","sni":"mm.net.my","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国+V2CROSS.COM_3","type":"ss","server":"172.99.188.99","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 _CA_加拿大_1","type":"vmess","server":"23.227.38.11","port":443,"cipher":"auto","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}}}
+  - {"name":"🇨🇦 _CA_加拿大_2","type":"vmess","server":"23.227.38.26","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
   - {"name":"🇺🇸_US_美国_4_0@23","type":"vmess","server":"24.199.119.135","port":443,"cipher":"auto","uuid":"e6da31cb-6c97-4699-c412-124d5ab80856","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦 _CA_加拿大_2","type":"vmess","server":"23.227.38.11","port":443,"cipher":"auto","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"vmess","server":"23.227.38.23","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🇮🇳 _IN_印度","type":"vmess","server":"34.131.59.57","port":80,"cipher":"auto","uuid":"e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_2","type":"vmess","server":"jp.mooooobai.top","port":25152,"cipher":"auto","uuid":"8fe40424-de1a-48e7-9a78-247dae536cce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","type":"trojan","server":"hn.xiaohouzi.club","port":16013,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"$$tcjp01.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱荷兰【YouTube-由零開始】\r","type":"ss","server":"172.99.188.99","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇳_IN_印度","type":"vmess","server":"34.131.59.57","port":80,"cipher":"auto","uuid":"e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"Relay_ |22.85Mb","type":"trojan","server":"aws-hk01.aikun.online","port":7045,"udp":true,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","sni":"aws-hk01.aikun.online","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
   - {"name":"美国-4.85MB/s(Youtube:不良林)","type":"vmess","server":"cf-lt.sharecentre.online","port":8880,"cipher":"auto","uuid":"e59bd762-dacd-445c-8e2a-e1c5812949cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}}}
+  - {"name":"日本-2.20MB/s(Youtube:不良林)","type":"trojan","server":"de.stablize.top","port":443,"udp":true,"password":"29aa9820-78aa-43de-a477-587747ce21a3","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_ |10.53Mb","type":"trojan","server":"dubai-m.4422331.xyz","port":10086,"udp":true,"password":"4134219f-2384-449c-92e9-50fe8474c30a","sni":"https://mofa.4422331.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_15","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_17","type":"vmess","server":"ger2.onemaster.sbs","port":2053,"cipher":"auto","uuid":"a6067377-e76f-4450-b04e-3b470ec92cb0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ger2.onemaster.sbs"}}}
+  - {"name":"🇯🇵JP-13.115.231.13-040","type":"trojan","server":"gzdx1.170203.xyz","port":27528,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"usmax040.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP-13.115.231.13-039","type":"trojan","server":"gzdx1.170203.xyz","port":11376,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"us03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP-13.115.231.13-021","type":"trojan","server":"gzdx1.170203.xyz","port":58630,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"0a01f3ad01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国-2.08MB/s(Youtube:不良林)","type":"vmess","server":"hi.murix.de","port":80,"cipher":"auto","uuid":"bb8595d3-25f9-4378-8500-64910472cd7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws","headers":{"host":"hi.murix.de"}}}
+  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","type":"trojan","server":"hn.xiaohouzi.club","port":16013,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"$$tcjp01.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP-54.168.209.67-031","type":"vmess","server":"jp03.170203.xyz","port":23245,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp03.170203.xyz"}}}
+  - {"name":"🇯🇵JP-13.113.21.230-032","type":"vmess","server":"jp04.170203.xyz","port":23245,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp04.170203.xyz"}}}
+  - {"name":"🇯🇵JP-52.198.35.115-033","type":"vmess","server":"jp05.170203.xyz","port":23245,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp05.170203.xyz"}}}
+  - {"name":"🇰🇷KR-3.39.236.220-028","type":"trojan","server":"kr01.170203.xyz","port":443,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"kr01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 _US_美国_4","type":"vmess","server":"la.awsbest.com","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
+  - {"name":"德国-3.05MB/s(Youtube:不良林)","type":"vmess","server":"let.eccoedmond.shop","port":2096,"cipher":"auto","uuid":"da701bc6-b7ea-4de9-b706-dd4b8842a94d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"let.eccoedmond.shop"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_11","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_13","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"Relay_-🇺🇸US_55 |15.44Mb","type":"trojan","server":"prus2.k55779.cyou","port":26672,"udp":true,"password":"6nVzl-mgck26FqvBByHLF5lsCpRkvGDrhDpz3NkbGkizyH7O","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 _US_美国_5","type":"vmess","server":"s245.rpscloud3.cloud","port":80,"cipher":"auto","uuid":"d65ca664-72d3-4a14-a836-00eadd0df46e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/graphql","headers":{"host":"s245.rpscloud3.cloud"}}}
+  - {"name":"Relay_ |10.08Mb","type":"trojan","server":"seed.daffodil.engineer","port":34104,"udp":true,"password":"oFW8yaRFnz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬SG-13.250.123.48-014","type":"vmess","server":"sg002.170203.xyz","port":43543,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg002.170203.xyz"}}}
+  - {"name":"🇸🇬SG-54.151.136.184-015","type":"vmess","server":"sg003.170203.xyz","port":34333,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg003.170203.xyz"}}}
+  - {"name":"🇸🇬SG-13.229.55.7-016","type":"trojan","server":"sg03.170203.xyz","port":443,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"sg03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬SG-54.179.107.189-018","type":"vmess","server":"sg04.170203.xyz","port":43543,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg04.170203.xyz"}}}
+  - {"name":"🇸🇬SG-18.138.249.245-019","type":"vmess","server":"sg05.170203.xyz","port":43543,"cipher":"auto","uuid":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg05.170203.xyz"}}}
+  - {"name":"🇸🇬SG-13.250.118.36-017","type":"trojan","server":"sg06.170203.xyz","port":443,"udp":true,"password":"016eb84b-5ffa-4824-aa65-8eb792d4f12f","sni":"sg06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_ |49.11Mb","type":"trojan","server":"s-jp01.aikun.online","port":10000,"udp":true,"password":"c9c498df-683b-40b3-a1cb-b574c36f9433","sni":"s-jp01.aikun.online","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sv3.adsensor.top","port":80,"cipher":"auto","uuid":"7a5af201-b588-4f13-9f02-185c68acd89b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/manageit"}}
+  - {"name":"🇮🇩 _ID_印度尼西亚","type":"trojan","server":"ulist.com.my.asia1.oceis.net","port":443,"udp":true,"password":"94660920-baaa-11ed-b236-205c6d5f5d78","sni":"mm.net.my","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_-🇺🇸US_50 |32.00Mb","type":"trojan","server":"us.disnet.gq","port":443,"udp":true,"password":"7c7e0edb-c45a-4c07-b66a-69b191179349","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇳印度【YouTube-由零開始】_1","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vin1.0bad.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_7","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"3855b736-bf24-461f-b5b9-1d3f04484b37","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl2?ed=2048","headers":{"host":"nl2.yfjc.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -510,69 +419,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇨🇳_CN\r_3"
-      - 🇨🇳CN-14.18.81.201-064
-      - 🇨🇳_CN
-      - 中转节点-2.03MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_5"
-      - 中转节点-3.29MB/s(Youtube:不良林)
-      - 中转节点-7.86MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_4"
-      - 中转节点-12.75MB/s(Youtube:不良林)
-      - 🇨🇳CN-101.89.140.242-213
-      - 中转节点-3.93MB/s(Youtube:不良林)
-      - "🇨🇳_CN\r_2"
-      - 🇯🇵_JP_日本_1
-      - 日本-4.60MB/s(Youtube:不良林)
-      - 🇭🇰 _HK_香港
-      - "🇨🇳_CN\r_1"
-      - 🇮🇳_IN_印度
+      - 🇸🇬SG-18.139.161.153-013
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇺🇸 _US_美国_1
-      - 🇧🇿_BZ_伯利兹
       - 🇺🇸 _US_美国_2
-      - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇨🇦 _CA_加拿大_1
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸_US_美国_1
-      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸美国【YouTube-由零開始】_13
-      - 🇺🇸美国【YouTube-由零開始】_19
-      - 🇺🇸美国【YouTube-由零開始】_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸美国【YouTube-由零開始】_15
+      - 美国+V2CROSS.COM
+      - ' | 2.31Mb'
+      - 🇦🇲_AM_亚美尼亚->🇺🇸_US_美国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_17@32
-      - 🇺🇸美国【YouTube-由零開始】_17
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸美国【YouTube-由零開始】_5
-      - 🇺🇸美国【YouTube-由零開始】_7
-      - 🇺🇸_US_美国_2_10@12
-      - 🇺🇸 _US_美国_6
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
-      - 美国-5.65MB/s(Youtube:不良林)
-      - 🇺🇸 _US_美国_7
-      - 🇺🇸_US
-      - 美国+V2CROSS.COM_1
-      - 美国+V2CROSS.COM_2
-      - 🇺🇸_US_美国_2
-      - 🇮🇳印度【YouTube-由零開始】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国_8
-      - 🇹🇼_TW_台湾
-      - 🇮🇩 _ID_印度尼西亚
-      - 美国+V2CROSS.COM_3
-      - 🇺🇸_US_美国_4_0@23
+      - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇮🇳 _IN_印度
-      - 🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
-      - "🇳🇱荷兰【YouTube-由零開始】\r"
+      - 🇺🇸_US_美国_4_0@23
+      - 🇮🇳_IN_印度
+      - Relay_ |22.85Mb
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_3
       - 美国-4.85MB/s(Youtube:不良林)
+      - 日本-2.20MB/s(Youtube:不良林)
+      - Relay_ |10.53Mb
+      - 🇺🇸美国【YouTube-由零開始】_15
+      - 🇺🇸美国【YouTube-由零開始】_17
+      - 🇯🇵JP-13.115.231.13-040
+      - 🇯🇵JP-13.115.231.13-039
+      - 🇯🇵JP-13.115.231.13-021
+      - 德国-2.08MB/s(Youtube:不良林)
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇯🇵JP-54.168.209.67-031
+      - 🇯🇵JP-13.113.21.230-032
+      - 🇯🇵JP-52.198.35.115-033
+      - 🇰🇷KR-3.39.236.220-028
+      - 🇺🇸 _US_美国_4
+      - 德国-3.05MB/s(Youtube:不良林)
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 🇺🇸美国【YouTube-由零開始】_13
+      - Relay_-🇺🇸US_55 |15.44Mb
+      - 🇺🇸 _US_美国_5
+      - Relay_ |10.08Mb
+      - 🇸🇬SG-13.250.123.48-014
+      - 🇸🇬SG-54.151.136.184-015
+      - 🇸🇬SG-13.229.55.7-016
+      - 🇸🇬SG-54.179.107.189-018
+      - 🇸🇬SG-18.138.249.245-019
+      - 🇸🇬SG-13.250.118.36-017
+      - Relay_ |49.11Mb
+      - 美国 CloudFlare节点
+      - 🇮🇩 _ID_印度尼西亚
+      - Relay_-🇺🇸US_50 |32.00Mb
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_7
 
 rules:
 # 本地/局域网地址
