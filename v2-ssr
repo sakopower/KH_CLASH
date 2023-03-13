@@ -14,1656 +14,683 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"💎 [ v1 ] 新加坡 · 02 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":30050,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|03|隧道","type":"trojan","server":"gzdx0.170203.xyz","port":27825,"udp":true,"password":"12d5ab7d-470b-48bd-9512-506bfe10165d","sni":"hkmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 新加坡 · 03 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 印度 · 02 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30028,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ v1 ] 新加坡 · 02 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":30050,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1","type":"vmess","server":"ns02.gutingting.com","port":30021,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ v1 ] 新加坡 · 03 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 06 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30055,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v1jp02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 新加坡 · 02 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 新加坡 · 03 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 泰国 · 01 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 01 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 新加坡 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1","type":"vmess","server":"ns02.gutingting.com","port":30045,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30024,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 01 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30015,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30015,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 印度 · 01 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 新加坡 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1","type":"vmess","server":"ns01.gutingting.com","port":30009,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ v1 ] 新加坡 · 03 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 05 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30054,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v1jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 01 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30023,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 印度 · 02 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30028,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 美国 · 02 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 新加坡 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 06 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30055,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v1jp02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 菲律宾 · 01 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30053,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2phl01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 美国 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":20224,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 日本 · 02 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":20221,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 印度 · 01 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 美国 · 02 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 日本 · 02 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":20221,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 新加坡 · 01 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30035,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"💎 [ T1 ] 日本 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":20220,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2","type":"vmess","server":"ns01.gutingting.com","port":30009,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30023,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"剩余流量：10 GB","type":"vmess","server":"ns01.gutingting.com","port":30044,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30015,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 日本 · 02 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":20221,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"快飞永久跳转地址: http://fastfly.club","type":"trojan","server":"gy.xueshao.top","port":13945,"udp":true,"password":"9fad479b-c883-4815-8ffd-70d35ae591df","sni":"hk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 英国 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":20226,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 美国 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":20224,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1","type":"vmess","server":"ns01.gutingting.com","port":30044,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 日本 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":20220,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 新加坡 · 01 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30035,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"JCBB_ 英国04【vip1】_1","type":"trojan","server":"gddxd.fosi.hk","port":44226,"udp":true,"password":"fd319c32-a0b7-4429-9297-90d4685d325c","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 印度 · 01 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"JCBB_印度01【vip1】_1","type":"vmess","server":"gddxd.fosi.hk","port":63211,"cipher":"auto","uuid":"fd319c32-a0b7-4429-9297-90d4685d325c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 英国04【vip1】_2","type":"trojan","server":"gddxd.fosi.hk","port":44226,"udp":true,"password":"a7351df6-f969-484a-845a-d54f44824235","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 美国 · 02 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2","type":"vmess","server":"ns02.gutingting.com","port":30021,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30006,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 01 · 线路1_4","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30023,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 美国 · 02 · 线路1_4","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30024,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 美国 · 02 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":20225,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 菲律宾 · 01 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30053,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2phl01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4","type":"vmess","server":"v02.gutingting.com","port":30015,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 英国 · 02 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30025,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 英国 · 02 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":20227,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 新加坡 · 01 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30035,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"美国 05 | 1x US","type":"vmess","server":"4a2u0a05.mcfront.xyz","port":31506,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us05.lovemc.xyz","network":"tcp"}
-  - {"name":"俄罗斯 01 | 1x RU","type":"trojan","server":"4t1r5u01.mcfront.xyz","port":31851,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"ru01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 新加坡 · 02 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 英国 · 02 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":20227,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 印度 · 01 · 线路1_4","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2","type":"vmess","server":"ns02.gutingting.com","port":30045,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"香港 03 | 1x HK","type":"trojan","server":"5m4h0k03.mcfront.xyz","port":31611,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"hk03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 泰国 · 01 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本 06  | 1x JP","type":"vmess","server":"6w7j3p06.mcfront.xyz","port":31111,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp06.lovemc.xyz","network":"tcp"}
-  - {"name":"美国 06 | 1x US","type":"vmess","server":"4a2u0a06.mcfront.xyz","port":31511,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us06.lovemc.xyz","network":"tcp"}
-  - {"name":"英国 01 | 1x UK","type":"trojan","server":"3a4u0k01.mcfront.xyz","port":31811,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"uk01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"官网地址： mikasacloud.site","type":"trojan","server":"6w7j3p01.mcfront.xyz","port":31116,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"jp01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vip1 泰国-02","type":"vmess","server":"shcm.donghui.tech","port":50916,"cipher":"auto","uuid":"9fad479b-c883-4815-8ffd-70d35ae591df","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/fly"}}
-  - {"name":"JCBB_ 美国 02【vip1】_1","type":"vmess","server":"cscu.xn--dlq110j6ul.cc","port":35555,"cipher":"auto","uuid":"a7351df6-f969-484a-845a-d54f44824235","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"新加坡 05 | 1x SG","type":"vmess","server":"1c7s2g05.mcfront.xyz","port":31206,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg05.lovemc.xyz","network":"tcp"}
-  - {"name":"印度 01 | 1x IN","type":"trojan","server":"6q3i1n01.mcfront.xyz","port":31831,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"in01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡 06 | 1x SG","type":"vmess","server":"1c7s2g06.mcfront.xyz","port":31211,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg06.lovemc.xyz","network":"tcp"}
-  - {"name":"JCBB_ 美国 02【vip1】_2","type":"vmess","server":"cscu.xn--dlq110j6ul.cc","port":35555,"cipher":"auto","uuid":"fd319c32-a0b7-4429-9297-90d4685d325c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"加拿大 01 | 1x CA","type":"trojan","server":"3d1c4a01.mcfront.xyz","port":31701,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"ca01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|02|隧道chatGPT","type":"trojan","server":"gzdx0.170203.xyz","port":24800,"udp":true,"password":"12d5ab7d-470b-48bd-9512-506bfe10165d","sni":"usmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 05 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30054,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v1jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 03 | 1x US","type":"trojan","server":"4a2u0a03.mcfront.xyz","port":31511,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"us03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 新加坡 · 02 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 美国 · 02 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":20225,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本 02  | 1x JP","type":"trojan","server":"6w7j3p02.mcfront.xyz","port":31106,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"jp02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本 03  | 1x JP","type":"trojan","server":"6w7j3p03.mcfront.xyz","port":31111,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"jp03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡 03 | 1x SG","type":"trojan","server":"1c7s2g03.mcfront.xyz","port":31211,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"sg03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国原生 · 01 · 线路1_1","type":"vmess","server":"v01.gutingting.com","port":30040,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ v1 ] 日本 · 06 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30055,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v1jp02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vip1 英国-03","type":"trojan","server":"bbjcu.donghui.tech","port":15586,"udp":true,"password":"9fad479b-c883-4815-8ffd-70d35ae591df","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"德国 01 | 1x DE","type":"trojan","server":"9t1d5e01.mcfront.xyz","port":31841,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"de01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港 04 | 1x HK","type":"vmess","server":"5m4h0k04.mcfront.xyz","port":31601,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk04.lovemc.xyz","network":"tcp"}
-  - {"name":"🚇 [ v1 ] 新加坡 · 01 · 线路1_4","type":"vmess","server":"v01.gutingting.com","port":30035,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"🚇 [ v1 ] 英国原生 · 01 · 线路1_2","type":"vmess","server":"v01.gutingting.com","port":30040,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡 04 | 1x SG","type":"vmess","server":"1c7s2g04.mcfront.xyz","port":31201,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg04.lovemc.xyz","network":"tcp"}
-  - {"name":"俄罗斯 04 | 1x RU","type":"vmess","server":"4t1r5u04.mcfront.xyz","port":31851,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ru04.lovemc.xyz","network":"tcp"}
-  - {"name":"💎 [ T1 ] 日本 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":20220,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3","type":"vmess","server":"ns02.gutingting.com","port":30021,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"新加坡 02 | 1x SG","type":"trojan","server":"1c7s2g02.mcfront.xyz","port":31206,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"sg02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港 06 | 1x HK","type":"vmess","server":"5m4h0k06.mcfront.xyz","port":31611,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk06.lovemc.xyz","network":"tcp"}
-  - {"name":"日本 04  | 1x JP","type":"vmess","server":"6w7j3p04.mcfront.xyz","port":31116,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp04.lovemc.xyz","network":"tcp"}
-  - {"name":"💎 [ T1 ] 英国 · 02 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":20227,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼台湾02","type":"trojan","server":"8t6w02.abzoones.xyz","port":36306,"udp":true,"password":"a17b9ec9-e8fa-4723-8667-36762d03d89c","sni":"tw02.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 05 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30054,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v1jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"澳大利亚 01 | 1x AU","type":"trojan","server":"4o5a3u01.mcfront.xyz","port":31821,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"au01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港 01 | 1x HK","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31601,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"hk01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾 02  | 1x TWN","type":"trojan","server":"2d1t5w02.mcfront.xyz","port":31306,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"tw02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 01 | 1x US","type":"trojan","server":"4a2u0a01.mcfront.xyz","port":31501,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"us01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾 05  | 1x TWN","type":"vmess","server":"2d1t5w05.mcfront.xyz","port":31306,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw05.lovemc.xyz","network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国原生 · 01 · 线路1_3","type":"vmess","server":"v01.gutingting.com","port":30040,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3","type":"vmess","server":"ns01.gutingting.com","port":30009,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"菲律宾 01 | 1x PH","type":"trojan","server":"1a4p0h01.mcfront.xyz","port":31801,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"ph01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 02 | 1x US","type":"trojan","server":"4a2u0a02.mcfront.xyz","port":31506,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"us02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国 02 | 1x KR","type":"vmess","server":"8l2k1r04.mcfront.xyz","port":31401,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"kr04.lovemc.xyz","network":"tcp"}
-  - {"name":"日本 05  | 1x JP","type":"vmess","server":"6w7j3p05.mcfront.xyz","port":31106,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp05.lovemc.xyz","network":"tcp"}
-  - {"name":"新加坡 01  | 1x SG","type":"trojan","server":"1c7s2g01.mcfront.xyz","port":31201,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"sg01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 02 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30025,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"韩国 01 | 1x KR","type":"trojan","server":"8l2k1r01.mcfront.xyz","port":31401,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"kr01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾 03  | 1x TWN","type":"trojan","server":"2d1t5w03.mcfront.xyz","port":31311,"udp":true,"password":"0e2985e3-a493-4556-abe4-be20d8d005f5","sni":"tw03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 04 | 1x US","type":"vmess","server":"4a2u0a04.mcfront.xyz","port":31501,"cipher":"auto","uuid":"0e2985e3-a493-4556-abe4-be20d8d005f5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us04.lovemc.xyz","network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 越南 · 01 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30051,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2vn01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30006,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30024,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 越南 · 01 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30051,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2vn01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|05直连","type":"vmess","server":"sg05.170203.xyz","port":43543,"cipher":"auto","uuid":"12d5ab7d-470b-48bd-9512-506bfe10165d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_日本02【vip1】","type":"trojan","server":"gy.xueshao.top","port":36265,"udp":true,"password":"fd319c32-a0b7-4429-9297-90d4685d325c","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"|18.28Mb","type":"vmess","server":"43.159.196.4","port":46994,"cipher":"auto","uuid":"00e35854-8706-470e-af31-e30e557e7e5e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk3/getData"}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30006,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国原生 · 01 · 线路1_4","type":"vmess","server":"v01.gutingting.com","port":30040,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 印度 · 02 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30028,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 美国 · 03 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30000,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 英国 · 02 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":20227,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 新加坡 · 02 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国 · 02 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30025,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 美国 · 02 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":20225,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4","type":"vmess","server":"ns02.gutingting.com","port":30021,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 香港原生 · 02 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30008,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 美国 · 03 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30000,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"香港-4.40MB/s(Youtube:不良林)","type":"vmess","server":"adobe6.fmmmz1.com","port":80,"cipher":"auto","uuid":"cd2b9b5c-50c6-3c22-b4c8-7550dc1c6bd7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"adobe6.fmmmz1.com"}}}
-  - {"name":"🚇 [ v1 ] 香港原生 · 01 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30007,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"💎 [ T1 ] 美国 · 02 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":20225,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 香港原生 · 02 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30008,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3","type":"vmess","server":"ns02.gutingting.com","port":30045,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ v1 ] 日本 · 06 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":30055,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v1jp02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 美国 01【vip1】_1","type":"vmess","server":"cs.xueshao.top","port":22244,"cipher":"auto","uuid":"a7351df6-f969-484a-845a-d54f44824235","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_日本01【vip1】_1","type":"trojan","server":"zj.xueshao.top","port":27706,"udp":true,"password":"fd319c32-a0b7-4429-9297-90d4685d325c","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 美国 · 03 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30000,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦 _CA_加拿大","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea-vm?ed=2048","headers":{"host":"doprax.888173.xyz"}}}
+  - {"name":"🇺🇸 github.com/freefq - 美国CloudFlare节点 24","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"3294ed48-6d03-4b5c-9d4f-6626d5676c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"hax-us3.imnibaba.tk"}}}
+  - {"name":"🇺🇸 _US_美国_1","type":"vmess","server":"172.67.169.131","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 17","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
+  - {"name":"日本线_4","type":"trojan","server":"v01.gutingting.com","port":20220,"udp":true,"password":"2e794c92-79ad-48d6-b73c-6b6bc52dc20f","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸tg频道:@sharingnode","type":"vmess","server":"172.67.135.57","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
+  - {"name":"🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6","type":"vmess","server":"173.245.49.8","port":443,"cipher":"auto","uuid":"9a18cbb1-81d2-4720-9f09-46ea276b6ddb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}}}
+  - {"name":"🇺🇸 _US_美国_2","type":"trojan","server":"155.248.193.254","port":31853,"udp":true,"password":"jKRJgS7uvI","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇳印度【YouTube-由零開始】_1","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vin1.0bad.com"}}}
+  - {"name":"🇯🇵 日本(TG频道@kxswa)","type":"trojan","server":"35.221.86.68","port":443,"udp":true,"password":"jpgcp","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 _US_美国_3","type":"vmess","server":"vde1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde1.0bad.com"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_1","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"woi-eu7.misakano.ml"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"usdo.tzccifq.ga","port":443,"cipher":"auto","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_2","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"vc-eu3.misakano.ml"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_3","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"vc-eu4.misakano.ml"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"2.58.87.142","port":80,"cipher":"auto","uuid":"f2c71a9d-5d81-48b7-9243-55f87221a964","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21","type":"vmess","server":"23.227.38.11","port":443,"cipher":"auto","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}}}
+  - {"name":"🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国","type":"vmess","server":"190.93.245.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"🇩🇰 github.com/freefq - 丹麦  8","type":"vmess","server":"185.162.228.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_4","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"woi-eubest.misakano.ml"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de1.scproxy.top"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"cpkj-100.f-sub.xyz","port":8080,"cipher":"auto","uuid":"3085bf29-571f-235a-4b34-eb2af9c696f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cpkj-100.f-sub.xyz"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_3","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_4","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_5","type":"vmess","server":"lv2.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_5","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"hax-usovz3.misakano.ml"}}}
+  - {"name":"🇸🇬 _MO_澳门->🇸🇬_SG_新加坡","type":"trojan","server":"45.64.22.56","port":443,"udp":true,"password":"123456","sni":"trojan-ctb-sg01.globalssh.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30","type":"vmess","server":"cpkj-100.f-sub.xyz","port":8080,"cipher":"auto","uuid":"3085bf29-571f-235a-4b34-eb2af9c696f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cpkj-100.f-sub.xyz"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"america2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/SRhXKZqggNrPMELA525Kw","headers":{"host":"america2.yj2022.ga"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_11","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"77.v2ray1.xyz","port":443,"cipher":"none","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"77.v2ray1.xyz","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_6","type":"vmess","server":"104.20.19.168","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"hax-eu5.misakano.ml"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_6","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"vc-eu2.misakano.ml"}}}
+  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"news.microsoft.com","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"🇨🇦 加拿大(TG频道@kxswa)_7","type":"vmess","server":"shopify.com","port":443,"cipher":"auto","uuid":"34f50a52-2e3f-4895-8751-5402e40d9593","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"hax-eu3.misakano.ml"}}}
   - {"name":"US_youtube@资源分享师_45","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
   - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
-  - {"name":"日本|05|直连2","type":"vmess","server":"jp05.170203.xyz","port":23245,"cipher":"auto","uuid":"12d5ab7d-470b-48bd-9512-506bfe10165d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇯🇵_JP_日本\r_来源：kkzui.com_6\r","type":"ss","server":"85.208.108.22","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_11","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"🚇 [ v1 ] 越南 · 01 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30051,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2vn01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_印度02【vip1】","type":"vmess","server":"zj.xueshao.top","port":46625,"cipher":"auto","uuid":"fd319c32-a0b7-4429-9297-90d4685d325c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"america2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/SRhXKZqggNrPMELA525Kw","headers":{"host":"america2.yj2022.ga"}}}
-  - {"name":"𝙐𝙆₁｜英国-Woiden［CDN］","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"c8e0f808-25d6-4911-833e-50b9f5050ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/c8e0f808-25d6-4911-833e-50b9f5050ba6","headers":{"host":"woiden-uk1.imnibaba.tk"}}}
-  - {"name":"𝘿𝙀₁｜德国-Woiden［CDN］","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"c8e0f808-25d6-4911-833e-50b9f5050ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/c8e0f808-25d6-4911-833e-50b9f5050ba6","headers":{"host":"woiden-de1.imnibaba.tk"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1","type":"trojan","server":"v01.gutingting.com","port":30005,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_1","type":"vmess","server":"lv2.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
-  - {"name":"未知国家-3.73MB/s(Youtube:不良林)","type":"vmess","server":"www.udemy.com","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
-  - {"name":"🚇 [ v1 ] 越南 · 01 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":30051,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2vn01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"2.58.87.142","port":80,"cipher":"auto","uuid":"f2c71a9d-5d81-48b7-9243-55f87221a964","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国原生 · 02 · 线路2_1","type":"vmess","server":"v02.gutingting.com","port":30041,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"136.175.11.62","port":443,"cipher":"auto","uuid":"f89a1de0-bf2f-11ed-b033-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"香港hk|tg频道:@ripaojiedian","type":"vmess","server":"downloading.cmhkg.eu.org","port":443,"cipher":"auto","uuid":"dce799bc-372d-4691-a4e4-5998ff85a9ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.doinb.tk","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk1.doinb.tk"}}}
-  - {"name":"Relay_ |13.54Mb","type":"vmess","server":"jp05.cctvvip.ml","port":443,"cipher":"auto","uuid":"12dc16dd-1118-457c-9ddf-453996cd7920","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv13.m3u8"}}
-  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"usdo.tzccifq.ga","port":443,"cipher":"auto","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}}}
-  - {"name":"🚇 [ v1 ] 英国原生 · 02 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30041,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🇳🇱_NL_荷兰\r","type":"trojan","server":"185.212.200.76","port":443,"udp":true,"password":"Sp3eDVp","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"距离下次重置剩余：1 天","type":"vmess","server":"ns01.gutingting.com","port":30044,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":30005,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 英国 · 01 · 线路1_2","type":"trojan","server":"v01.gutingting.com","port":20226,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_5","type":"trojan","server":"ln.servicesos.ir","port":443,"udp":true,"password":"64084a40000b4de9e6aceaa5","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":30005,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 英国原生 · 02 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30041,"cipher":"auto","uuid":"b73134ea-1d46-4990-8d26-11c4763f12fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 印度 · 02 · 线路2_4","type":"vmess","server":"v02.gutingting.com","port":30028,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"JCBB_ 美国 01【vip1】_2","type":"vmess","server":"cs.xueshao.top","port":22244,"cipher":"auto","uuid":"fd319c32-a0b7-4429-9297-90d4685d325c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇮🇳印度【YouTube-由零開始】_1","type":"vmess","server":"vin1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vin1.0bad.com"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4","type":"vmess","server":"ns02.gutingting.com","port":30045,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 香港原生 · 02 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30008,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"JCBB_印度01【vip1】_2","type":"vmess","server":"gddxd.fosi.hk","port":63211,"cipher":"auto","uuid":"a7351df6-f969-484a-845a-d54f44824235","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸tg频道:@sharingnode_1","type":"vmess","server":"172.67.135.57","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
-  - {"name":"🚇 [ v1 ] 英国原生 · 02 · 线路2_4","type":"vmess","server":"v02.gutingting.com","port":30041,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"b73134ea-1d46-4990-8d26-11c4763f12fb","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ v1 ] 美国 · 03 · 线路2_4","type":"vmess","server":"v02.gutingting.com","port":30000,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 香港原生 · 01 · 线路2_2","type":"vmess","server":"v02.gutingting.com","port":30007,"cipher":"auto","uuid":"dffd9c74-41e6-45b0-b283-29ed7cedd289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 香港原生 · 01 · 线路2_3","type":"vmess","server":"v02.gutingting.com","port":30007,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 菲律宾 · 01 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30053,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2phl01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡-613.1KB/s(Youtube:不良林)","type":"vmess","server":"8.222.140.90","port":8080,"cipher":"auto","uuid":"a9c64e79-0509-4eb8-bd73-042e38b61d21","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/uitsrt","headers":{"host":"freeawsoragen.argotus.live"}}}
-  - {"name":"💎 [ T1 ] 英国 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":20226,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 新加坡 · 01 · 线路1_4","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港A|tg频道:@ripaojiedian","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"9d4f9d66-407c-4c1b-b594-41e20a776ce3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"🚇 [ v1 ] 英国 · 02 · 线路2_4","type":"vmess","server":"v02.gutingting.com","port":30025,"cipher":"auto","uuid":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"🚇 [ v1 ] 泰国 · 01 · 线路2_3","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"3ce7d07f-2dfd-4445-ae07-3e8c1f1d1a17","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"💎 [ T1 ] 美国 · 01 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":20224,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
-  - {"name":"github.com/freefq - 美国CloudFlare节点 17","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
-  - {"name":"🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2","type":"vmess","server":"ns01.gutingting.com","port":30044,"cipher":"auto","uuid":"3d23a024-52f8-411b-9da6-12a6bcc387f8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
-  - {"name":"𝙋𝙇₁｜波兰-Woiden［CDN］","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"c8e0f808-25d6-4911-833e-50b9f5050ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/c8e0f808-25d6-4911-833e-50b9f5050ba6","headers":{"host":"woiden-pl1.imnibaba.tk"}}}
-  - {"name":"🇨🇳tg频道:@sharingnode","type":"trojan","server":"hnm.xiaohouzi.club","port":16082,"udp":true,"password":"21e10785-99c6-316e-a184-a03384ee06e5","sni":"$$nh-hinet06.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港(TG频道@kxswa)","type":"vmess","server":"hk80.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"9d4f9d66-407c-4c1b-b594-41e20a776ce3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"🇬🇧 _GB_英国","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"3d23a024-52f8-411b-9da6-12a6bcc387f8","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4","type":"trojan","server":"v01.gutingting.com","port":30005,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"永久base64订阅:https://dy.imnibaba.tk/base64","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"c8e0f808-25d6-4911-833e-50b9f5050ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/c8e0f808-25d6-4911-833e-50b9f5050ba6","headers":{"host":"hax-us1.imnibaba.tk"}}}
-  - {"name":"JCBB_日本01【vip1】_2","type":"trojan","server":"zj.xueshao.top","port":27706,"udp":true,"password":"a7351df6-f969-484a-845a-d54f44824235","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸tg频道:@sharingnode_2","type":"vmess","server":"v2ray.online","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
-  - {"name":"💎 [ v1 ] 新加坡 · 02 · 线路1_3","type":"trojan","server":"v01.gutingting.com","port":30050,"udp":true,"password":"dffd9c74-41e6-45b0-b283-29ed7cedd289","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"剩余流量：1 GB","type":"vmess","server":"zj.xueshao.top","port":49973,"cipher":"auto","uuid":"a7351df6-f969-484a-845a-d54f44824235","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"狮城中转|tg频道:@ripaojiedian","type":"vmess","server":"8.222.140.90","port":8080,"cipher":"auto","uuid":"a9c64e79-0509-4eb8-bd73-042e38b61d21","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/uitsrt","headers":{"host":"freelinodesg.argotus.live"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_7","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"🇺🇸 _US_美国_4","type":"vmess","server":"new3.hucloud-dns.xyz","port":443,"cipher":"auto","uuid":"1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"new3.hucloud-dns.xyz"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_8","type":"vmess","server":"us2.sanfen001.pics","port":443,"cipher":"auto","uuid":"e7d09c21-31af-4c4b-b9db-ad60d7497a65","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfen001.pics"}}}
+  - {"name":"🇺🇸 美国(TG频道@kxswa)_9","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
+  - {"name":"🇺🇸 github.com/freefq - 美国CloudFlare节点 17","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"9dbfdc2b-f3ef-418b-b5d5-221b78a4ea63","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-uk1.imnibaba.tk"}}}
+  - {"name":"🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11","type":"vmess","server":"new3.hucloud-dns.xyz","port":443,"cipher":"auto","uuid":"1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"new3.hucloud-dns.xyz"}}}
+  - {"name":"移动香_33","type":"trojan","server":"v01.gutingting.com","port":30005,"udp":true,"password":"5741e262-1615-4ab7-ab2c-b7a68b66c2af","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪德国01","type":"trojan","server":"3d6e01.abzoones.xyz","port":36841,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"de01.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"无法使用请来官网更新订阅","type":"trojan","server":"1j8p01.abzoones.xyz","port":36116,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"jp01.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本05","type":"vmess","server":"1j8p05.abzoones.xyz","port":36106,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp05.abpilot.xyz","network":"tcp"}
+  - {"name":"🇰🇷韩国04","type":"vmess","server":"8k2r04.abzoones.xyz","port":36401,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"kr04.abpilot.xyz","network":"tcp"}
+  - {"name":"🇹🇼台湾04","type":"vmess","server":"8t6w04.abzoones.xyz","port":36301,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw04.abpilot.xyz","network":"tcp"}
+  - {"name":"🇭🇰香港05","type":"vmess","server":"8h2k05.abzoones.xyz","port":36606,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.abpilot.xyz","network":"tcp"}
+  - {"name":"🇹🇼台湾03","type":"trojan","server":"8t6w03.abzoones.xyz","port":36311,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"tw03.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼台湾02","type":"trojan","server":"8t6w02.abzoones.xyz","port":36306,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"tw02.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国03","type":"trojan","server":"3u1s03.abzoones.xyz","port":36511,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"us03.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本02","type":"trojan","server":"1j8p02.abzoones.xyz","port":36106,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"jp02.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰香港01","type":"trojan","server":"8h2k01.abzoones.xyz","port":36601,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"hk01.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡04","type":"vmess","server":"9s5g04.abzoones.xyz","port":36201,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg04.abpilot.xyz","network":"tcp"}
+  - {"name":"🇯🇵日本06","type":"vmess","server":"1j8p06.abzoones.xyz","port":36111,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp06.abpilot.xyz","network":"tcp"}
+  - {"name":"🇸🇬新加坡06","type":"vmess","server":"9s5g06.abzoones.xyz","port":36211,"cipher":"auto","uuid":"a7c65554-3375-46b5-bbf7-e7024f758d43","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg06.abpilot.xyz","network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡03","type":"trojan","server":"9s5g03.abzoones.xyz","port":36211,"udp":true,"password":"a7c65554-3375-46b5-bbf7-e7024f758d43","sni":"sg03.abpilot.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾原_19","type":"trojan","server":"v02.gutingting.com","port":30003,"udp":true,"password":"58e8247d-2089-4796-9ce0-7f26c76b1821","sni":"v2tw01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_52","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"6ea5cb9e-0f87-4793-b7ba-b78bf2c2d642","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"菲律宾_70","type":"trojan","server":"v02.gutingting.com","port":30053,"udp":true,"password":"58e8247d-2089-4796-9ce0-7f26c76b1821","sni":"v2phl01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"泰国线_69","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"6ea5cb9e-0f87-4793-b7ba-b78bf2c2d642","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"_45","type":"trojan","server":"sa.steamdownload.top","port":45742,"udp":true,"password":"68e98649-8090-4e70-a4b3-ebe21b9be6cb","sni":"data-sg.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_10","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"2e794c92-79ad-48d6-b73c-6b6bc52dc20f","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本 01 | 1x JP","type":"trojan","server":"6w7j3p01.mcfront.xyz","port":31116,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"jp01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本 02  | 1x JP","type":"trojan","server":"6w7j3p02.mcfront.xyz","port":31106,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"jp02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本 03  | 1x JP","type":"trojan","server":"6w7j3p03.mcfront.xyz","port":31111,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"jp03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本 04  | 1x JP","type":"vmess","server":"6w7j3p04.mcfront.xyz","port":31116,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp04.lovemc.xyz","network":"tcp"}
+  - {"name":"日本 05  | 1x JP","type":"vmess","server":"6w7j3p05.mcfront.xyz","port":31106,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp05.lovemc.xyz","network":"tcp"}
+  - {"name":"日本 06  | 1x JP","type":"vmess","server":"6w7j3p06.mcfront.xyz","port":31111,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp06.lovemc.xyz","network":"tcp"}
+  - {"name":"香港 01 | 1x HK","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31601,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"hk01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 02 | 1x HK","type":"trojan","server":"5m4h0k02.mcfront.xyz","port":31606,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"hk02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 03 | 1x HK","type":"trojan","server":"5m4h0k03.mcfront.xyz","port":31611,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"hk03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 04 | 1x HK","type":"vmess","server":"5m4h0k04.mcfront.xyz","port":31601,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk04.lovemc.xyz","network":"tcp"}
+  - {"name":"香港 05 | 1x HK","type":"vmess","server":"5m4h0k05.mcfront.xyz","port":31606,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.lovemc.xyz","network":"tcp"}
+  - {"name":"香港 06 | 1x HK","type":"vmess","server":"5m4h0k06.mcfront.xyz","port":31611,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk06.lovemc.xyz","network":"tcp"}
+  - {"name":"台湾 01  | 1x TWN","type":"trojan","server":"2d1t5w01.mcfront.xyz","port":31301,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"tw01.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 02  | 1x TWN","type":"trojan","server":"2d1t5w02.mcfront.xyz","port":31306,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"tw02.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 03  | 1x TWN","type":"trojan","server":"2d1t5w03.mcfront.xyz","port":31311,"udp":true,"password":"4da910a0-38c3-4c0c-96f7-3213ca61b370","sni":"tw03.lovemc.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 04  | 1x TWN","type":"vmess","server":"2d1t5w04.mcfront.xyz","port":31301,"cipher":"auto","uuid":"4da910a0-38c3-4c0c-96f7-3213ca61b370","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw04.lovemc.xyz","network":"tcp"}
+  - {"name":"🇺🇸 _US_美国->🇩🇪_DE_德国","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
+  - {"name":"🇸🇬 _US_美国->🇸🇬_SG_新加坡_1","type":"vmess","server":"172.67.64.228","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸 _US_美国->🇫🇷_FR_法国","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"🇸🇬 _US_美国->🇸🇬_SG_新加坡_2","type":"vmess","server":"172.67.69.120","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸 _BZ_伯利兹->🇺🇸_US_美国","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"中转节点-9.95MB/s(Youtube:不良林)","type":"trojan","server":"sa.steamdownload.top","port":45741,"udp":true,"password":"68e98649-8090-4e70-a4b3-ebe21b9be6cb","sni":"data-sg.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"中转节点-9.26MB/s(Youtube:不良林)","type":"trojan","server":"sa.steamdownload.top","port":45711,"udp":true,"password":"68e98649-8090-4e70-a4b3-ebe21b9be6cb","sni":"data-hk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"菲律宾-13.58MB/s(Youtube:不良林)","type":"ss","server":"ggjh.enoiy.com","port":812,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1686,237 +713,98 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_1
-      - 香港|03|隧道
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_1
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_3
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_1
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_1
-      - 💎 [ v1 ] 新加坡 · 03 · 线路2_4
-      - 💎 [ v1 ] 日本 · 05 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_1
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_3
-      - 💎 [ v1 ] 日本 · 06 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 02 · 线路1_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_2
-      - 💎 [ T1 ] 日本 · 02 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_1
-      - 💎 [ T1 ] 日本 · 01 · 线路1_1
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_2
-      - 剩余流量：10 GB
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_3
-      - 💎 [ T1 ] 日本 · 02 · 线路1_3
-      - '快飞永久跳转地址: http://fastfly.club'
-      - 💎 [ T1 ] 英国 · 01 · 线路1_1
-      - 💎 [ T1 ] 美国 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_1
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_3
-      - 💎 [ T1 ] 日本 · 01 · 线路1_2
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_2
-      - JCBB_ 英国04【vip1】_1
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_3
-      - JCBB_印度01【vip1】_1
-      - JCBB_ 英国04【vip1】_2
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_1
-      - 🚇 [ v1 ] 英国 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 美国 · 02 · 线路1_4
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_2
-      - 💎 [ T1 ] 美国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 01 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_1
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_3
-      - 美国 05 | 1x US
-      - 俄罗斯 01 | 1x RU
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_2
-      - 💎 [ T1 ] 英国 · 02 · 线路2_2
-      - 🚇 [ v1 ] 印度 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_2
-      - 香港 03 | 1x HK
-      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_2
-      - 日本 06  | 1x JP
-      - 美国 06 | 1x US
-      - 英国 01 | 1x UK
-      - 官网地址： mikasacloud.site
-      - vip1 泰国-02
-      - JCBB_ 美国 02【vip1】_1
-      - 新加坡 05 | 1x SG
-      - 印度 01 | 1x IN
-      - 新加坡 06 | 1x SG
-      - JCBB_ 美国 02【vip1】_2
-      - 加拿大 01 | 1x CA
-      - 美国|02|隧道chatGPT
-      - 💎 [ v1 ] 日本 · 05 · 线路2_2
-      - 美国 03 | 1x US
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_1
-      - 日本 02  | 1x JP
-      - 日本 03  | 1x JP
-      - 新加坡 03 | 1x SG
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_1
-      - 💎 [ v1 ] 日本 · 06 · 线路2_3
-      - vip1 英国-03
-      - 德国 01 | 1x DE
-      - 香港 04 | 1x HK
-      - 🚇 [ v1 ] 新加坡 · 01 · 线路1_4
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_2
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_2
-      - 新加坡 04 | 1x SG
-      - 俄罗斯 04 | 1x RU
-      - 💎 [ T1 ] 日本 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_3
-      - 新加坡 02 | 1x SG
-      - 香港 06 | 1x HK
-      - 日本 04  | 1x JP
-      - 💎 [ T1 ] 英国 · 02 · 线路2_3
-      - 🇹🇼台湾02
-      - 💎 [ v1 ] 日本 · 05 · 线路2_3
-      - 澳大利亚 01 | 1x AU
-      - 香港 01 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 美国 01 | 1x US
-      - 台湾 05  | 1x TWN
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_3
-      - 🚇 [ 联通 ] 日本 · F1 · 01 · 线路1_3
-      - 菲律宾 01 | 1x PH
-      - 美国 02 | 1x US
-      - 韩国 02 | 1x KR
-      - 日本 05  | 1x JP
-      - 新加坡 01  | 1x SG
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_3
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_2
-      - 韩国 01 | 1x KR
-      - 台湾 03  | 1x TWN
-      - 美国 04 | 1x US
-      - 🚇 [ 联通 ] 韩国 · E1 · 01 · 线路1_4
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_1
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_2
-      - 🚇 [ 联通 ] 香港 · F1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_1
-      - 新加坡|05直连
-      - JCBB_日本02【vip1】
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_1
-      - '|18.28Mb'
-      - 🚇 [ 移动 ] 香港 · E1 · 03 · 线路2_3
-      - 🚇 [ v1 ] 英国原生 · 01 · 线路1_4
-      - 🚇 [ 联通 ] 韩国 · E1 · 02 · 线路2_4
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_3
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_1
-      - 💎 [ T1 ] 英国 · 02 · 线路2_4
-      - 💎 [ T1 ] 新加坡 · 02 · 线路2_4
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_3
-      - 💎 [ T1 ] 美国 · 02 · 线路2_3
-      - 🚇 [ 联通 ] 日本 · F1 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_2
-      - 香港-4.40MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_1
-      - 💎 [ T1 ] 美国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_2
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_2
-      - 💎 [ v1 ] 日本 · 06 · 线路2_4
-      - JCBB_ 美国 01【vip1】_1
-      - JCBB_日本01【vip1】_1
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_3
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_3
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国(TG频道@kxswa)_1
+      - github.com/freefq - 美国CloudFlare节点 17
+      - 日本线_4
+      - 🇺🇸tg频道:@sharingnode
+      - 🇺🇸 v2rayfree.eu.org - 美国弗吉尼亚州阿什本NV NEXT数据中心 6
+      - 🇺🇸 _US_美国_2
+      - 🇮🇳印度【YouTube-由零開始】_1
+      - 🇯🇵 日本(TG频道@kxswa)
+      - 🇺🇸 _US_美国_3
+      - 🇨🇦 加拿大(TG频道@kxswa)_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇦 加拿大(TG频道@kxswa)_2
+      - 🇨🇦 加拿大(TG频道@kxswa)_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点(shopify) 21
+      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇩🇰 github.com/freefq - 丹麦  8
+      - 🇨🇦 加拿大(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国(TG频道@kxswa)_3
+      - 🇺🇸 美国(TG频道@kxswa)_4
+      - 🇺🇸 美国(TG频道@kxswa)_5
+      - 🇨🇦 加拿大(TG频道@kxswa)_5
+      - 🇸🇬 _MO_澳门->🇸🇬_SG_新加坡
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
+      - 🇺🇸_US_美国_3
+      - 🇺🇸美国【YouTube-由零開始】_11
+      - 美国 CloudFlare节点
+      - 🇺🇸 美国(TG频道@kxswa)_6
+      - 🇨🇦 加拿大(TG频道@kxswa)_6
+      - 🇺🇸_US_美国_4
+      - 🇨🇦 加拿大(TG频道@kxswa)_7
       - US_youtube@资源分享师_45
       - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 日本|05|直连2
-      - "🇯🇵_JP_日本\r_来源：kkzui.com_6\r"
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_3
-      - JCBB_印度02【vip1】
-      - 🇺🇸_US_美国_1
-      - 𝙐𝙆₁｜英国-Woiden［CDN］
-      - 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_1
-      - US_youtube@资源分享师_1
-      - 未知国家-3.73MB/s(Youtube:不良林)
-      - 🚇 [ v1 ] 越南 · 01 · 线路2_4
-      - 🇺🇸_US_美国_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_2
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_1
-      - 🇺🇸_US_美国_3
-      - 香港hk|tg频道:@ripaojiedian
-      - Relay_ |13.54Mb
-      - 🇺🇸_US_美国_4
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_2
-      - "🇳🇱_NL_荷兰\r"
-      - 距离下次重置剩余：1 天
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_2
-      - 💎 [ T1 ] 英国 · 01 · 线路1_2
-      - 🇺🇸_US_美国_5
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_3
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_3
-      - 🚇 [ v1 ] 印度 · 02 · 线路2_4
-      - JCBB_ 美国 01【vip1】_2
-      - 🇮🇳印度【YouTube-由零開始】_1
-      - 🚇 [ 联通 ] 日本 · F1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 02 · 线路2_3
-      - JCBB_印度01【vip1】_2
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_3
-      - 🇺🇸tg频道:@sharingnode_1
-      - 🚇 [ v1 ] 英国原生 · 02 · 线路2_4
-      - 🚇 [ 移动 ] 香港 · E1 · 04 · 线路2_4
-      - 🚇 [ v1 ] 美国 · 03 · 线路2_4
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_2
-      - 🚇 [ v1 ] 香港原生 · 01 · 线路2_3
-      - 🚇 [ v1 ] 菲律宾 · 01 · 线路2_3
-      - 新加坡-613.1KB/s(Youtube:不良林)
-      - 💎 [ T1 ] 英国 · 01 · 线路1_3
-      - 💎 [ T1 ] 新加坡 · 01 · 线路1_4
-      - 香港A|tg频道:@ripaojiedian
-      - 🚇 [ v1 ] 英国 · 02 · 线路2_4
-      - 🚇 [ v1 ] 泰国 · 01 · 线路2_3
-      - 💎 [ T1 ] 美国 · 01 · 线路1_3
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - github.com/freefq - 美国CloudFlare节点 17
-      - 🚇 [ 联通 ] 日本 · F1 · 02 · 线路1_2
-      - 𝙋𝙇₁｜波兰-Woiden［CDN］
-      - 🇨🇳tg频道:@sharingnode
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇬🇧 _GB_英国
-      - 🚇 [ 移动 ] 香港 · E1 · 01 · 线路1_4
-      - 🚇 [ 移动 ] 香港 · E1 · 02 · 线路1_4
-      - 永久base64订阅:https://dy.imnibaba.tk/base64
-      - JCBB_日本01【vip1】_2
-      - 🇺🇸tg频道:@sharingnode_2
-      - 💎 [ v1 ] 新加坡 · 02 · 线路1_3
-      - 剩余流量：1 GB
-      - 狮城中转|tg频道:@ripaojiedian
+      - 🇺🇸 美国(TG频道@kxswa)_7
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国(TG频道@kxswa)_8
+      - 🇺🇸 美国(TG频道@kxswa)_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 移动香_33
+      - 🇩🇪德国01
+      - 无法使用请来官网更新订阅
+      - 🇯🇵日本05
+      - 🇰🇷韩国04
+      - 🇹🇼台湾04
+      - 🇭🇰香港05
+      - 🇹🇼台湾03
+      - 🇹🇼台湾02
+      - 🇺🇸美国03
+      - 🇯🇵日本02
+      - 🇭🇰香港01
+      - 🇸🇬新加坡04
+      - 🇯🇵日本06
+      - 🇸🇬新加坡06
+      - Relay_🇨🇳CN-🇭🇰HK_126 |40.60Mb
+      - 🇸🇬新加坡03
+      - 台湾原_19
+      - 新加坡_52
+      - 菲律宾_70
+      - 泰国线_69
+      - _45
+      - 新加坡_10
+      - 日本 01 | 1x JP
+      - 日本 02  | 1x JP
+      - 日本 03  | 1x JP
+      - 日本 04  | 1x JP
+      - 日本 05  | 1x JP
+      - 日本 06  | 1x JP
+      - 香港 01 | 1x HK
+      - 香港 02 | 1x HK
+      - 香港 03 | 1x HK
+      - 香港 04 | 1x HK
+      - 香港 05 | 1x HK
+      - 香港 06 | 1x HK
+      - 台湾 01  | 1x TWN
+      - 台湾 02  | 1x TWN
+      - 台湾 03  | 1x TWN
+      - 台湾 04  | 1x TWN
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡_2
+      - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
+      - 中转节点-9.95MB/s(Youtube:不良林)
+      - 中转节点-9.26MB/s(Youtube:不良林)
+      - 菲律宾-13.58MB/s(Youtube:不良林)
 
 rules:
 # 本地/局域网地址
