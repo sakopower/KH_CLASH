@@ -14,557 +14,382 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"no.aries.ovh","port":80,"cipher":"auto","uuid":"88e5a793-3875-4c63-940c-bd6ea11075cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}}}
-  - {"name":"香港HK|tg频道:@ripaojiedian","type":"trojan","server":"120.241.255.196","port":41687,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","sni":"120.241.255.196","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_youtube@资源分享师_17\r","type":"ss","server":"sa.unlimitedtraffic.top","port":25881,"password":"19323732-d371-43f0-a6c1-1833dc68a137","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"_CN_中国->🇺🇸_US_美国","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"狮城|tg频道:@ripaojiedian","type":"vmess","server":"sg5.lianpi.xyz","port":54126,"cipher":"auto","uuid":"a33fcd7c-daa6-44f3-8de0-be74e17f0d8b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡M|tg频道:@ripaojiedian","type":"vmess","server":"13.229.136.38","port":80,"cipher":"auto","uuid":"1d4e85c7-f510-4a84-bb46-ebbaa0c53907","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/images","headers":{"host":"asp.cntv.myalicdn.com"}}}
-  - {"name":"🇸🇬_SG_新加坡","type":"vmess","server":"sg5.lianpi.xyz","port":54126,"cipher":"auto","uuid":"a33fcd7c-daa6-44f3-8de0-be74e17f0d8b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港1|关注频道","type":"vmess","server":"18.167.102.158","port":80,"cipher":"auto","uuid":"1d4e85c7-f510-4a84-bb46-ebbaa0c53907","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/images","headers":{"host":"asp.cntv.myalicdn.com"}}}
-  - {"name":"🇹🇼_TW_台湾","type":"trojan","server":"kcdtw1-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"e95194b4-bc7e-497f-876a-686e127e0b65","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港","type":"ss","server":"hkhgc01.ikun.bio","port":16487,"password":"d5c37cc8-72bc-40b5-9743-4a3ab2f182e1","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本节点|tg频道:@ripaojiedian","type":"trojan","server":"lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou","port":12343,"udp":true,"password":"001a5927-bcf7-368a-8a4d-cb8c2fd6aab5","sni":"uwayvbjlshiuxaw.vzwzasc.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷_FR_法国->🇸🇬_SG_新加坡","type":"vmess","server":"173.245.49.165","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
-  - {"name":"Japan2|tg频道:@ripaojiedian","type":"trojan","server":"jp7.lianpi.xyz","port":53638,"udp":true,"password":"5d651d8c-d5b3-418b-a3ea-55171af5b726","sni":"jp7.lianpi.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"finland2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yWJGGBHoVpr3DbNuVycP","headers":{"host":"finland2.yj2022.ga"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb","type":"trojan","server":"emmm.xiaolong.world","port":5555,"udp":true,"password":"Y1NE1HMxLh5Tm7Vk","sni":"emmm.xiaolong.world","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1","type":"vmess","server":"203.30.191.20","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
-  - {"name":"美国 089","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"1f1136af-9479-4851-aa8b-6ae7e6a4bd33","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/"}}
-  - {"name":"US_youtube@资源分享师_45","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
   - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2","type":"vmess","server":"203.30.191.19","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"finland2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yWJGGBHoVpr3DbNuVycP","headers":{"host":"finland2.yj2022.ga"}}}
   - {"name":"美国 004","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"美国 005","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_3","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
-  - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","type":"vmess","server":"172.67.72.53","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk-hytron.ilovescp.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
   - {"name":"🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_4","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de1.scproxy.top"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_5","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_6","type":"vmess","server":"lv2.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
-  - {"name":"美国 CloudFlare节点_1","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk-hytron.ilovescp.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
   - {"name":"日本JP|tg频道:@ripaojiedian","type":"vmess","server":"45.80.111.53","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200.aquabazi.site","network":"ws","ws-opts":{"path":"/suzhihan.eu.org/roewesu","headers":{"host":"200.aquabazi.site"}}}
-  - {"name":"美国 CloudFlare节点_2","type":"vmess","server":"190.93.245.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国","type":"vmess","server":"190.93.245.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇺🇸_US_1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"aes-128-gcm","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"b.gguu.pp.ua","port":443,"cipher":"auto","uuid":"e959bcfa-500d-419a-b71d-e7fa2bf63969","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/123","headers":{"host":"b.gguu.pp.ua"}}}
   - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3","type":"vmess","server":"203.30.191.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇯🇵_JP_日本","type":"trojan","server":"jp7.lianpi.xyz","port":53638,"udp":true,"password":"5d651d8c-d5b3-418b-a3ea-55171af5b726","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 017","type":"vmess","server":"la.awsbest.com","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares"}}
   - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"美国 025","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"youtube 新知_140","type":"vmess","server":"172.93.47.4","port":10512,"cipher":"auto","uuid":"58781eee-baba-6666-baba-2ca0ada6568b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_3","type":"vmess","server":"de1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de1.scproxy.top"}}}
-  - {"name":"github.com/freefq - 澳大利亚Langwarrin Secondary College 6","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
-  - {"name":"日本东京|tg:@ripaojiedian","type":"vmess","server":"15.152.86.184","port":80,"cipher":"auto","uuid":"1d4e85c7-f510-4a84-bb46-ebbaa0c53907","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/images","headers":{"host":"asp.cntv.myalicdn.com"}}}
-  - {"name":"美国 033","type":"vmess","server":"germany1.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/XQ2WCa29jfDMGBcbnQ"}}
+  - {"name":"中转节点-6.70MB/s(Youtube:不良林)","type":"trojan","server":"sz-cm-kl.hinetwork.tw","port":11239,"udp":true,"password":"37e2f77e-4b92-30fa-8998-696a5b1fc0d7","sni":"sz-cm-kl.hinetwork.tw","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇧🇿_BZ_伯利兹->🇫🇷_FR_法国","type":"vmess","server":"203.30.188.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"HK_youtube@资源分享师_95","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"1f1136af-9479-4851-aa8b-6ae7e6a4bd33","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"US_youtube@资源分享师_246","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"473158d3-37f0-449e-9d5b-f1de366fea59","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-fi-1.imnibaba.tk"}}}
-  - {"name":"🇫🇮_FI_芬兰","type":"vmess","server":"f2.hub1.ir","port":4008,"cipher":"auto","uuid":"69e6fb57-9fef-40a0-90dd-d2baa64741d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
   - {"name":"github.com/freefq - 澳大利亚悉尼 22","type":"vmess","server":"203.24.108.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】","type":"vmess","server":"movie3.fun1yearsfun.top","port":443,"cipher":"auto","uuid":"4eee4324-b746-11ed-afa1-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bypass123","headers":{"host":"movie3.fun1yearsfun.top"}}}
+  - {"name":"🇺🇸US-192.203.230.137-1169","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us2?ed=2048","headers":{"host":"us2.yfjc.sbs"}}}
   - {"name":"🇦🇲_AM_亚美尼亚","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇬🇧_GB_英国_1","type":"ss","server":"51.104.214.61","port":14676,"password":"6vTa0zivzZXRHU3bRUyGZP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港直连|tg频道:@ripaojiedian","type":"vmess","server":"43.198.90.91","port":80,"cipher":"auto","uuid":"e7d09c21-31af-4c4b-b9db-ad60d7497a65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/"}}
-  - {"name":"香港分流|tg频道:@ripaojiedian","type":"vmess","server":"hk80.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"e7d09c21-31af-4c4b-b9db-ad60d7497a65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/"}}
-  - {"name":"🇸🇬Singapore-M1","type":"vmess","server":"project.mytargoocloud.live","port":443,"cipher":"auto","uuid":"d7c91c45-8f30-4175-b78b-c18ccf6a1fa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sgm1.targoocloud.live","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgm1.targoocloud.live"}}}
-  - {"name":"🇬🇧_GB_英国_2","type":"ss","server":"212.102.53.194","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸 美国(TG频道@kxswa)_7","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
-  - {"name":"香港A|tg频道:@ripaojiedian","type":"vmess","server":"hk80.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"29ac226e-493f-4c64-b244-103b13e6404b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"香港2|tg频道:@ripaojiedian","type":"vmess","server":"43.154.190.26","port":47175,"cipher":"auto","uuid":"ce387c33-6d75-4722-95dd-b265657f2802","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk8/getData"}}
-  - {"name":"美国 047","type":"vmess","server":"germany2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/8kH8qnepjkprbsidLrLkmX"}}
-  - {"name":"[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)","type":"vmess","server":"finland1.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/WKtzeN11GLqwVNBTp9mX","headers":{"host":"finland1.yj2022.ga"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"Kansas.v2ray.online","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
-  - {"name":"_JP_日本->🇺🇸_US_美国","type":"trojan","server":"hk1.cf4589a1-71ec-429f-b46a-892af2259b8e.yiyuan.cyou","port":443,"udp":true,"password":"13167d4e-1af8-4369-927f-248ac9d3d5d7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 097","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"88e5a793-3875-4c63-940c-bd6ea11075cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}}}
-  - {"name":"美国 CloudFlare节点_3","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
-  - {"name":"JP_youtube@资源分享师_221","type":"vmess","server":"jp-cdn.vlowers.top","port":443,"cipher":"auto","uuid":"e5fe5156-3de4-4fcc-b58a-3d818223650d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/HKVPS","headers":{"host":"cc.ainuo.xyz"}}}
-  - {"name":"美国 007","type":"vmess","server":"Kansas.v2ray.online","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest"}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
-  - {"name":"_SG_新加坡","type":"ss","server":"54.169.160.39","port":801,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"_SG_新加坡 2","type":"trojan","server":"tw2.microsoftjs.top","port":443,"udp":true,"password":"cba70996-88fd-4495-b1bc-ad12f1017546","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-203.30.191.1-0143","type":"vmess","server":"203.30.191.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"🇦🇶NOWHERE-0.0.0.0-3300","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"🏁RELAY-104.21.92.42-1524","type":"vmess","server":"8908.v9966.shop","port":443,"cipher":"auto","uuid":"efde6d40-c1bf-11ed-b636-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"8908.v9966.shop"}}}
+  - {"name":"🏁RELAY-185.162.228.2-0186","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🏁RELAY-172.67.199.27-0232","type":"vmess","server":"dp2.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp2.scproxy.top"}}}
+  - {"name":"🇺🇸US-192.203.230.66-1171","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl3?ed=2048","headers":{"host":"nl3.yfjc.sbs"}}}
+  - {"name":"🇩🇪DE-3.70.215.185-21802","type":"vmess","server":"3.70.215.185","port":8080,"cipher":"auto","uuid":"98b57934-5b1c-4c39-8106-ffce92efcd13","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sptest.hostiran.net.prod.hosts.ooklaserver.net"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"148.59.74.196","port":443,"udp":true,"password":"62c4eec5-87f0-47e8-8850-78158acfdd96","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-185.174.138.38-21760","type":"vmess","server":"185.174.138.38","port":443,"cipher":"auto","uuid":"d3990020-4d90-4d1a-bd6b-61d506ff7038","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sparrow.digicloud.shop","network":"ws","ws-opts":{"path":"/graphql","headers":{"host":"sparrow.digicloud.shop"}}}
+  - {"name":"🏁RELAY-172.67.184.184-21884","type":"vmess","server":"172.67.184.184","port":443,"cipher":"auto","uuid":"7ff31eb9-cca4-4410-d379-2d78bed14f15","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"best1.wanwusheng.tk","network":"ws","ws-opts":{"path":"/123","headers":{"host":"best1.wanwusheng.tk"}}}
+  - {"name":"🇭🇰HK-103.117.101.104-1610","type":"vmess","server":"103.117.101.104","port":51298,"cipher":"auto","uuid":"899c4e65-4129-4e9b-f65f-058f469bdd90","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/789","headers":{"host":"103.117.101.104"}}}
+  - {"name":"🏁RELAY-203.24.108.9-0112","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"🏁RELAY-203.30.189.2-0121","type":"vmess","server":"203.30.189.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇺🇸US-192.203.230.137-1172","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl?ed=2048","headers":{"host":"nl.yfjc.sbs"}}}
+  - {"name":"未知国家-952.9KB/s(Youtube:不良林)","type":"vmess","server":"df7e.v9966.shop","port":443,"cipher":"auto","uuid":"a27983a0-c1b9-11ed-b333-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"df7e.v9966.shop"}}}
+  - {"name":"Relay_ | 7.12Mb","type":"ss","server":"sa.unlimitedtraffic.top","port":25881,"password":"19323732-d371-43f0-a6c1-1833dc68a137","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb","type":"vmess","server":"25.v2-ray.cyou","port":23625,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb","type":"trojan","server":"hnm.xiaohouzi.club","port":36872,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hnm.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇨🇳CN |38.40Mb","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb","type":"trojan","server":"lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou","port":12324,"udp":true,"password":"001a5927-bcf7-368a-8a4d-cb8c2fd6aab5","sni":"lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb","type":"trojan","server":"hn.xiaohouzi.club","port":48464,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hn.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_104_1","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
+  - {"name":"Relay_-🇺🇸US_1042","type":"vmess","server":"6bf5.v9966.shop","port":80,"cipher":"auto","uuid":"e6877db0-c1b8-11ed-b839-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"🇦🇺AU_11","type":"vmess","server":"43.155.102.33","port":23802,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk6/getData","headers":{"host":"hk6.verichains.co"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_101","type":"vmess","server":"new6.hucloud-dns.xyz","port":443,"cipher":"auto","uuid":"0a5dc877-0211-4352-f73a-8fbdae81d673","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"new6.hucloud-dns.xyz"}}}
+  - {"name":"Relay_🇺🇸US-🇫🇮FI_102","type":"vmess","server":"us1.wanwusheng.me","port":443,"cipher":"auto","uuid":"44ceb389-4cea-4ea1-eef9-11ce6f3effe6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.wanwusheng.me"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_104_2","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
+  - {"name":"Pool_🇳🇱NL_32","type":"ss","server":"85.208.108.60","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"Pool_🇳🇱NL_34","type":"ss","server":"85.208.108.60","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"Pool_🇳🇱NL_40","type":"ss","server":"85.208.108.60","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"Pool_🇳🇱NL_48","type":"ss","server":"85.208.108.60","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"Pool_🇳🇱NL_54","type":"ss","server":"85.208.108.60","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -587,80 +412,55 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 香港HK|tg频道:@ripaojiedian
+      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - "CN_youtube@资源分享师_17\r"
-      - _CN_中国->🇺🇸_US_美国
-      - 狮城|tg频道:@ripaojiedian
-      - 新加坡M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡
-      - 香港1|关注频道
-      - 🇹🇼_TW_台湾
-      - 🇭🇰_HK_香港
-      - 日本节点|tg频道:@ripaojiedian
-      - 🇫🇷_FR_法国->🇸🇬_SG_新加坡
-      - Japan2|tg频道:@ripaojiedian
-      - 🇺🇸美国【YouTube-由零開始】_3
-      - 🇺🇸 美国(TG频道@kxswa)_1
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇺🇸 美国(TG频道@kxswa)_2
-      - 美国 089
-      - US_youtube@资源分享师_45
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 美国 004
-      - 美国 005
-      - 🇺🇸 美国(TG频道@kxswa)_3
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 美国 CloudFlare节点
       - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
-      - 🇺🇸 美国(TG频道@kxswa)_4
-      - 🇺🇸 美国(TG频道@kxswa)_5
-      - 🇺🇸 美国(TG频道@kxswa)_6
-      - 美国 CloudFlare节点_1
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
       - 日本JP|tg频道:@ripaojiedian
-      - 美国 CloudFlare节点_2
-      - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-      - 🇺🇸_US_1
-      - 🇺🇸_US_美国_3
       - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 🇯🇵_JP_日本
-      - 美国 017
       - 美国(yudou66.com 玉豆免费节点)_5
-      - 美国 025
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - youtube 新知_140
-      - 🇺🇸_US_3
-      - github.com/freefq - 澳大利亚Langwarrin Secondary College 6
-      - 日本东京|tg:@ripaojiedian
-      - 美国 033
+      - 中转节点-6.70MB/s(Youtube:不良林)
       - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - HK_youtube@资源分享师_95
-      - US_youtube@资源分享师_246
-      - 🇫🇮_FI_芬兰
       - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸美国【YouTube-由零開始】
+      - 🇺🇸US-192.203.230.137-1169
       - 🇦🇲_AM_亚美尼亚
-      - 🇬🇧_GB_英国_1
-      - 香港直连|tg频道:@ripaojiedian
-      - 香港分流|tg频道:@ripaojiedian
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸 美国(TG频道@kxswa)_7
-      - 香港A|tg频道:@ripaojiedian
-      - 香港2|tg频道:@ripaojiedian
-      - 美国 047
-      - '[🇦🇶]finland1.yj2022.ga:443(4b5e4565-322f-4223-a891-78a84f189726)'
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - _JP_日本->🇺🇸_US_美国
-      - 美国 097
-      - 美国 CloudFlare节点_3
-      - JP_youtube@资源分享师_221
-      - 美国 007
-      - 美国 V2CROSS.COM
-      - _SG_新加坡
-      - _SG_新加坡 2
+      - 🏁RELAY-203.30.191.1-0143
+      - 🇦🇶NOWHERE-0.0.0.0-3300
+      - 🏁RELAY-104.21.92.42-1524
+      - 🏁RELAY-185.162.228.2-0186
+      - 🏁RELAY-172.67.199.27-0232
+      - 🇺🇸US-192.203.230.66-1171
+      - 🇩🇪DE-3.70.215.185-21802
+      - 🇺🇸_US_美国_2
+      - 🏁RELAY-185.174.138.38-21760
+      - 🏁RELAY-172.67.184.184-21884
+      - 🇭🇰HK-103.117.101.104-1610
+      - 🏁RELAY-203.24.108.9-0112
+      - 🏁RELAY-203.30.189.2-0121
+      - 🇺🇸US-192.203.230.137-1172
+      - 未知国家-952.9KB/s(Youtube:不良林)
+      - Relay_ | 7.12Mb
+      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
+      - Relay_🇨🇳CN |38.40Mb
+      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
+      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
+      - Relay_🇺🇸US-🇺🇸US_104_1
+      - Relay_-🇺🇸US_1042
+      - 🇦🇺AU_11
+      - Relay_🇺🇸US-🇺🇸US_101
+      - Relay_🇺🇸US-🇫🇮FI_102
+      - Relay_🇺🇸US-🇺🇸US_104_2
+      - Pool_🇳🇱NL_32
+      - Pool_🇳🇱NL_34
+      - Pool_🇳🇱NL_40
+      - Pool_🇳🇱NL_48
+      - Pool_🇳🇱NL_54
 
 rules:
 # 本地/局域网地址
