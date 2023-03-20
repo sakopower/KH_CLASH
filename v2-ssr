@@ -14,382 +14,312 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb","type":"trojan","server":"emmm.xiaolong.world","port":5555,"udp":true,"password":"Y1NE1HMxLh5Tm7Vk","sni":"emmm.xiaolong.world","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1","type":"vmess","server":"203.30.191.20","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
-  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2","type":"vmess","server":"203.30.191.19","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"finland2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yWJGGBHoVpr3DbNuVycP","headers":{"host":"finland2.yj2022.ga"}}}
-  - {"name":"美国 004","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk-hytron.ilovescp.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
-  - {"name":"日本JP|tg频道:@ripaojiedian","type":"vmess","server":"45.80.111.53","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"200.aquabazi.site","network":"ws","ws-opts":{"path":"/suzhihan.eu.org/roewesu","headers":{"host":"200.aquabazi.site"}}}
-  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3","type":"vmess","server":"203.30.191.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"中转节点-6.70MB/s(Youtube:不良林)","type":"trojan","server":"sz-cm-kl.hinetwork.tw","port":11239,"udp":true,"password":"37e2f77e-4b92-30fa-8998-696a5b1fc0d7","sni":"sz-cm-kl.hinetwork.tw","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"github.com/freefq - 浙江省丽水市移动 19","type":"ss","server":"cn1.applebench.tech","port":19198,"password":"5d651d8c-d5b3-418b-a3ea-55171af5b726","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 24","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp1.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"bomb2.arsalantau.com","port":8880,"cipher":"auto","uuid":"3e158c75-216b-4c62-dbf7-7766ea9fc285","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"bomb2.arsalantau.com"}}}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"162.159.128.1","port":8880,"cipher":"auto","uuid":"b09be280-8693-47f0-dac9-e5833f12605d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cs.llaqqccjj.top"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
+  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1","type":"vmess","server":"203.30.189.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"vde1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde1.0bad.com"}}}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国","type":"vmess","server":"uk1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"github.com/freefq - 丹麦  26","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"澳大利亚Cranbourne Secondary College 7","type":"vmess","server":"203.30.191.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
   - {"name":"🇧🇿_BZ_伯利兹->🇫🇷_FR_法国","type":"vmess","server":"203.30.188.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"github.com/freefq - 澳大利亚悉尼 22","type":"vmess","server":"203.24.108.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇺🇸US-192.203.230.137-1169","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us2?ed=2048","headers":{"host":"us2.yfjc.sbs"}}}
-  - {"name":"🇦🇲_AM_亚美尼亚","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🏁RELAY-203.30.191.1-0143","type":"vmess","server":"203.30.191.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇦🇶NOWHERE-0.0.0.0-3300","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"🏁RELAY-104.21.92.42-1524","type":"vmess","server":"8908.v9966.shop","port":443,"cipher":"auto","uuid":"efde6d40-c1bf-11ed-b636-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"8908.v9966.shop"}}}
-  - {"name":"🏁RELAY-185.162.228.2-0186","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🏁RELAY-172.67.199.27-0232","type":"vmess","server":"dp2.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp2.scproxy.top"}}}
-  - {"name":"🇺🇸US-192.203.230.66-1171","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl3?ed=2048","headers":{"host":"nl3.yfjc.sbs"}}}
-  - {"name":"🇩🇪DE-3.70.215.185-21802","type":"vmess","server":"3.70.215.185","port":8080,"cipher":"auto","uuid":"98b57934-5b1c-4c39-8106-ffce92efcd13","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sptest.hostiran.net.prod.hosts.ooklaserver.net"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"148.59.74.196","port":443,"udp":true,"password":"62c4eec5-87f0-47e8-8850-78158acfdd96","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🏁RELAY-185.174.138.38-21760","type":"vmess","server":"185.174.138.38","port":443,"cipher":"auto","uuid":"d3990020-4d90-4d1a-bd6b-61d506ff7038","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sparrow.digicloud.shop","network":"ws","ws-opts":{"path":"/graphql","headers":{"host":"sparrow.digicloud.shop"}}}
-  - {"name":"🏁RELAY-172.67.184.184-21884","type":"vmess","server":"172.67.184.184","port":443,"cipher":"auto","uuid":"7ff31eb9-cca4-4410-d379-2d78bed14f15","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"best1.wanwusheng.tk","network":"ws","ws-opts":{"path":"/123","headers":{"host":"best1.wanwusheng.tk"}}}
-  - {"name":"🇭🇰HK-103.117.101.104-1610","type":"vmess","server":"103.117.101.104","port":51298,"cipher":"auto","uuid":"899c4e65-4129-4e9b-f65f-058f469bdd90","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/789","headers":{"host":"103.117.101.104"}}}
-  - {"name":"🏁RELAY-203.24.108.9-0112","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🏁RELAY-203.30.189.2-0121","type":"vmess","server":"203.30.189.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇺🇸US-192.203.230.137-1172","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl?ed=2048","headers":{"host":"nl.yfjc.sbs"}}}
-  - {"name":"未知国家-952.9KB/s(Youtube:不良林)","type":"vmess","server":"df7e.v9966.shop","port":443,"cipher":"auto","uuid":"a27983a0-c1b9-11ed-b333-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"df7e.v9966.shop"}}}
-  - {"name":"Relay_ | 7.12Mb","type":"ss","server":"sa.unlimitedtraffic.top","port":25881,"password":"19323732-d371-43f0-a6c1-1833dc68a137","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb","type":"vmess","server":"25.v2-ray.cyou","port":23625,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb","type":"trojan","server":"hnm.xiaohouzi.club","port":36872,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hnm.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_🇨🇳CN |38.40Mb","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb","type":"trojan","server":"lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou","port":12324,"udp":true,"password":"001a5927-bcf7-368a-8a4d-cb8c2fd6aab5","sni":"lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb","type":"trojan","server":"hn.xiaohouzi.club","port":48464,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hn.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_104_1","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat"}}
-  - {"name":"Relay_-🇺🇸US_1042","type":"vmess","server":"6bf5.v9966.shop","port":80,"cipher":"auto","uuid":"e6877db0-c1b8-11ed-b839-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇦🇺AU_11","type":"vmess","server":"43.155.102.33","port":23802,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk6/getData","headers":{"host":"hk6.verichains.co"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_101","type":"vmess","server":"new6.hucloud-dns.xyz","port":443,"cipher":"auto","uuid":"0a5dc877-0211-4352-f73a-8fbdae81d673","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"new6.hucloud-dns.xyz"}}}
-  - {"name":"Relay_🇺🇸US-🇫🇮FI_102","type":"vmess","server":"us1.wanwusheng.me","port":443,"cipher":"auto","uuid":"44ceb389-4cea-4ea1-eef9-11ce6f3effe6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.wanwusheng.me"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_104_2","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"Pool_🇳🇱NL_32","type":"ss","server":"85.208.108.60","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"Pool_🇳🇱NL_34","type":"ss","server":"85.208.108.60","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"Pool_🇳🇱NL_40","type":"ss","server":"85.208.108.60","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"Pool_🇳🇱NL_48","type":"ss","server":"85.208.108.60","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"Pool_🇳🇱NL_54","type":"ss","server":"85.208.108.60","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"github.com/freefq - 澳大利亚Kooweerup Secondary College 37","type":"vmess","server":"203.30.189.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇹🇼_TW_台湾->🇺🇸_US_美国_1","type":"trojan","server":"azgy001.xibai6.top","port":20791,"udp":true,"password":"78af6d6d-6de7-3a1f-a969-c39077fb47bf","sni":"ssl.ssl12.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 38","type":"vmess","server":"172.67.199.31","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"美国CloudFlare节点 19","type":"vmess","server":"172.67.5.14","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
+  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2","type":"vmess","server":"203.30.188.189","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"美国CloudFlare公司CDN节点(shopify) 22","type":"vmess","server":"23.227.38.11","port":443,"cipher":"auto","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}}}
+  - {"name":"虎窝内部节点1","type":"vmess","server":"188.114.97.3","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp1.scproxy.top"}}}
+  - {"name":"虎窝内部节点4","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"🇲🇴_MO_澳门->🇸🇬_SG_新加坡","type":"trojan","server":"45.64.22.56","port":443,"udp":true,"password":"123456","sni":"trojan-ctb-sg01.globalssh.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬Singapore-M1","type":"vmess","server":"project.mytargoocloud.live","port":443,"cipher":"auto","uuid":"d7c91c45-8f30-4175-b78b-c18ccf6a1fa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sgm1.targoocloud.live","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgm1.targoocloud.live"}}}
+  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
+  - {"name":"🇧🇿_BZ_伯利兹","type":"vmess","server":"203.30.190.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"github.com/freefq - 巴西圣保罗CloudFlare节点 31","type":"vmess","server":"188.114.99.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"🇹🇼_TW_台湾->🇺🇸_US_美国_2","type":"trojan","server":"azgy001.xibai6.top","port":20790,"udp":true,"password":"78af6d6d-6de7-3a1f-a969-c39077fb47bf","sni":"ssl.ssl12.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国CloudFlare节点 16","type":"vmess","server":"141.101.114.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"美国CloudFlare公司CDN节点 34","type":"vmess","server":"lsb-gy.heinu.cf","port":2096,"cipher":"auto","uuid":"d793c013-f596-4af9-de0a-2062bb864dd7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"lsb-gy.heinu.cf","network":"ws","ws-opts":{"path":"/@heinuhome","headers":{"host":"lsb-gy.heinu.cf"}}}
+  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
+  - {"name":"github.com/freefq - 欧盟  34","type":"vmess","server":"45.12.30.192","port":443,"cipher":"auto","uuid":"EB176736-29D0-484E-8464-28547013A162","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Dusseldorf.kotick.site","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"俄罗斯新西伯利亚JustHost 4","type":"vmess","server":"45.130.146.52","port":57920,"cipher":"auto","uuid":"5c0156ab-576b-424b-9bb5-34a2b368540b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国CloudFlare节点 26","type":"vmess","server":"germany2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/8kH8qnepjkprbsidLrLkmX"}}
+  - {"name":"github.com/freefq - 美国CloudFlare节点 32","type":"vmess","server":"sc.scyu.app","port":80,"cipher":"auto","uuid":"43930e8c-8347-4929-8e2c-9197e7c71423","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hax.scyu.app"}}}
+  - {"name":"美国CloudFlare公司CDN节点 15","type":"vmess","server":"154.v2ray3.xyz","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF"}}
+  - {"name":"澳大利亚悉尼 27","type":"vmess","server":"203.24.108.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
+  - {"name":"美国佛罗里达州迈阿密Netrouting公司 29","type":"vmess","server":"208.76.54.103","port":57853,"cipher":"auto","uuid":"ba37f657-437a-4ef6-b7f3-164272a13ba9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国  33","type":"vmess","server":"vau1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vau1.0bad.com","network":"ws","ws-opts":{"path":"/chat"}}
+  - {"name":"澳大利亚Cranbourne Secondary College 35","type":"vmess","server":"203.30.191.3","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"oplg1.cfcdn2.xyz","network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
+  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"new6.hucloud-dns.xyz","port":443,"cipher":"auto","uuid":"0a5dc877-0211-4352-f73a-8fbdae81d673","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
+  - {"name":"🇬🇧_GB_英国","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,55 +342,45 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_256 | 3.91Mb
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 美国 004
-      - 美国 CloudFlare节点
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 19
+      - github.com/freefq - 浙江省丽水市移动 19
+      - github.com/freefq - 美国CloudFlare节点 24
       - 🇺🇸_US_美国_1
-      - 日本JP|tg频道:@ripaojiedian
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_3
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 中转节点-6.70MB/s(Youtube:不良林)
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - github.com/freefq - 澳大利亚悉尼 22
-      - 🇺🇸US-192.203.230.137-1169
-      - 🇦🇲_AM_亚美尼亚
-      - 🏁RELAY-203.30.191.1-0143
-      - 🇦🇶NOWHERE-0.0.0.0-3300
-      - 🏁RELAY-104.21.92.42-1524
-      - 🏁RELAY-185.162.228.2-0186
-      - 🏁RELAY-172.67.199.27-0232
-      - 🇺🇸US-192.203.230.66-1171
-      - 🇩🇪DE-3.70.215.185-21802
       - 🇺🇸_US_美国_2
-      - 🏁RELAY-185.174.138.38-21760
-      - 🏁RELAY-172.67.184.184-21884
-      - 🇭🇰HK-103.117.101.104-1610
-      - 🏁RELAY-203.24.108.9-0112
-      - 🏁RELAY-203.30.189.2-0121
-      - 🇺🇸US-192.203.230.137-1172
-      - 未知国家-952.9KB/s(Youtube:不良林)
-      - Relay_ | 7.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_120 | 4.73Mb
-      - Relay_🇨🇳CN-🇺🇸US_130 | 0.35Mb
-      - Relay_🇨🇳CN |38.40Mb
-      - Relay_🇨🇳CN-🇷🇺RU_132 |14.74Mb
-      - Relay_🇨🇳CN-🇱🇹LT_138 | 2.02Mb
-      - Relay_🇺🇸US-🇺🇸US_104_1
-      - Relay_-🇺🇸US_1042
-      - 🇦🇺AU_11
-      - Relay_🇺🇸US-🇺🇸US_101
-      - Relay_🇺🇸US-🇫🇮FI_102
-      - Relay_🇺🇸US-🇺🇸US_104_2
-      - Pool_🇳🇱NL_32
-      - Pool_🇳🇱NL_34
-      - Pool_🇳🇱NL_40
-      - Pool_🇳🇱NL_48
-      - Pool_🇳🇱NL_54
+      - 🇺🇸_US_美国_3
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - github.com/freefq - 丹麦  26
+      - 澳大利亚Cranbourne Secondary College 7
+      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
+      - github.com/freefq - 澳大利亚Kooweerup Secondary College 37
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_1
+      - github.com/freefq - 美国CloudFlare节点 38
+      - 美国CloudFlare节点 19
+      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 虎窝内部节点1
+      - 虎窝内部节点4
+      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
+      - 🇸🇬Singapore-M1
+      - 🇺🇸_US_美国_5
+      - 🇧🇿_BZ_伯利兹
+      - github.com/freefq - 巴西圣保罗CloudFlare节点 31
+      - 🇹🇼_TW_台湾->🇺🇸_US_美国_2
+      - 美国CloudFlare节点 16
+      - 美国CloudFlare公司CDN节点 34
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - github.com/freefq - 欧盟  34
+      - 俄罗斯新西伯利亚JustHost 4
+      - 美国CloudFlare节点 26
+      - github.com/freefq - 美国CloudFlare节点 32
+      - 美国CloudFlare公司CDN节点 15
+      - 澳大利亚悉尼 27
+      - 美国佛罗里达州迈阿密Netrouting公司 29
+      - 美国  33
+      - 澳大利亚Cranbourne Secondary College 35
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国
 
 rules:
 # 本地/局域网地址
