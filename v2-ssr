@@ -14,277 +14,653 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵 _US_美国->🇯🇵_JP_日本 2 2","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"沙特阿拉伯+Arabic+Computer+System+Co._1","type":"ss","server":"85.208.108.60","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)","type":"vmess","server":"gi1.wisewolf.pw","port":14525,"cipher":"auto","uuid":"a2217329-578f-4a7b-9eb7-d06d349c5466","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":20226,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":30002,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2tw01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
-  - {"name":"🇯🇵_JP_日本_1","type":"ss","server":"85.208.108.60","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"🇧🇿_BZ_伯利兹","type":"vmess","server":"203.30.190.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"158.101.7.8","port":80,"cipher":"auto","uuid":"95b45c49-f5c0-4959-bb64-2b8fbc4a869c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇧🇿_BZ_伯利兹->🇫🇷_FR_法国","type":"vmess","server":"203.30.188.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大->🇫🇷_FR_法国","type":"vmess","server":"23.227.38.11","port":443,"cipher":"auto","uuid":"9379fea0-006d-4fd3-8e35-d45a5af72aa2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/UMW36262","headers":{"host":"frgt1.ssr-free2.xyz"}}}
-  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"167.88.63.79","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"沙特阿拉伯+Arabic+Computer+System+Co._2","type":"ss","server":"85.208.108.60","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬Singapore-M1","type":"vmess","server":"project.mytargoocloud.live","port":443,"cipher":"auto","uuid":"d7c91c45-8f30-4175-b78b-c18ccf6a1fa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sgm1.targoocloud.live","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgm1.targoocloud.live"}}}
-  - {"name":"🇬🇧_GB_英国","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"欧盟  30","type":"vmess","server":"45.80.111.53","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/suzhihan.eu.org/roewesu","headers":{"host":"200.aquabazi.site"}}}
-  - {"name":"澳大利亚悉尼 10","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇯🇵_JP_日本_2","type":"ss","server":"85.208.108.60","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵_JP_日本_3","type":"ss","server":"85.208.108.60","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30035,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
+  - {"name":"[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":20222,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30051,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2vn01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao.sexavv.com","port":21510,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"adobe.com"}}}
+  - {"name":"[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)","type":"vmess","server":"116.203.99.196","port":443,"cipher":"auto","uuid":"74a21beb-b004-43e0-b9ed-0e1aab698adc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)","type":"vmess","server":"ww9.12345.al","port":43073,"cipher":"auto","uuid":"5ba59429-99ba-493c-848c-b520f1b3edfc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/areuok","headers":{"host":"ww9.12345.al"}}}
+  - {"name":"[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)","type":"vmess","server":"95.216.181.19","port":80,"cipher":"auto","uuid":"827e0b4c-8141-4aa2-9671-7263842fab59","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzdx.jcnode.top","port":48000,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"us2.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":20224,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30054,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v1jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"github.com/freefq - 浙江省丽水市移动 19","type":"ss","server":"cn1.applebench.tech","port":19198,"password":"5d651d8c-d5b3-418b-a3ea-55171af5b726","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"github.com/freefq - 美国CloudFlare节点 38","type":"vmess","server":"172.67.199.31","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"github.com/freefq - 美国CloudFlare节点 24","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp1.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
-  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"vde1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde1.0bad.com"}}}
-  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
-  - {"name":"🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2","type":"vmess","server":"203.30.188.189","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"🇺🇸_US_美国_4","type":"ss","server":"167.88.63.79","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
-  - {"name":"🇹🇼_TW_台湾->🇺🇸_US_美国","type":"trojan","server":"azgy001.xibai6.top","port":20790,"udp":true,"password":"78af6d6d-6de7-3a1f-a969-c39077fb47bf","sni":"ssl.ssl12.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港","type":"trojan","server":"cn-hk-30.fnhffffe4.cc","port":50110,"udp":true,"password":"656aeb77-1cee-4900-b412-f9cbb6df9b5f","sni":"cn-hk-30.fnhffffe4.cc","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18","type":"vmess","server":"w1.zanbil-mo.cf","port":2082,"cipher":"auto","uuid":"b369cc64-3a4f-4723-cc42-9ff20359b8b0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸_US_美国_6","type":"ss","server":"167.88.63.79","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"github.com/freefq - 丹麦  26","type":"vmess","server":"185.162.228.2","port":443,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}}}
-  - {"name":"欧盟  19","type":"vmess","server":"mtnx.ircf.space","port":443,"cipher":"auto","uuid":"de3642e8-5e51-432f-ed10-63af07842141","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"freeservice.blanku.me","network":"ws","ws-opts":{"path":"/wss34055","headers":{"host":"freeservice.blanku.me"}}}
-  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}}}
-  - {"name":"🇯🇵_JP_日本_4","type":"ss","server":"85.208.108.60","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇲🇴_MO_澳门->🇸🇬_SG_新加坡","type":"trojan","server":"45.64.22.56","port":443,"udp":true,"password":"123456","sni":"trojan-ctb-sg01.globalssh.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国CloudFlare公司CDN节点 32","type":"vmess","server":"v2ray.online","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
+  - {"name":"[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)","type":"trojan","server":"oracle.blowm1k.club","port":443,"udp":true,"password":"a98f320a-f8c5-5bc0-be60-1bf4b7be9498","sni":"oracle.blowm1k.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzyd.jcnode.top","port":40001,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)","type":"vmess","server":"95.216.181.19","port":855,"cipher":"auto","uuid":"2a77aada-7e5e-4ef9-e540-4ee689bf464d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao2.sexavv.com","port":48097,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"suidao2.sexavv.com"}}}
+  - {"name":"[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
+  - {"name":"[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzyd.jcnode.top","port":40002,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"hk05.sexavv.com","port":80,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"hk05.sexavv.com"}}}
+  - {"name":"[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"zz.sexavv.com","port":33766,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"zz.sexavv.com"}}}
+  - {"name":"[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao.sexavv.com","port":31688,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"suidao.sexavv.com"}}}
+  - {"name":"[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"ns02.gutingting.com","port":30021,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30015,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
+  - {"name":"[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"165.154.246.103","port":80,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe"}}
+  - {"name":"[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)","type":"vmess","server":"cdn.wuki.moe","port":80,"cipher":"auto","uuid":"747695c7-1ed8-44d1-a1a0-6b1b162748ca","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sbga?ed=2048","headers":{"host":"woi-eu7.misakano.ml"}}}
+  - {"name":"[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao.sexavv.com","port":36638,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"suidao.sexavv.com"}}}
+  - {"name":"[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)","type":"vmess","server":"95.216.181.19","port":81,"cipher":"auto","uuid":"5c4341a8-7400-4865-a86e-a98559b05044","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao.sexavv.com","port":20248,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"adobe.com"}}}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzdx.jcnode.top","port":41002,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"ns01.gutingting.com","port":30044,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzdx.jcnode.top","port":40002,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzdx.jcnode.top","port":40001,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"zz.sexavv.com","port":36550,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"zz.sexavv.com"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30005,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"nmcm.lele233.top","port":57299,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzyd.jcnode.top","port":41002,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":20227,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2uk01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzyd.jcnode.top","port":43002,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30006,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"hk06.sexavv.com","port":80,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"hk06.sexavv.com"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)","type":"trojan","server":"polotw1.applebench.tech","port":11189,"udp":true,"password":"9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f","sni":"polotw1.guojiang.site","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2hgc02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzdx.jcnode.top","port":43002,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)","type":"ss","server":"172.99.188.99","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzdx.jcnode.top","port":40003,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzdx.jcnode.top","port":41000,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)","type":"trojan","server":"150.66.13.75","port":443,"udp":true,"password":"df283334-6f6e-4efb-9a8a-b8ecf3040924","sni":"tk15.1coinvp.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30028,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)","type":"vmess","server":"hk80-2.8b750e3e20aa.sanfen001.pics","port":80,"cipher":"auto","uuid":"58075d56-8933-48fe-a054-0ab9bcc6bcf0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30041,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"gzyd02.jcnode.top","port":40001,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30000,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":20221,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30025,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30017,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)","type":"vmess","server":"130.162.134.218","port":45575,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ww"}}
+  - {"name":"[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"ns02.gutingting.com","port":30045,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30024,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30052,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2th01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":20220,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30003,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2tw01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30055,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v1jp02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30008,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
+  - {"name":"[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"ns01.gutingting.com","port":30009,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v02.gutingting.com","port":30007,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30016,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":30050,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)","type":"vmess","server":"t.cccao.cyou","port":16627,"cipher":"auto","uuid":"416a9067-3d65-4f31-832d-51f44b63aebb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"t.cccao.cyou"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":20223,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2sg01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"ss","server":"gzyd.jcnode.top","port":40003,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"suidao2.sexavv.com","port":48099,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":10,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"suidao2.sexavv.com"}}}
+  - {"name":"[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)","type":"trojan","server":"hbcu.lele233.top","port":29733,"udp":true,"password":"c367cf5b-54de-44d1-abcf-cffe2367bd74","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30059,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2sggpt01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)","type":"vmess","server":"gi1.wisewolf.pw","port":12354,"cipher":"auto","uuid":"35e3961b-6795-424d-ff9a-c01f58b32a6d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30023,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"vmess","server":"v01.gutingting.com","port":30040,"cipher":"auto","uuid":"74375e73-5d01-4248-84b8-94ccda5fcbfd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}}}
+  - {"name":"[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)","type":"vmess","server":"zz.sexavv.com","port":31505,"cipher":"auto","uuid":"4c0e420a-adb6-3359-a6b6-5be9c6506ba8","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/adobe","headers":{"host":"adobe.com"}}}
+  - {"name":"[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v02.gutingting.com","port":30053,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v2phl01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)","type":"trojan","server":"3.77.128.189","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"74375e73-5d01-4248-84b8-94ccda5fcbfd","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -307,40 +683,94 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本 2 2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._1
+      - '[🇮🇷]gi1.wisewolf.pw:14525(a2217329-578f-4a7b-9eb7-d06d349c5466)'
+      - '[🇨🇳]v01.gutingting.com:20226(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30002(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本_1
-      - 🇧🇿_BZ_伯利兹
-      - 🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国
-      - 🇨🇦_CA_加拿大->🇫🇷_FR_法国
-      - 🇺🇸_US_美国_2
-      - 沙特阿拉伯+Arabic+Computer+System+Co._2
-      - 🇸🇬Singapore-M1
-      - 🇬🇧_GB_英国
-      - 欧盟  30
-      - 澳大利亚悉尼 10
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
+      - '[🇨🇳]v01.gutingting.com:30035(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20222(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30051(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]suidao.sexavv.com:21510(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇩🇪]116.203.99.196:443(74a21beb-b004-43e0-b9ed-0e1aab698adc)'
+      - '[🇨🇳]ww9.12345.al:43073(5ba59429-99ba-493c-848c-b520f1b3edfc)'
+      - '[🇫🇮]95.216.181.19:80(827e0b4c-8141-4aa2-9671-7263842fab59)'
+      - '[🇨🇳]gzdx.jcnode.top:48000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:20224(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30054(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
       - github.com/freefq - 浙江省丽水市移动 19
-      - github.com/freefq - 美国CloudFlare节点 38
-      - github.com/freefq - 美国CloudFlare节点 24
-      - 🇺🇸_US_美国_3
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1
-      - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇹🇼_TW_台湾->🇺🇸_US_美国
-      - 🇭🇰_HK_香港
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
-      - 🇺🇸_US_美国_6
-      - github.com/freefq - 丹麦  26
-      - 欧盟  19
-      - 🇺🇸_US_美国_7
-      - 🇯🇵_JP_日本_4
-      - 🇲🇴_MO_澳门->🇸🇬_SG_新加坡
-      - 美国CloudFlare公司CDN节点 32
+      - '[🇰🇷]oracle.blowm1k.club:443(a98f320a-f8c5-5bc0-be60-1bf4b7be9498)'
+      - '[🇨🇳]gzyd.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇫🇮]95.216.181.19:855(2a77aada-7e5e-4ef9-e540-4ee689bf464d)'
+      - '[🇨🇳]suidao2.sexavv.com:48097(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v01.gutingting.com:30048(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇭🇰]hk05.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]zz.sexavv.com:33766(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]suidao.sexavv.com:31688(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]ns02.gutingting.com:30021(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30015(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇹🇼]165.154.246.103:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇸🇬]cdn.wuki.moe:80(747695c7-1ed8-44d1-a1a0-6b1b162748ca)'
+      - '[🇨🇳]suidao.sexavv.com:36638(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇫🇮]95.216.181.19:81(5c4341a8-7400-4865-a86e-a98559b05044)'
+      - '[🇨🇳]suidao.sexavv.com:20248(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]gzdx.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]ns01.gutingting.com:30044(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v01.gutingting.com:30027(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]zz.sexavv.com:36550(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30005(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]nmcm.lele233.top:57299(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzyd.jcnode.top:41002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:20227(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30006(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇭🇰]hk06.sexavv.com:80(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30049(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇹🇼]polotw1.applebench.tech:11189(9d1864d2-6bf2-4a0c-9068-2e48e5f8a50f)
+      - '[🇨🇳]v02.gutingting.com:30038(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzdx.jcnode.top:43002(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇳🇱]172.99.188.99:5000(Y6R9pAtvxxzmGC)'
+      - '[🇨🇳]gzdx.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]gzdx.jcnode.top:41000(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇯🇵]150.66.13.75:443(df283334-6f6e-4efb-9a8a-b8ecf3040924)'
+      - '[🇨🇳]v02.gutingting.com:30028(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - >-
+        [🇭🇰]hk80-2.8b750e3e20aa.sanfen001.pics:80(58075d56-8933-48fe-a054-0ab9bcc6bcf0)
+      - '[🇨🇳]v02.gutingting.com:30041(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd02.jcnode.top:40001(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30000(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20221(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30025(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30017(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇰🇷]130.162.134.218:45575(bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2)'
+      - '[🇨🇳]ns02.gutingting.com:30045(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30024(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30052(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:20220(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30003(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30055(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30008(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]ns01.gutingting.com:30009(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30007(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30016(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30050(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]t.cccao.cyou:16627(416a9067-3d65-4f31-832d-51f44b63aebb)'
+      - '[🇨🇳]v02.gutingting.com:20223(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]gzyd.jcnode.top:40003(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]suidao2.sexavv.com:48099(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]hbcu.lele233.top:29733(c367cf5b-54de-44d1-abcf-cffe2367bd74)'
+      - '[🇨🇳]v02.gutingting.com:30059(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇮🇷]gi1.wisewolf.pw:12354(35e3961b-6795-424d-ff9a-c01f58b32a6d)'
+      - '[🇨🇳]v01.gutingting.com:30023(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v02.gutingting.com:30057(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]v01.gutingting.com:30040(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇨🇳]zz.sexavv.com:31505(4c0e420a-adb6-3359-a6b6-5be9c6506ba8)'
+      - '[🇨🇳]v02.gutingting.com:30053(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
+      - '[🇩🇪]3.77.128.189:22222(telegram-id-privatevpns)'
+      - '[🇨🇳]v01.gutingting.com:30056(74375e73-5d01-4248-84b8-94ccda5fcbfd)'
 
 rules:
 # 本地/局域网地址
