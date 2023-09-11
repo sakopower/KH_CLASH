@@ -1,3 +1,10 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：2023-09-11 11:28:29
+# 使用模版：V2RaySE 默认模版
+# 节点数量：1
+####################################
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -79,8 +86,6 @@ dns:
 
 proxies:
   - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"vmess","server":"104.27.193.64","port":443,"cipher":"auto","uuid":"8bb01190-f127-4a5a-9845-e6adf93eccc1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pDDgT3v8NaAJHFPuEaDfC8t","headers":{"host":"avaspeed.jetspeed.fun"}}}
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"stock.hostmonit.com","port":80,"cipher":"auto","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sshkit/@yzcjd/64fb4a7d30294/","headers":{"host":"lb.vhax.net"}}}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vless","server":"zygapophyses.butterfly-galaxy.com","port":443,"uuid":"f895c8af-f536-4bed-a3b1-ba78a8d643ce","tls":true,"servername":"zygapophyses.butterfly-galaxy.com","network":"ws","ws-opts":{"path":"/nimws"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -88,8 +93,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,8 +100,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -106,32 +107,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,8 +148,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
 
 rules:
 # 本地/局域网地址
